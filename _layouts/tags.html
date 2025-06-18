@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Category" 
-permalink: /categories/ 
+title: "Category"
+permalink: /categories/
 ---
 
 <h1 class="page-title">{{ page.title }}</h1>
@@ -11,17 +11,14 @@ permalink: /categories/
 {% for tag_name in sorted_tags %}
   {% assign current_tag_slug = tag_name | to_s | slugify: 'raw' %}
 
-  {% comment %}
-  아래 h2 태그를 표시하기 전에 유효성 검사를 합니다.
-  태그 이름이 유효하고 슬러그를 만들 수 있을 때만 표시합니다.
-  {% endcomment %}
+  {% comment %} 유효성 검사 주석 (이 부분은 빌드 시 보이지 않습니다) {% endcomment %}
   {% if tag_name != null and tag_name != empty and current_tag_slug != empty %}
     <h2 id="{{ current_tag_slug }}">{{ tag_name }}</h2>
   {% else %}
     {% comment %} 태그 이름이 유효하지 않으면 이번 반복은 건너뜁니다. {% endcomment %}
     {% continue %}
   {% endif %}
-  
+
   {% assign posts_in_tag = site.tags[tag_name] %}
 
   <ul class="post-list">
