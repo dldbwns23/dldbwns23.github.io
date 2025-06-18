@@ -1,0 +1,38 @@
+title: Your Blog Title # 블로그 제목
+email: your-email@example.com # 당신의 이메일
+description: >- # 한 줄 설명을 여기에 작성하세요
+  이것은 당신의 GitHub Pages 블로그 설명입니다.
+  게시물, 태그, 이력서 등을 포함합니다.
+baseurl: "" # 서브디렉토리에 블로그를 호스팅하는 경우 '/blog'와 같이 입력. 아니면 비워둡니다.
+url: "https://dldbwns23.github.io" # 블로그의 기본 URL (예: "https://username.github.io")
+github_username: dldbwns23 # 당신의 GitHub 사용자 이름
+
+# 테마 설정
+theme: minima
+
+# 플러그인 설정 (GitHub Pages에서 지원하는 플러그인)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap # 사이트맵 생성을 위해 추가
+
+# 컬렉션 설정 (태그 페이지 생성을 위함)
+collections:
+  tags:
+    output: true # _tags 컬렉션에 대해 HTML 파일 생성
+    permalink: /tags/:name/ # 각 태그 페이지의 URL 형식 (예: /tags/sql/)
+
+# Minima 테마 내비게이션에 추가할 페이지들 (선택 사항, 아래 nav-items.html에서 직접 관리할 것이므로 비워둘 수 있음)
+minima:
+  # 이 섹션은 nav-items.html에서 수동으로 탭을 추가할 것이므로 비워둡니다.
+  # 또는 여기에 페이지들을 지정하여 Minima 기본 동작을 유지할 수도 있습니다.
+  # nav_pages:
+  #   - about.md
+
+# 기본값 설정 (모든 포스트에 기본 태그를 부여)
+defaults:
+  - scope:
+      path: ""
+      type: posts # 'post'가 아닌 'posts'
+    values:
+      tags: Other # 태그가 지정되지 않은 포스트에 부여될 기본 태그
