@@ -7,7 +7,7 @@ permalink: /archive/ # 이 페이지의 URL
 <h1 class="page-title">{{ page.title }}</h1>
 
 <ul class="post-list">
-  {% for post in site.posts reversed %} {# 모든 포스트를 날짜 역순으로 정렬하여 표시 #}
+  {% for post in site.posts reversed %}
     <li>
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
