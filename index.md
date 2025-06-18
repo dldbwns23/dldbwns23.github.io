@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home # 브라우저 탭에 표시될 제목
+title: Home # This title will be used by the 'home' layout if {% if page.title %} is present
 ---
 
-# test line
+### test line
