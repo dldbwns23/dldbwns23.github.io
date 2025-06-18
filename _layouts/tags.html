@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Category" # 탭 이름 및 페이지 제목
-permalink: /categories/ # 이 페이지의 URL
+title: "Category" 
+permalink: /categories/ 
 ---
 
 <h1 class="page-title">{{ page.title }}</h1>
 
-{% assign sorted_tags = site.tags | map: "first" | sort %} {# 모든 태그 이름을 가져와 알파벳 순으로 정렬 #}
+{% assign sorted_tags = site.tags | map: "first" | sort %}
 
 {% for tag_name in sorted_tags %}
   {% assign current_tag_slug = tag_name | to_s | slugify: 'raw' %}
