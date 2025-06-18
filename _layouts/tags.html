@@ -9,18 +9,23 @@ permalink: /categories/ # 이 페이지의 URL
 {% assign sorted_tags = site.tags | map: "first" | sort %} {# 모든 태그 이름을 가져와 알파벳 순으로 정렬 #}
 
 {% for tag_name in sorted_tags %}
-  {% assign current_tag_slug = tag_name | to_s | slugify: 'raw' %} {# 태그 이름을 URL 친화적인 슬러그로 변환 #}
+  {% assign current_tag_slug = tag_name | to_s | slugify: 'raw' %}
 
+  {% comment %}
+  아래 h2 태그를 표시하기 전에 유효성 검사를 합니다.
+  태그 이름이 유효하고 슬러그를 만들 수 있을 때만 표시합니다.
+  {% endcomment %}
   {% if tag_name != null and tag_name != empty and current_tag_slug != empty %}
-    <h2 id="{{ current_tag_slug }}">{{ tag_name }}</h2> {# 태그 이름을 대분류 헤더로 표시 #}
+    <h2 id="{{ current_tag_slug }}">{{ tag_name }}</h2>
   {% else %}
-    {% continue %} {# 태그 이름이 유효하지 않으면 건너뛰기 #}
+    {% comment %} 태그 이름이 유효하지 않으면 이번 반복은 건너뜁니다. {% endcomment %}
+    {% continue %}
   {% endif %}
   
-  {% assign posts_in_tag = site.tags[tag_name] %} {# 해당 태그에 속하는 포스트 목록 가져오기 #}
+  {% assign posts_in_tag = site.tags[tag_name] %}
 
   <ul class="post-list">
-    {% for post in posts_in_tag reversed %} {# 포스트들을 날짜 역순으로 정렬하여 표시 #}
+    {% for post in posts_in_tag reversed %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -32,5 +37,5 @@ permalink: /categories/ # 이 페이지의 URL
       </li>
     {% endfor %}
   </ul>
-  <hr> {# 각 태그 섹션 사이에 구분선 추가 #}
+  <hr>
 {% endfor %}
