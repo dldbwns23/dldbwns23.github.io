@@ -1,10 +1,9 @@
 # _config.yml
 
 title: Your Awesome Blog
-email: eugine0523@gmail.com
+email: [eugine0523@gmail.com, finedust0523@postech.ac.kr]
 description: >-
-  이것은 당신의 GitHub Pages 블로그 설명입니다.
-  게시물, 태그, 이력서 등을 포함합니다.
+  Archive for almost everything.
 baseurl: ""
 url: "https://dldbwns23.github.io"
 github_username: dldbwns23
@@ -26,5 +25,4 @@ defaults:
     values:
       tags: [Other] # ★★★ 수정됨: 'Other'를 배열 형식인 [Other]로 변경
 
-# collections: tags: ... 부분은 우리의 목표와 충돌하므로 완전히 삭제합니다.
-# 이 코드가 없어야 _layouts/categories.html 파일이 정상적으로 작동합니다.
+
