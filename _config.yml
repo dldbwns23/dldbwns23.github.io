@@ -1,7 +1,8 @@
 # _config.yml
 
 title: Your Awesome Blog
-email: [eugine0523@gmail.com, finedust0523@postech.ac.kr]
+email: [eugine0523@gmail.com,
+finedust0523@postech.ac.kr]
 description: >-
   Archive for almost everything.
 baseurl: ""
