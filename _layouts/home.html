@@ -6,11 +6,11 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
+  {{ content }} {# index.md에 추가된 내용이 있다면 여기에 표시됩니다 #}
 
   <h2 class="post-list-heading">Posts</h2>
   <ul class="post-list">
-    {% for post in site.posts reversed %}
+    {% for post in site.posts reversed %} {# 모든 포스트를 최신순으로 정렬하여 반복 #}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -19,7 +19,7 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.minima.show_excerpts -%}
+        {%- if site.minima.show_excerpts -%} {# 요약 표시 설정이 있다면 요약 내용 표시 #}
           {{ post.excerpt }}
         {%- endif -%}
       </li>
