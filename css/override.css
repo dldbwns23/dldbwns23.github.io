@@ -4,6 +4,10 @@ hr {
 }
 
 
+.icon--github {
+    display: none !important; /* GitHub 아이콘을 완전히 숨깁니다 */
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
