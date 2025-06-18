@@ -3,10 +3,6 @@ hr {
   margin-bottom: 20px;
 }
 
-/* 1. 회색 원을 완전히 숨기려면: */
-.social-links .social-link-icon {
-    display: none !important;
-}
 
 /* Post navigation links */
 .post_navi {
