@@ -1,11 +1,12 @@
+/* css/override.css 파일에 추가 */
+
+.social-links .icon--github {
+    display: none !important; /* GitHub 아이콘을 완전히 숨깁니다 */
+}
+
 hr {
   margin-top: 30px;
   margin-bottom: 20px;
-}
-
-
-.icon--github {
-    display: none !important; /* GitHub 아이콘을 완전히 숨깁니다 */
 }
 
 /* Post navigation links */
