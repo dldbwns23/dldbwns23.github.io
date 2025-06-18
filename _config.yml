@@ -1,8 +1,7 @@
-title: Your Blog Title # 블로그 제목
-email: your-email@example.com # 당신의 이메일
+title: Archive # 블로그 제목
+email: eugine0523@gmail.com # 당신의 이메일
 description: >- # 한 줄 설명을 여기에 작성하세요
-  이것은 당신의 GitHub Pages 블로그 설명입니다.
-  게시물, 태그, 이력서 등을 포함합니다.
+  Archive for Almost Everything
 baseurl: "" # 서브디렉토리에 블로그를 호스팅하는 경우 '/blog'와 같이 입력. 아니면 비워둡니다.
 url: "https://dldbwns23.github.io" # 블로그의 기본 URL (예: "https://username.github.io")
 github_username: dldbwns23 # 당신의 GitHub 사용자 이름
