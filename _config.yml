@@ -1,5 +1,6 @@
 # _config.yml
-title: Your Awesome Blog # Change this to your actual blog name
+
+title: Your Awesome Blog
 email: eugine0523@gmail.com
 description: >-
   이것은 당신의 GitHub Pages 블로그 설명입니다.
@@ -8,8 +9,6 @@ baseurl: ""
 url: "https://dldbwns23.github.io"
 github_username: dldbwns23
 
-# ... (나머지 내용은 그대로 둡니다)
-
 # 테마 설정
 theme: minima
 
@@ -17,20 +16,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap # 사이트맵 생성을 위해 추가
-
-# 컬렉션 설정 (태그 페이지 생성을 위함)
-collections:
-  tags:
-    output: true # _tags 컬렉션에 대해 HTML 파일 생성
-    permalink: /tags/:name/ # 각 태그 페이지의 URL 형식 (예: /tags/sql/)
-
-# Minima 테마 내비게이션에 추가할 페이지들 (선택 사항, 아래 nav-items.html에서 직접 관리할 것이므로 비워둘 수 있음)
-minima:
-  # 이 섹션은 nav-items.html에서 수동으로 탭을 추가할 것이므로 비워둡니다.
-  # 또는 여기에 페이지들을 지정하여 Minima 기본 동작을 유지할 수도 있습니다.
-  # nav_pages:
-  #   - about.md
+  - jekyll-sitemap
 
 # 기본값 설정 (모든 포스트에 기본 태그를 부여)
 defaults:
@@ -38,4 +24,7 @@ defaults:
       path: ""
       type: posts # 'post'가 아닌 'posts'
     values:
-      tags: Other # 태그가 지정되지 않은 포스트에 부여될 기본 태그
+      tags: [Other] # ★★★ 수정됨: 'Other'를 배열 형식인 [Other]로 변경
+
+# collections: tags: ... 부분은 우리의 목표와 충돌하므로 완전히 삭제합니다.
+# 이 코드가 없어야 _layouts/categories.html 파일이 정상적으로 작동합니다.
