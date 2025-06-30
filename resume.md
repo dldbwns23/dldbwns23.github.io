@@ -8,8 +8,7 @@ permalink: /resume/
 
 ### EDUCATION
 
-POHANG UNIVERSITY of SCIENCE and TECHNOLOGY
-Bachelor of Mathematics, 2028 Feb
+POHANG UNIVERSITY of SCIENCE and TECHNOLOGY Bachelor of Science in Mathematics, Feb 2028
 
 ### SKILLS:
 
