@@ -5,6 +5,9 @@ date: 2025-07-09 14:19:00 +0900
 tags: [Visualization, Python, Cartopy, Xarray]
 ---
 
+ To get used to libraries commonly utilized in climate change research, several attempts are made in this post. Gridded climate data from Physical Sciences Laboratory in NOAA is used. Sea Surface Temperature from NOAA Optimum interpolation SST V2, Precipiation from CMAP Precipitation, U-wind and V-wind from NCEP/DOE Reanalysis II are available in [Physical Sciences Laboratory](https://psl.noaa.gov/data/gridded/).
+
+---
 
 ## 1. Setup
 ```
@@ -17,6 +20,7 @@ import numpy as np
 import cartopy.feature as cfeature
 from matplotlib.colors import BoundaryNorm
 ```
+---
 
 ## 2. Basic SST Visualization
 ```
@@ -39,6 +43,7 @@ plt.show()
 {% raw %}
 <img src="/images/Visualization_Practice/Viz_Practice_01.png" alt="SST Visualization via contourf">
 {% endraw %}
+---
 
 ## 3. SST Visualization using levels
 ```
@@ -55,6 +60,10 @@ ax.set_title('Sea Surface Temperature (SST)')
 ax.coastlines(resolution='10m')
 plt.show()
 ```
+{% raw %}
+<img src="/images/Visualization_Practice/Viz_Practice_02.png" alt="SST Visualization using levels">
+{% endraw %}
+---
 
 ## 4. SST Visualization Using Different Projections
 ```
@@ -79,6 +88,10 @@ ax.coastlines(resolution='10m')
 ax.gridlines()
 plt.show()
 ```
+{% raw %}
+<img src="/images/Visualization_Practice/Viz_Practice_03.png" alt="SST Visualization on Robinson">
+{% endraw %}
+---
 
 ## 5. Adding Physical Features
 ```
@@ -111,6 +124,10 @@ ax.add_feature(cfeature.NaturalEarthFeature('physical',
                                              facecolor='black'))
 plt.show()
 ```
+{% raw %}
+<img src="/images/Visualization_Practice/Viz_Practice_04.png" alt="SST Visualization with NaturalEarthFeature">
+{% endraw %}
+---
 
 ## 6. Subplot Using Different Projections
 ```
@@ -187,6 +204,10 @@ ax3.add_feature(cfeature.NaturalEarthFeature('physical',
                                              facecolor='black'))
 plt.show()
 ```
+{% raw %}
+<img src="/images/Visualization_Practice/Viz_Practice_05.png" alt="SST Visualizations on Mollweide, NearsidePerspective and Orthographic">
+{% endraw %}
+---
 
 ## 7. SST, Precipitation, Wind Visualization
 ```
@@ -238,3 +259,10 @@ ax.gridlines(draw_labels=True, linestyle=':', color='gray')
 ax.set_title('SST, Precipitation, Wind_850hpa')
 plt.show()
 ```
+{% raw %}
+<img src="/images/Visualization_Practice/Viz_Practice_06.png" alt="SST, Precipiatioin and Wind at 850hpa Visualization">
+{% endraw %}
+---
+
+# Overview
+ Understanding difference between projection and transformation in plot.contourf will be one of the most importatnt things. Projection is how you will represent your plot while transformation is additional information that you clarify where the data has derived. In many cases, I assume `ccrs.PlateCarree()` is used since it is based on lon lat grid. As long as you give correct transformation, you will get data without any distortion given that preprocessing of the data is conducted properly.
