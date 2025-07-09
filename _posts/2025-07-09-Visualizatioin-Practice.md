@@ -7,7 +7,7 @@ tags: [Visualization, Python, Cartopy, Xarray]
 
 
 ## 1. Setup
-'''
+```
 import matplotlib.pyplot as plt
 import xarray as xr
 import cartopy as ct
@@ -16,10 +16,10 @@ import cartopy.feature as cfeature
 import numpy as np
 import cartopy.feature as cfeature
 from matplotlib.colors import BoundaryNorm
-'''
+```
 
 ## 2. Basic SST Visualization
-'''
+```
 var = xr.open_dataset('../Data/sst.mnmean.nc')
 sst = var.sst
 
@@ -35,10 +35,10 @@ plt.show()
 # Option 2
 ax.add_feature(ct.feature.GSHHSFeature(edgecolor='k'))
 plt.show()
-'''
+```
 
 ## 3. SST Visualization using levels
-'''
+```
 fig = plt.figure(figsize=(9,7))
 ax = plt.axes(projection=ccrs.PlateCarree())
 
@@ -51,10 +51,10 @@ sst.isel(time=0).plot.contourf(
 ax.set_title('Sea Surface Temperature (SST)')
 ax.coastlines(resolution='10m')
 plt.show()
-'''
+```
 
 ## 4. SST Visualization Using Different Projections
-'''
+```
 fig = plt.figure(figsize=(9,7))
 #ax = plt.axes(projection=ccrs.PlateCarree())
 #ax = plt.axes(projection=ccrs.Mercator())
@@ -75,10 +75,10 @@ ax.set_title('Sea Surface Temperature (SST)')
 ax.coastlines(resolution='10m')
 ax.gridlines()
 plt.show()
-'''
+```
 
 ## 5. Adding Physical Features
-'''
+```
 var = xr.open_dataset('../Data/sst.mnmean.nc')
 sst = var.sst
 
@@ -107,10 +107,10 @@ ax.add_feature(cfeature.NaturalEarthFeature('physical',
                                              edgecolor='face',
                                              facecolor='black'))
 plt.show()
-'''
+```
 
 ## 6. Subplot Using Different Projections
-'''
+```
 from matplotlib.colors import BoundaryNorm
 
 var = xr.open_dataset('../Data/sst.mnmean.nc')
@@ -183,10 +183,10 @@ ax3.add_feature(cfeature.NaturalEarthFeature('physical',
                                              edgecolor='face',
                                              facecolor='black'))
 plt.show()
-'''
+```
 
 ## 7. SST, Precipitation, Wind Visualization
-'''
+```
 sst = xr.open_dataset('../Data/sst.mnmean.nc').sst
 prcp = xr.open_dataset('../Data/precip.mon.mean.nc').precip
 uwnd = xr.open_dataset('../Data/uwnd.mon.mean.nc').uwnd
@@ -229,6 +229,7 @@ ax.add_feature(cfeature.NaturalEarthFeature(
     edgecolor='face',
     facecolor='gray'
 ))
+```
 
 ax.coastlines()
 ax.gridlines(draw_labels=True, linestyle=':', color='gray')
