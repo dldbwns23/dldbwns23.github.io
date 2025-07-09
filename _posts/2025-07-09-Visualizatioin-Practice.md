@@ -229,10 +229,9 @@ ax.add_feature(cfeature.NaturalEarthFeature(
     edgecolor='face',
     facecolor='gray'
 ))
-```
 
 ax.coastlines()
 ax.gridlines(draw_labels=True, linestyle=':', color='gray')
 ax.set_title('SST, Precipitation, Wind_850hpa')
 plt.show()
-'''
+```
