@@ -265,4 +265,4 @@ plt.show()
 ---
 
 # Overview
- Understanding difference between projection and transformation in plot.contourf will be one of the most importatnt things. Projection is how you will represent your plot while transformation is additional information that you clarify where the data has derived. In many cases, I assume `ccrs.PlateCarree()` is used since it is based on lon lat grid. As long as you give correct transformation, you will get data without any distortion given that preprocessing of the data is conducted properly.
+ Understanding difference between projection and transformation in `plot.contourf()` will be one of the most importatnt things. Projection is how you will represent your plot while transformation is additional information that you clarify where the data has derived. In many cases, I assume `ccrs.PlateCarree()` is used since it is based on lon lat grid. As long as you give correct transformation, you will get data without any distortion given that preprocessing of the data is conducted properly.
