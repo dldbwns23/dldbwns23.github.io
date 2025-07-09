@@ -36,6 +36,9 @@ plt.show()
 ax.add_feature(ct.feature.GSHHSFeature(edgecolor='k'))
 plt.show()
 ```
+{% raw %}
+<img src="images/Visualization Practice/Visualization tutorial 01.png" alt="SST Visualization via contourf">
+{% endraw %}
 
 ## 3. SST Visualization using levels
 ```
