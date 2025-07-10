@@ -11,12 +11,11 @@ tags: [Visualization, Python, Cartopy, Xarray]
 
 ## 1. Setup
 ```
+import numpy as np
 import matplotlib.pyplot as plt
 import xarray as xr
 import cartopy as ct
 import cartopy.crs as ccrs
-import cartopy.feature as cfeature
-import numpy as np
 import cartopy.feature as cfeature
 from matplotlib.colors import BoundaryNorm
 ```
