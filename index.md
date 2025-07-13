@@ -6,9 +6,8 @@ title: Home # This title will be used by the 'home' layout if {% if page.title %
 ## Personal blog for archiving
 Various topics and contents will be uploaded. But all of them will establish the cornerstone to journey to a better person and a better researcher. 
 
-<div align="center">
-
-  ***Baby step to a Giant Stride***
+<div align="center" markdown="1">
+  ***Baby step to a Giant Stride***
 </div>
 
 ### Archive: Collection of all posts
