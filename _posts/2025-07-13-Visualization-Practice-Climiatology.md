@@ -536,3 +536,5 @@ plt.show()
  One of the most important concepts in climate change research would be climatology, a long-term weather patterns of a specific region, is dealt with python. Using rolling method in xarray, moving average in terms of month is also visualized. The workflow of visualization and key concepts in research will be keep practiced. 
 
  Before proving the weights defined to handle global mean sst in section 4, I attempted just simple and shallow approach, averaging whole gird without weights. However, as soon as the idea that the gird is just a way how you represent your data and rectangle gird does not mimic real Earth, I googled it to set correct weights. Thanks to this issue, "think before you do" came up with my mind. 
+
+p.s. Please go to my github if dldbwns23.github.io cannot handle Latex and you get bunch of \cos(\phi) or something...
