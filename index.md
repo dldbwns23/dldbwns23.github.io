@@ -10,7 +10,7 @@ Various topics and contents will be uploaded. But all of them will establish the
 <br />
 
 ---
-
+<br />
 
 ### Archive: Collection of all posts
 
@@ -18,7 +18,6 @@ Various topics and contents will be uploaded. But all of them will establish the
 
 ### Categories: Colloection of tags. Posts sharing same tags will be listed   
 
-<br />
 <br />
 
 ---
