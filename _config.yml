@@ -21,8 +21,8 @@ plugins:
 defaults:
   - scope:
       path: ""
-      type: posts # 'post'가 아닌 'posts'
+      type: posts 
     values:
-      tags: [Other] # ★★★ 수정됨: 'Other'를 배열 형식인 [Other]로 변경
+      tags: [Other] 
 
 
