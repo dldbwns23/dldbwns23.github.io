@@ -7,7 +7,7 @@ title: Home # This title will be used by the 'home' layout if {% if page.title %
 Various topics and contents will be uploaded. But all of them will establish the cornerstone to journey to a better person and a better researcher. 
 
 <p align="center">
-  **_Baby stpe to a Giant Stride_**
+  ***Baby stpe to a Giant Stride***
 </p>
 
 ### Archive: Collection of all posts
