@@ -153,6 +153,7 @@ The **area of a grid cell at latitude $\phi$** is:
 
 $$ \text{Area} \propto \cos(\phi) $$
 This is why we use **$$\cos(\phi)$$ as weights** in global averages to correctly account for the **shrinking surface area** of grid cells near the poles.
+
 ---
 
 ## 5. Draw Climatology of SST
