@@ -5,6 +5,7 @@ date: 2025-07-13 19:00:00 +0900
 tags: [Visualization, Python, Cartopy, Xarray]
 ---
 
+In addition to previous post, I practiced visualization with python libraries using dataset from PSL in NOAA. All dataset is available in [Physical Sciences Laboratory](https://psl.noaa.gov/data/gridded/).
 
 ---
 
@@ -151,8 +152,6 @@ The **area of a grid cell at latitude $\phi$** is:
 
 
 $$ \text{Area} \propto \cos(\phi) $$
-
-
 This is why we use **$$\cos(\phi)$$ as weights** in global averages to correctly account for the **shrinking surface area** of grid cells near the poles.
 ---
 
@@ -534,3 +533,6 @@ plt.show()
 {% endraw %}
 
 # Overview
+ One of the most important concepts in climate change research would be climatology, a long-term weather patterns of a specific region, is dealt with python. Using rolling method in xarray, moving average in terms of month is also visualized. The workflow of visualization and key concepts in research will be keep practiced. 
+
+ Before proving the weights defined to handle global mean sst in section 4, I attempted just simple and shallow approach, averaging whole gird without weights. However, as soon as the idea that the gird is just a way how you represent your data and rectangle gird does not mimic real Earth, I googled it to set correct weights. Thanks to this issue, "think before you do" came up with my mind. 
