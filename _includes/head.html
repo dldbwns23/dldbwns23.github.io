@@ -6,4 +6,25 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link type="application/atom+xml" rel="alternate" href="{{ "/feed.xml" | relative_url }}" title="{{ site.title | escape }}" />
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        displayJax: 'AMS',
+        processEscapes: true
+      },
+      "HTML-CSS": {
+        styles: {
+          ".MathJax_Display": {
+            "text-align": "center", // 수식 정렬을 원하면 center로 변경 (기본은 left)
+            "margin": "1em 0em" // 상하 마진 조절
+          }
+        }
+      }
+    });
+  </script>
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
 </head>
