@@ -2,7 +2,7 @@
 layout: post
 title: Visualization Practice
 date: 2025-07-09 14:19:00 +0900
-tags: [Visualization, Python, Cartopy, Xarray]
+tags: [Visualization, Python]
 ---
 
  To get used to libraries commonly utilized in climate change research, several attempts are made in this post. Gridded climate data from Physical Sciences Laboratory in NOAA is used. Sea Surface Temperature from NOAA Optimum interpolation SST V2, Precipiation from CMAP Precipitation, U-wind and V-wind from NCEP/DOE Reanalysis II are available in [Physical Sciences Laboratory](https://psl.noaa.gov/data/gridded/).
