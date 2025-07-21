@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Composite Analysis Practice"
-date: 2025-07-21 20:48:00 +0900
-tags: [Visualization, Composite, Python, Cartopy, Xarray]
+date: 2025-07-21 21:00:00 +0900
+tags: [Visualization, Composite, Python]
 ---
 
 To understand composite analysis, I practiced the workflow of composite analysis and visualization.
