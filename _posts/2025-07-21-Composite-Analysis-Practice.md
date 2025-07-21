@@ -16,6 +16,8 @@ Composite anlaysis helps to cancel out the small variations so that analysis can
 - Identifying Typical Patterns
 - Studying Casue and Effect
 - Improving Predicability
+
+
 ---
 
 ## 1. Setup
@@ -450,4 +452,14 @@ plt.show()
 ---
 
 
-# Overview
+# Overview  
+
+ Understanding about composite analysis and its intention was meaningful for me to grab one of the most important idea in meteorlogy. When conducting application using Pohang and East Asia precipitation data, I had some hard time handling dataset. There must be much easier way to handle dimensions and variables using xarray but I believe my approach is not inadequate in this simple post.
+
+ Also, I expected more intense, wide-spread, predominant pattern in centeral-eastern equatorial Pacific in section 5 and 6. However, what significance test showed is much less than my expectation. This is because I selected too wide range to focus on East Asia at section 6. Presense of a statistically significant signal in the Pacific ocean mitigates my inconfidence, but still it is not overwhelmingly strong. There might be some causes such as
+
+1. Multiple influencing Factors such as Arctic Oscilation, Pacific Decadal Oscilation, East Asian Winter Monsoon. The approach I made did not filter pure El Nino events.
+2. Variablility within El nino events. Not all El Nino events are identical and their atomospheric teleconnections and impacts on remote regions can vary.
+3. Defenition of high precipitaion. I defined high precipitation with 1 std.
+
+To resolve this problem, filtering pure El Nino event and focusing not only El Nino but also some other candidates that might cause more effect to high precipitation in East Asia.
