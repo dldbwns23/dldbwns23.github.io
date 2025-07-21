@@ -2,7 +2,7 @@
 layout: post
 title: "Visualization Practice Climatology"
 date: 2025-07-13 19:00:00 +0900
-tags: [Visualization, Python, Cartopy, Xarray]
+tags: [Visualization, Python]
 ---
 
 In addition to previous post, I practiced visualization with python libraries using dataset from PSL in NOAA. All dataset is available in [Physical Sciences Laboratory](https://psl.noaa.gov/data/gridded/).
