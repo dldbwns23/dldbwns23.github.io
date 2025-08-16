@@ -14,9 +14,9 @@ Future climate prediction is a problem that requires decades of long-term integr
 ## 1. Climate Sensitivity and Feedback Concept
 
 {% raw %}
-<img src="/images/Climate_Sensitivity_Feedback_Processes/Linzen_2001.png" alt="Figure 1.1 Schematic illustrating operation of feedbacks">
+<img src="/images/Climate_Sensitivity_Feedback_Processes/Lindzen_2001.png" alt="Figure 1.1 Schematic illustrating operation of feedbacks">
 {% endraw %}
-
+**Figure 1.1:** Schematic illustrating the operation of feedback and no-feedback cases. (Adapted from Lindzen et al., 2001)
 
 Figure 1.1 presents a conceptual model of feedback and no-feedback cases.
 
@@ -28,80 +28,72 @@ We can derive $\Delta T = G_{0}\Delta Q / (1-G_{0}F) = \Delta T_{0}/(1-f)$. If $
 
 Temperature, water vapor, clouds, and albedo are the main contributors to feedback. They are nonlinearly connected. For example, if cloud feedback is negative, energy emitted by water vapor is exposed to the TOA, reinforcing water vapor feedback. Therefore, it is inappropriate to separate the effect of each component. However, it is known that the entire feedback factor $f$ can be represented by the addition of individual $f$ values for temperature, water vapor, clouds, and albedo.
 
-Figure 1.2 illustrates the relationship between climate sensitivity and the feedback factor. The feedback factor on the x-axis assumes that feedback factors from prior research follow a Gaussian distribution. It can be easily shown that climate models with a feedback factor near 0.65 exhibit a significant difference in climate sensitivity.  
-
+Figure 1.2 illustrates the relationship between climate sensitivity and the feedback factor. The feedback factor on the x-axis assumes that feedback factors from prior research follow a Gaussian distribution. It can be easily shown that climate models with a feedback factor near 0.65 exhibit a significant difference in climate sensitivity.
 
 {% raw %}
 <img src="/images/Climate_Sensitivity_Feedback_Processes/Roe_and_Baker_2007.png" alt="Figure 1.2 Demonstration of the relationships linking climate sensitivity to feedback factor">
 {% endraw %}
+**Figure 1.2:** Demonstration of the relationships linking climate sensitivity to the feedback factor. (Adapted from Roe and Baker, 2007)
 
 ## 2. How To Measure Climate Sensitivity and Feedback
 
-Climate sensitivity can be utilized as a factor for measuring impact of certain meteorlogical-physical process to climate change and an index for climate model. Also, sensitivity numerically refers to how much objective observation of climate changes as one of multiple independent variables changes. For instance, let's consider surface temperature $T_{s}$. Let $S_{0}$ be solar constant. If $S_{0}$ changes, so does $T_{s}$. Since $T_{s}$ is a function of other variables such as $y_{i}$, we can get the following.
+Climate sensitivity can be utilized as a factor for measuring impact of certain meteorological-physical processes on climate change and as an index for climate models. Also, sensitivity numerically refers to how much an objective observation of climate changes as one of multiple independent variables changes. For instance, let's consider surface temperature $T_{s}$. Let $S_{0}$ be solar constant. If $S_{0}$ changes, so does $T_{s}$. Since $T_{s}$ is a function of other variables such as $y_{i}$, we can get the following:
 
 $$\frac{dT}{dS_{0}} = \frac{\partial T_{s}}{\partial S_{0}}+ \sum_{j=1}^{N} \frac{\partial T_{s}}{\partial y_{i}}\frac{dy_{i}}{dS_{0}}$$
 
-By defining forcing $dQ$ ($Wm^{-2}$) and ratio of forcing $\frac{dT_{s}}{dQ} \equiv \lambda_{R}$, we can check how average surface temperature change are related to degree of climate change.
+By defining forcing $dQ$ ($Wm^{-2}$) and the ratio $\frac{dT_{s}}{dQ} \equiv \lambda_{R}$, we can check how average surface temperature changes are related to the degree of climate change.
 
-
+The radiative balance at the Top of the Atmosphere ($R_{TOA}$) is given by:
 $$R_{TOA} = \frac{S_{0}}{4}(1-\alpha_{p}) - F^{\uparrow}(\infty)=0$$
-Here $\alpha_{p}$ is and planet albedo. If certain forcing $dQ$ is given, climate will transit to new average surface temperature equilibrium. 
+Here $\alpha_{p}$ is the planet's albedo. If a certain forcing $dQ$ is given, the climate will transit to a new average surface temperature equilibrium.
 
+The change in $R_{TOA}$ with respect to the forcing and temperature change can be expressed as:
 $$\frac{dR_{TOA}}{dQ} = \frac{\partial R_{TOA}}{\partial Q} + \frac {\partial R_{TOA}}{\partial T_{s}}\frac{dT_{s}}{dQ} = 0$$
-$\partial R_{TOA} / \partial T_{s}$ is energy imbalance at TOA relying on surface temperature, which is equivalent to feedback parameter $F$. Also, $\partial R_{TOA} / \partial Q=1$ since $R_{TOA}$ is always same as the forcing itself. Therefore, above can be simplified as $1+F\cdot\lambda_{R}=0$.
+$\partial R_{TOA} / \partial T_{s}$ represents the energy imbalance at TOA relying on surface temperature, which is equivalent to the feedback parameter $F$. Also, $\partial R_{TOA} / \partial Q=1$ since $R_{TOA}$ is always same as the forcing itself. Therefore, the above can be simplified as $1+F\cdot\lambda_{R}=0$.
+Thus, the climate sensitivity $\lambda_R$ can be derived as:
 $$\frac{dT_{s}}{dQ} = -(\frac{\partial R_{TOA}}{\partial T_{s}})^{-1} = (\frac{S_{0}}{4}\frac{\partial \alpha_{p}}{\partial T_{s}}+\frac{\partial F^{\uparrow}(\infty)}{\partial T_{s}})^{-1} = \lambda_{R}$$
-In a simple model, climate sensitivity is decided by two basic feedback process; derivative of outgoing Earth radiation flux w.r.t surface temperature and derivative of surface albedo w.r.t surface temperature. 
-
+In a simple model, climate sensitivity is primarily determined by two basic feedback processes: the derivative of outgoing Earth radiation flux with respect to surface temperature, and the derivative of surface albedo with respect to surface temperature.
 
 {% raw %}
 <img src="/images/Climate_Sensitivity_Feedback_Processes/Choi_2011.png" alt="Figure 1.3 Schematic relation between sea surface temperature change and outgoing total radiative flux change at the top of the atmosphere. The slope represents the sign and magnitude of total climate feedback. ZFB stands for zero-feedback system. Negative slope corresponds to positive climate feedback of current climate models. The slope over that of ZFB corresponds to negative climate feedback.">
 {% endraw %}
-
-
+**Figure 1.3:** Schematic relation between sea surface temperature change and outgoing total radiative flux change at the top of the atmosphere. The slope represents the sign and magnitude of total climate feedback. ZFB stands for zero-feedback system. A negative slope corresponds to positive climate feedback in current climate models. The slope over that of ZFB corresponds to negative climate feedback. (Adapted from Choi, 2011)
 
 ## 3. Basic Feedback Processes
 
+The following are basic feedback processes in climate:
 
-The followings are basic feedback processes in climate. 
-
-- Stefan -Boltzmann Feedback
+- Stefan-Boltzmann Feedback
 - Temperature Lapse Rate Feedback
 - Water Vapor Feedback
-- Icecover Albedo Feedback
+- Ice-Albedo Feedback
 - Dynamic Feedback and North-South Energy Transfer
 - Cloud Feedback
 - Biogeochemistry Feedback
 
+Details of these feedback processes can be found in many references.
 
-Details of feedback processes can be found in many references.
-
-
-Stefan-Boltzmann Feedback
+### Stefan-Boltzmann Feedback
 
 >This is a negative feedback. As the Earth's surface and atmosphere warm, they radiate more longwave (infrared) energy back to space. This increased outgoing radiation acts to cool the planet, partially offsetting the initial warming. It's an inherent property of any body that emits thermal radiation.
 
-
-Temperature Lapse Rate Feedback
+### Temperature Lapse Rate Feedback
 
 >The lapse rate refers to the rate at which temperature decreases with altitude in the atmosphere. This feedback can be positive or negative. If the upper atmosphere warms more than the lower atmosphere, the lapse rate decreases (becomes more stable), which can lead to more outgoing longwave radiation and thus a negative feedback. Conversely, if the lower atmosphere warms more, it can lead to a positive feedback. The exact nature depends on how warming is distributed vertically in the atmosphere.
 
-
-Water Vapor Feedback
+### Water Vapor Feedback
 
 >This is a strong positive feedback. As the atmosphere warms, its capacity to hold water vapor increases. Water vapor is a potent greenhouse gas, so more water vapor in the atmosphere traps more heat, leading to further warming. This additional warming, in turn, allows the atmosphere to hold even more water vapor, creating a reinforcing cycle.
 
-
-Ice-Albedo Feedback
+### Ice-Albedo Feedback
 
 >This is a powerful positive feedback. As global temperatures rise, ice and snow cover melt. Ice and snow have a high albedo, meaning they reflect a large portion of incoming solar radiation back to space. When they melt, they expose darker land or ocean surfaces, which absorb more solar radiation. This increased absorption leads to further warming, which causes more ice to melt, amplifying the initial warming.
 
-
-Dynamic Feedback and North-South Energy Transfer
+### Dynamic Feedback and North-South Energy Transfer
 
 >This category encompasses feedbacks related to changes in atmospheric and oceanic circulation patterns. These dynamics can influence how heat is distributed across the planet, particularly between the tropics and the poles. Changes in ocean currents, for instance, can alter the rate at which heat is transported from warmer to colder regions, potentially leading to regional warming or cooling that then feeds back into the global climate system. The complexity of these interactions means they can contribute to both positive and negative feedbacks.
 
-
-Cloud Feedback
+### Cloud Feedback
 
 >This is one of the most uncertain and complex feedbacks. Clouds can exert both cooling and warming effects.
 > - Cooling effect: High albedo clouds reflect incoming solar radiation back to space (negative feedback).
@@ -109,18 +101,15 @@ Cloud Feedback
 >
 >The net effect of cloud feedback depends on changes in cloud type, altitude, and coverage, making it a major source of uncertainty in climate models.
 
-
-Biogeochemistry Feedback
+### Biogeochemistry Feedback
 
 >This refers to feedbacks involving interactions between the climate system and biological and geological processes, particularly those affecting the cycles of greenhouse gases like carbon dioxide and methane.
 > - Carbon Cycle Feedback: As the Earth warms, natural carbon sinks (like oceans and forests) may become less efficient at absorbing CO2, or even release stored carbon, leading to higher atmospheric CO2 levels and further warming (positive feedback). For example, thawing permafrost can release large amounts of CH4.
 >
 > - Vegetation Changes: Shifts in vegetation patterns due to climate change can alter surface albedo and evapotranspiration, influencing regional and global temperatures.
 
-
 ## Overview
-This discussion has provided a foundational understanding of climate sensitivity and feedback processes, two cornerstone concepts in climate dynamics. We established how climate change, driven by various forcings, is critically influenced by complex interactions among Earth's systems. Note that feedback processes play a defining role in amplifying or dampening initial changes. The mathematical flow illustrated the direct link between climate sensitivity and the feedback factor. While these fundamental feedback mechanisms have been outlined, their quantification, particularly their non-linear interactions and spatiotemporal variability, remains vague. Future efforts must continue to refine climate models to better constrain the magnitude and sign of these feedbacks.
-
+This discussion has provided a foundational understanding of climate sensitivity and feedback processes, two cornerstone concepts in climate dynamics. We established how climate change, driven by various forcings, is critically influenced by complex interactions among Earth's systems. Note that feedback processes play a defining role in amplifying or dampening initial changes. The mathematical flow illustrated the direct linkage between climate sensitivity and the feedback factor. While these fundamental feedback mechanisms have been outlined, their quantification, particularly their non-linear interactions and spatiotemporal variability, remains vague. Future efforts must continue to refine climate models to better constrain the magnitude and sign of these feedbacks.
 
 ## References
 - 최용상, 기후민감도와 되먹임, 기후과학자가 쓴 기후역학 교과서, 333-372
