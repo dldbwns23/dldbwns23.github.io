@@ -45,11 +45,15 @@ By defining forcing $dQ$ ($Wm^{-2}$) and ratio of forcing $\frac{dT_{s}}{dQ} \eq
 
 
 $$R_{TOA} = \frac{S_{0}}{4}(1-\alpha_{p}) - F^{\uparrow}(\infty)=0$$
+
 Here $\alpha_{p}$ is and planet albedo. If certain forcing $dQ$ is given, climate will transit to new average surface temperature equilibrium. 
 
 $$\frac{dR_{TOA}}{dQ} = \frac{\partial R_{TOA}}{\partial Q} + \frac {\partial R_{TOA}}{\partial T_{s}}\frac{dT_{s}}{dQ} = 0$$
+
 $\partial R_{TOA} / \partial T_{s}$ is energy imbalance at TOA relying on surface temperature, which is equivalent to feedback parameter $F$. Also, $\partial R_{TOA} / \partial Q=1$ since $R_{TOA}$ is always same as the forcing itself. Therefore, above can be simplified as $1+F\cdot\lambda_{R}=0$.
+
 $$\frac{dT_{s}}{dQ} = -(\frac{\partial R_{TOA}}{\partial T_{s}})^{-1} = (\frac{S_{0}}{4}\frac{\partial \alpha_{p}}{\partial T_{s}}+\frac{\partial F^{\uparrow}(\infty)}{\partial T_{s}})^{-1} = \lambda_{R}$$
+
 In a simple model, climate sensitivity is decided by two basic feedback process; derivative of outgoing Earth radiation flux w.r.t surface temperature and derivative of surface albedo w.r.t surface temperature. 
 
 {% raw %}
