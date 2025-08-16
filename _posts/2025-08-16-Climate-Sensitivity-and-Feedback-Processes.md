@@ -28,7 +28,7 @@ We can derive $\Delta T = G_{0}\Delta Q / (1-G_{0}F) = \Delta T_{0}/(1-f)$. If $
 
 Temperature, water vapor, clouds, and albedo are the main contributors to feedback. They are nonlinearly connected. For example, if cloud feedback is negative, energy emitted by water vapor is exposed to the TOA, reinforcing water vapor feedback. Therefore, it is inappropriate to separate the effect of each component. However, it is known that the entire feedback factor $f$ can be represented by the addition of individual $f$ values for temperature, water vapor, clouds, and albedo.
 
-Figure 1.2 illustrates the relationship between climate sensitivity and the feedback factor. The feedback factor on the x-axis assumes that feedback factors from prior research follow a Gaussian distribution. It can be easily shown that climate models with a feedback factor near 0.65 exhibit a significant difference in climate sensitivity.
+Figure 1.2 illustrates the relationship between climate sensitivity and the feedback factor. The feedback factor on the x-axis assumes that feedback factors from prior research follow a Gaussian distribution. It can be easily shown that climate models with a feedback factor near 0.65 exhibit a significant difference in climate sensitivity.  
 
 {% raw %}
 <img src="/images/Climate_Sensitivity_Feedback_Processes/Roe_and_Baker_2007.png" alt="Figure 1.2 Demonstration of the relationships linking climate sensitivity to feedback factor">
@@ -37,22 +37,20 @@ Figure 1.2 illustrates the relationship between climate sensitivity and the feed
 
 ## 2. How To Measure Climate Sensitivity and Feedback
 
-Climate sensitivity can be utilized as a factor for measuring impact of certain meteorological-physical processes on climate change and as an index for climate models. Also, sensitivity numerically refers to how much an objective observation of climate changes as one of multiple independent variables changes. For instance, let's consider surface temperature $T_{s}$. Let $S_{0}$ be solar constant. If $S_{0}$ changes, so does $T_{s}$. Since $T_{s}$ is a function of other variables such as $y_{i}$, we can get the following:
+Climate sensitivity can be utilized as a factor for measuring impact of certain meteorlogical-physical process to climate change and an index for climate model. Also, sensitivity numerically refers to how much objective observation of climate changes as one of multiple independent variables changes. For instance, let's consider surface temperature $T_{s}$. Let $S_{0}$ be solar constant. If $S_{0}$ changes, so does $T_{s}$. Since $T_{s}$ is a function of other variables such as $y_{i}$, we can get the following.
 
 $$\frac{dT}{dS_{0}} = \frac{\partial T_{s}}{\partial S_{0}}+ \sum_{j=1}^{N} \frac{\partial T_{s}}{\partial y_{i}}\frac{dy_{i}}{dS_{0}}$$
 
-By defining forcing $dQ$ ($Wm^{-2}$) and the ratio $\frac{dT_{s}}{dQ} \equiv \lambda_{R}$, we can check how average surface temperature changes are related to the degree of climate change.
+By defining forcing $dQ$ ($Wm^{-2}$) and ratio of forcing $\frac{dT_{s}}{dQ} \equiv \lambda_{R}$, we can check how average surface temperature change are related to degree of climate change.
 
-The radiative balance at the Top of the Atmosphere ($R_{TOA}$) is given by:
+
 $$R_{TOA} = \frac{S_{0}}{4}(1-\alpha_{p}) - F^{\uparrow}(\infty)=0$$
-Here $\alpha_{p}$ is the planet's albedo. If a certain forcing $dQ$ is given, the climate will transit to a new average surface temperature equilibrium.
+Here $\alpha_{p}$ is and planet albedo. If certain forcing $dQ$ is given, climate will transit to new average surface temperature equilibrium. 
 
-The change in $R_{TOA}$ with respect to the forcing and temperature change can be expressed as:
 $$\frac{dR_{TOA}}{dQ} = \frac{\partial R_{TOA}}{\partial Q} + \frac {\partial R_{TOA}}{\partial T_{s}}\frac{dT_{s}}{dQ} = 0$$
-$\partial R_{TOA} / \partial T_{s}$ represents the energy imbalance at TOA relying on surface temperature, which is equivalent to the feedback parameter $F$. Also, $\partial R_{TOA} / \partial Q=1$ since $R_{TOA}$ is always same as the forcing itself. Therefore, the above can be simplified as $1+F\cdot\lambda_{R}=0$.
-Thus, the climate sensitivity $\lambda_R$ can be derived as:
+$\partial R_{TOA} / \partial T_{s}$ is energy imbalance at TOA relying on surface temperature, which is equivalent to feedback parameter $F$. Also, $\partial R_{TOA} / \partial Q=1$ since $R_{TOA}$ is always same as the forcing itself. Therefore, above can be simplified as $1+F\cdot\lambda_{R}=0$.
 $$\frac{dT_{s}}{dQ} = -(\frac{\partial R_{TOA}}{\partial T_{s}})^{-1} = (\frac{S_{0}}{4}\frac{\partial \alpha_{p}}{\partial T_{s}}+\frac{\partial F^{\uparrow}(\infty)}{\partial T_{s}})^{-1} = \lambda_{R}$$
-In a simple model, climate sensitivity is primarily determined by two basic feedback processes: the derivative of outgoing Earth radiation flux with respect to surface temperature, and the derivative of surface albedo with respect to surface temperature.
+In a simple model, climate sensitivity is decided by two basic feedback process; derivative of outgoing Earth radiation flux w.r.t surface temperature and derivative of surface albedo w.r.t surface temperature. 
 
 {% raw %}
 <img src="/images/Climate_Sensitivity_Feedback_Processes/Choi_2011.png" alt="Figure 1.3 Schematic relation between sea surface temperature change and outgoing total radiative flux change at the top of the atmosphere. The slope represents the sign and magnitude of total climate feedback. ZFB stands for zero-feedback system. Negative slope corresponds to positive climate feedback of current climate models. The slope over that of ZFB corresponds to negative climate feedback.">
