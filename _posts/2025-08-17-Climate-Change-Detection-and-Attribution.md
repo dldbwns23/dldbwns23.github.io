@@ -186,13 +186,14 @@ $$
 
 ## 2. Detection & Attribution
 
-**Detection** of climate change is telling whether certain observational change is out of boundary of natural variability or not. Once we precise the range of natural variability, we can decide if the incident results from natrual forcing or external forcing. However, it is quite hard to pinpoint the natural variability due to lack of observational data. **Attribution** of climate change is figuring out the cause of detected change. Anthropogenic forcing and natrual forcing are the signal and natrual variabilities are noisse, which makes climate detection problem a signal-noises problem. 
+**Detection** in climate change refers to identifying whether observed climate shifts fall outside the bounds of natural variability. By precisely defining this natural range, researchers can determine if an event stems from natural or external (e.g., anthropogenic) forcing. However, accurately quantifying natural variability remains challenging due to insufficient observational data. **Attribution**, on the other hand, aims to ascertain the specific causes of a detected change. In this context, anthropogenic and natural forcings act as signals, while natural variabilities are considered noise, framing the climate detection problem as a signal-to-noise challenge.
 
+Optimal Fingerprinting
+Optimal fingerprinting is a widely employed statistical method for comparing observed climate patterns with those simulated by climate models. A "fingerprint" represents the characteristic spatial and temporal pattern induced by a specific external forcing. This method compares observed patterns ($Y$) with model-derived fingerprint patterns ($X$) using total least-squares regression.
 
-Optimal fingerprinting is a method commonly used to compare observations and model results. Fingerprint refers to the pattern made by external forcing. Observational pattern($Y$) and fingerprint pattern from a model($X$) are compared using total least-squares regression. If the confidence interval of regression coefficient $\beta$ is greater than 0, observation and model are correlated and the detection is suceeded. If the confidence interval of $\beta$ contains 1, it means the degree of observation and model results are the same. Therefore, the key point in this whole process is to find appropriate $\beta$. 
+If the confidence interval of the regression coefficient $\beta$ is greater than zero, it indicates a statistically significant correlation between observations and the model's fingerprint, signifying successful detection. Furthermore, if the confidence interval of $\beta$ includes 1, it implies that the magnitude of the observed change is consistent with the model's simulated response to that forcing. Therefore, determining the appropriate $\beta$ value is central to this analytical process.
 
-
-Model's fingerprint affected by green house gas, aerosol and stratospheric ozone reduction are shown in Figure 2. Please take a look at Santer et al.1996 to spot the comparison of model's fingerprints.
+For a detailed examination of how models' fingerprints, influenced by greenhouse gases, aerosols, and stratospheric ozone depletion, are compared, one can refer to Santer et al. (1996).
 
 {% raw %}
 <img src="/images/Climate_Change_Detection_Attribution/Santer_1996.png" alt="Figure 2">
