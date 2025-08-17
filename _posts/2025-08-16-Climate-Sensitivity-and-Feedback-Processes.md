@@ -35,6 +35,9 @@ Figure 1.2 illustrates the relationship between climate sensitivity and the feed
 {% endraw %}
 **Figure 1.2:** Demonstration of the relationships linking climate sensitivity to the feedback factor. (Adapted from Roe and Baker, 2007)
 
+---
+
+
 ## 2. How To Measure Climate Sensitivity and Feedback
 
 Climate sensitivity can be utilized as a factor for measuring impact of certain meteorlogical-physical process to climate change and an index for climate model. Also, sensitivity numerically refers to how much objective observation of climate changes as one of multiple independent variables changes. For instance, let's consider surface temperature $T_{s}$. Let $S_{0}$ be solar constant. If $S_{0}$ changes, so does $T_{s}$. Since $T_{s}$ is a function of other variables such as $y_{i}$, we can get the following.
@@ -60,6 +63,9 @@ In a simple model, climate sensitivity is decided by two basic feedback process;
 <img src="/images/Climate_Sensitivity_Feedback_Processes/Choi_2011.png" alt="Figure 1.3 Schematic relation between sea surface temperature change and outgoing total radiative flux change at the top of the atmosphere. The slope represents the sign and magnitude of total climate feedback. ZFB stands for zero-feedback system. Negative slope corresponds to positive climate feedback of current climate models. The slope over that of ZFB corresponds to negative climate feedback.">
 {% endraw %}
 **Figure 1.3:** Schematic relation between sea surface temperature change and outgoing total radiative flux change at the top of the atmosphere. The slope represents the sign and magnitude of total climate feedback. ZFB stands for zero-feedback system. A negative slope corresponds to positive climate feedback in current climate models. The slope over that of ZFB corresponds to negative climate feedback. (Adapted from Choi, 2011)
+
+---
+
 
 ## 3. Basic Feedback Processes
 
@@ -110,8 +116,12 @@ Details of these feedback processes can be found in many references.
 >
 > - Vegetation Changes: Shifts in vegetation patterns due to climate change can alter surface albedo and evapotranspiration, influencing regional and global temperatures.
 
+---
+
 ## Overview
 This discussion has provided a foundational understanding of climate sensitivity and feedback processes, two cornerstone concepts in climate dynamics. We established how climate change, driven by various forcings, is critically influenced by complex interactions among Earth's systems. Note that feedback processes play a defining role in amplifying or dampening initial changes. The mathematical flow illustrated the direct linkage between climate sensitivity and the feedback factor. While these fundamental feedback mechanisms have been outlined, their quantification, particularly their non-linear interactions and spatiotemporal variability, remains vague. Future efforts must continue to refine climate models to better constrain the magnitude and sign of these feedbacks.
+
+---
 
 ## References
 - 최용상, 기후민감도와 되먹임, 기후과학자가 쓴 기후역학 교과서, 333-372
