@@ -5,18 +5,25 @@ permalink: /resume/
 ---
 
 ## YUJUN LEE 이유준
+<br />
+<br />
 
 ### EDUCATION
-
-POHANG UNIVERSITY of SCIENCE and TECHNOLOGY Bachelor of Science in Mathematics, Feb 2028
+<br />
+<br />
+<br />
+<br />
 
 ### SKILLS:
-
-Python
-Pytorch
-SQL
+<br />
+<br />
+<br />
+<br />
 
 ### CERTIFICATION
-
+<br />
+<br />
+<br />
+<br />
 
 ### EXPERIENCE
