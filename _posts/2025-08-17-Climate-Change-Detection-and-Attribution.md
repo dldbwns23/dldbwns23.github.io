@@ -2,7 +2,7 @@
 layout: post
 title: "Climate Change Detection and Attribution"
 date: 2025-08-17 16:00:00 +0900
-tags: [Climate Dynamics]
+tags: [Climate Dynamics, D&A]
 ---
 
 To detect the **anthropogenic fingerprints** within observed climate change, researchers typically compare results derived from climate models with real-world observations. This comparative approach aims to robustly establish that greenhouse gas emissions stemming from human activities are the primary contributors to global warming. Furthermore, the increasing frequency and intensity of extreme events, such as heavy rainfall and heatwaves, necessitate precise detection and attribution studies. Such efforts are crucial for understanding the causes of specific climate changes and for making more accurate predictions of future climate evolution based on these insights.
