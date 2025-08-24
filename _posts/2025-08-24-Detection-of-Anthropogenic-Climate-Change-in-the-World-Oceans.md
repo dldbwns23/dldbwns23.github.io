@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Detection of Anthropogenic Climate Change in the World's Oceans"
+title: "Detection of Anthropogenic Climate Change in the World Oceans"
 date: 2025-08-24 13:00:00 +0900
 tags: [Article]
 ---
