@@ -221,3 +221,4 @@ However, detection and attribution research faces significant limitations. For i
 - 민승기, 기후변화 탐지와 원인규명, 기후과학자가 쓴 기후역학 교과서, 309-331.
 - IPCC, 2013: Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change, Stocker, T. F. et al. Eds., Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA
 - Santer, B., Taylor, K., Wigley, T. et al. A search for human influences on the thermal structure of the atmosphere. Nature 382, 39–46 (1996).
+- ECMWF, IFS DOCUMENTATION - Cy43rl Operational implementation 22 Nov 2016, PART III: DYNAMICS AND NUMERICAL PROCEDURES
