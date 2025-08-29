@@ -41,7 +41,7 @@ Copyright 2009 American Meteorological Society). The vertical lines indicate Aug
 Another set of studies has tried to untangle the influence of long-term external drivers from short-term climate dynamics by concentrating on differences in their timescales. For instance, this can involve looking for a persistent trend in a climate index that is typically dominated by short-term fluctuations, like the Arctic Oscillation. The core assumption here is that external drivers produce patterns of change that are statistically unique from the patterns of natural variability. The problem is that natural climate variability occurs across all timescales, from years to centuries, which means any such separation will be imperfect. Furthermore, this method can't easily distinguish between different long-term drivers, like human GHG emissions and slow changes in solar output.
 
 {% raw %}
-<img src="/images/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change/wires_2011_1_bot.png" alt="Figure 1 bottom">
+<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change/wires_2011_1_bot.png" alt="Figure 1 bottom">
 {% endraw %}
 **Figure 1 bottom**: First discriminants of interdecadal variations in (a) January and (c) July, based on separating climate variability between long and short timescales. Changes are expressed relative to the 1916–1998 mean. Upper panels (a) and (c): discriminant pattern. Lower panels (b) and (d): canonical variates, which give the time evolution. (Reprinted with permission from Ref 20. Copyright 2001 American Meteorological Society)
 
