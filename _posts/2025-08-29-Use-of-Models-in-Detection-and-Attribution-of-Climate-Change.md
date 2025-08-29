@@ -31,12 +31,19 @@ Some scientific efforts have aimed to isolate the signals of human-caused and ot
 ### 2.1. Methods Using Spatial Patterns
 One study by Wallace et al. noted that a significant portion of winter climate behavior in the Northern Hemisphere is linked to a spatial pattern known as "Cold Ocean Warm Land" (COWL). By statistically removing the variability tied to this pattern, a residual large-scale temperature trend emerges, which is thought to be a clearer representation of the response to an external forcing. The main drawback, however, is that the COWL pattern itself shares key characteristics with the expected fingerprint of greenhouse warming—specifically, the contrast between faster warming over land than oceans.
 
-<Figure 1 top>
+{% raw %}
+<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change./wires_2011_1_top.png" alt="Figure 1 top">
+{% endraw %}
+**Figure 1 top**: Results of studies filtering externally driven signals based on observational data only. A time series of global mean monthly surface temperature (topmost) is shown compared to contributions by variability from El Nino, short-term dynamical variations in extratropics (Tdyn), and the residual that remains after removing both (each time series is offset for presentation purposes; Reprinted with permission from Ref 18.
+Copyright 2009 American Meteorological Society). The vertical lines indicate August 1945 and the timing of volcanic eruptions. 
 
 ### 2.2. Methods Separating Signal and Noise Based on Timescales
 Another set of studies has tried to untangle the influence of long-term external drivers from short-term climate dynamics by concentrating on differences in their timescales. For instance, this can involve looking for a persistent trend in a climate index that is typically dominated by short-term fluctuations, like the Arctic Oscillation. The core assumption here is that external drivers produce patterns of change that are statistically unique from the patterns of natural variability. The problem is that natural climate variability occurs across all timescales, from years to centuries, which means any such separation will be imperfect. Furthermore, this method can't easily distinguish between different long-term drivers, like human GHG emissions and slow changes in solar output.
 
-<Figure 1 bottom>
+{% raw %}
+<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change./wires_2011_1_bot.png" alt="Figure 1 bottom">
+{% endraw %}
+**Figure 1 bottom**: First discriminants of interdecadal variations in (a) January and (c) July, based on separating climate variability between long and short timescales. Changes are expressed relative to the 1916–1998 mean. Upper panels (a) and (c): discriminant pattern. Lower panels (b) and (d): canonical variates, which give the time evolution. (Reprinted with permission from Ref 20. Copyright 2001 American Meteorological Society)
 
 ### 2.3. Methods Using Forcing History
 This technique is built on the fact that current atmospheric levels of greenhouse gases are far higher than at any point in the recent geological past. This inspires a comparison of modern temperatures with paleo-climate reconstructions spanning hundreds or thousands of years to see if the current era is anomalous. Yet, a simple comparison of different climate states has its limits, as natural variability and other natural forcings can also cause significant changes over long periods. Moreover, this approach is less effective when a forcing, like GHG emissions, is increasing very quickly. Due to the thermal inertia of the oceans, there is a significant lag before the full warming effect is felt.
@@ -54,7 +61,11 @@ Given the constraints of observation-only approaches, most research utilizes mod
 ### 3.1. Methods Comparing Climate Model Data with Observations
 The most straightforward application of climate models is to place the recent history of temperature changes side-by-side with simulations. Such direct comparisons have been used to provisionally attribute the warming of the last century to a mix of human and natural causes. As Figure 2 illustrates, complex climate models can successfully replicate the observed history of global temperature changes only when they incorporate both anthropogenic and natural forcings. When the models are run with only natural forcings, they cannot account for the pronounced warming of recent decades.
 
-<Figure 2>
+{% raw %}
+<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change./wires_2011_2.png" alt="Figure 2">
+{% endraw %}
+**Figure 2**:Comparison between global mean temperature changes relative to the 1901–1950 average (◦C) from observations (black) and simulated by climate model simulations that include (a) both human and natural influences on climate (for example, the effect of strong volcanic eruptions, marked by vertical gray bars) and (b) natural influences only. Individual model simulations are shown by thin lines, their average by a fat line (red in panel (a), blue in panel (b)). (Reprinted with permission from Ref 2. Copyright 2007 Cambridge University Press)
+
 
 ### 3.2. Fingerprint Methods
 Fingerprint techniques are a more advanced approach that leverages both spatial and temporal data to better distinguish the effects of different forcings. This allows for the contribution of each individual signal to be estimated independently. Two primary statistical frameworks are used:
@@ -70,14 +81,25 @@ $$ y = Xa + u $$
 
 A statistical technique provides a best linear unbiased estimator (BLUE) for these scaling factors. The scaling factors effectively correct for potential errors in either the magnitude of the external forcing or the model's sensitivity. If the calculated uncertainty for a scaling factor is positive and does not overlap with zero, the fingerprint is considered "detected."
 
-<Figure 3>
+{% raw %}
+<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change./wires_2011_3.png" alt="Figure 3">
+{% endraw %}
+**Figure 3**:Schematic for detection and attribution. The observed change (shown here: pattern of temperature change over the 20th century, left) is composed of a linear combination of fingerprints for all forcings combined (top, right) and for natural forcings only (center right, this combination allows rescaling of natural vs anthropogenic fingerprints in simulations of the 20th century) plus residual, unexplained variability. The resulting scaling factors and warming per fingerprint can be used to derive contributions to warming such as shown in the bottom panel, labeled
+panel (c), although in this instance the latter is derived from three fingerprints. It shows attributable warming estimated from a detection and attribution analysis for the 20th century, using a fingerprint of the spatial pattern and time evolution of climate change forced by greenhouse gases
+(red), other anthropogenic forcing (green), and solar and volcanic forcings combined (blue). The best estimate contribution of each forcing to warming in the 50-year period 1950–1999 is given by the vertical bar and the 5–95% uncertainty in that estimate is given by the black whiskers. The observed trend over that period is shown by a black horizontal line. The different estimates are derived using fingerprints from different models. (Reprinted with permission from Ref 2. Copyright 2007 Cambridge University Press)
+
 
 **Bayesian Approaches.** Bayesian statistics are becoming more common in climate research as they offer a structured way to incorporate various sources of uncertainty into a single analysis. They also allow for the integration of information from different lines of evidence. Inferences in this framework are drawn from a posterior distribution, which is a combination of information from observations and prior knowledge.
 
 ### 3.3. Results of Large-Scale D&A Studies
 D&A studies have been performed using a range of models, from simpler energy balance models (EBMs) to highly complex ones. Studies focusing on palaeoclimatic reconstructions of Northern Hemisphere temperature have shown that while a combination of solar, volcanic, and anthropogenic forcings shaped the past climate, greenhouse gas increases are essential to account for the warming in nearly all records of the last millennium. While volcanic effects were also detectable, a robust signal from solar forcing alone could not be identified. The ability to detect anthropogenic influence on variables other than temperature, such as precipitation and sea level pressure, has only been possible with the use of full-scale climate models.
 
-<Figure 4>
+{% raw %}
+<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change./wires_2011_4.png" alt="Figure 4">
+{% endraw %}
+**Figure 4**:(a) Energy balance model simulations of the response to greenhouse gas increases, moderated by aerosols in the 20th century (red),
+solar forcing (green), and volcanic forcing (blue) (Reprinted with permission from Ref 58. Copyright 2003). (b) Results obtained using these simulations as fingerprints for the effect of all forcings combined in a palaeoclimatic reconstruction (black, fitted to best match the reconstruction with gray shading indicating the uncertainty in the scaling factor) compared to a fit of a coupled model (grey). The lower half of the panel shows the estimated contribution by each individual forcing time series scaled to match the reconstruction in a multiple regression, with shading again indicating the uncertainty in the scaling factor and hence in the estimated contribution by individual forcings. The uncertainty in the solar signal (green) is not shown as the effect of that forcing could not be distinguished from noise ; note that similar results are obtained using a number of other reconstructions, see paper). (Reprinted with permission from Ref 12. Copyright 2007 American Meteorological Society)
+
 
 > **Section Summary:** Model-based D&A uses "fingerprint" methods to statistically compare observed climate patterns to model-simulated responses from various forcings. The primary technique, optimal detection, uses regression to calculate scaling factors that quantify how much each forcing has contributed to the observed changes. A signal is "detected" if its scaling factor is statistically different from zero. This powerful approach allows scientists to separate multiple climate change signals from the background noise of natural variability.
 
@@ -119,7 +141,13 @@ For impact-related variables, progress will be aided by the growing resolution o
 * **Precipitation:** Rain gauges measure rainfall at a specific point, but climate models simulate an average over a vast grid cell, creating a "scale mismatch."
 * **Impacts:** Information on how species distributions or human health have changed over time is often sparse and inconsistent. Furthermore, these impacts are affected by many non-climatic "confounding factors" that are unrelated to climate change. It is critical to distinguish the effects of ongoing greenhouse gas-driven changes from these other factors.
 
-<Figure 6>
+{% raw %}
+<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change./wires_2011_6.png" alt="Figure 5">
+{% endraw %}
+**Figure 5**:(a) Comparison of precipitation in zonal latitude bands between a multi-model mean (blue time series, trend shown by red dashes) and observations (black, trend shown by black dashes), overlay colors indicate bands where both model and observations show increases (green), decreases (yellow), or neutral/disagreeing sign of change (gray), and (b) zonal pattern of variance ratio between climate models and observations. The figure shows box and whisker plots of the ratio of 5-year 10◦ zonal mean precipitation variances between all-forcing simulations and that estimated from station observations. The upper and lower ends of each box are drawn at the 75th and 25th quartiles, and the bar through each box is drawn at the median. The two bars indicate the range that would cover approximately 90% of variance ratios if the upper or lower halves of the variance ratio distribution were roughly Gaussian in shape. Individual points beyond the horizontal bars indicate outliers. (Copyright 2007 Nature Publishing Group)
+
+
+
 
 The typical method involves using climate model output to understand changes in the physical climate system first, and then using a second model or statistical relationship to connect those physical changes to an impact variable.
 
@@ -135,3 +163,6 @@ The various techniques used in D&A research possess different levels of resilien
 * **Regression-based techniques** offer key advantages: they can be optimized to improve the signal-to-noise ratio, they can analyze multiple signals at once, and they can formally account for uncertainty arising from both internal variability and model structure.
 
 To better predict future climate and connect climate impacts to their ultimate drivers, we will need reliable D&A for smaller-scale changes in variables beyond temperature, which remains a difficult task. D&A studies do not just use climate models; they serve as a powerful tool for evaluating them. If the leftover residual from a regression is larger than expected, it calls into question the statistical assumptions or the model's simulation of fingerprints and variability. Similarly, if a signal is detected but its amplitude in observations is significantly different from what models simulate, it points to flaws in the model or the forcings used to drive it.
+
+## Reference
+- Hegerl, G., & Zwiers, F. (2011). Use of models in detection and attribution of climate change. Wiley Interdisciplinary Reviews: Climate Change, 2(4), 570-591. https://doi.org/10.1002/wcc.121
