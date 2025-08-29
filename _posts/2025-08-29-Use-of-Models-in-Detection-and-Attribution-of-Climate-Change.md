@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Use of_Models in Detection and Attribution of Climate Change"
-date: 2025-08-29 20:00:00 +0900
+date: 2025-08-29 21:00:00 +0900
 tags: [Article, D&A]
 ---
 
