@@ -164,5 +164,11 @@ The various techniques used in D&A research possess different levels of resilien
 
 To better predict future climate and connect climate impacts to their ultimate drivers, we will need reliable D&A for smaller-scale changes in variables beyond temperature, which remains a difficult task. D&A studies do not just use climate models; they serve as a powerful tool for evaluating them. If the leftover residual from a regression is larger than expected, it calls into question the statistical assumptions or the model's simulation of fingerprints and variability. Similarly, if a signal is detected but its amplitude in observations is significantly different from what models simulate, it points to flaws in the model or the forcings used to drive it.
 
+---
+
+## Overview
+
+This document provides a comprehensive overview of how scientists use climate models to detect and attribute observed climate change to specific causes, like human greenhouse gas emissions. It contrasts the limitations of using observational data alone with the more powerful "fingerprint" methods that rely on model simulations to separate signals of change from the noise of natural climate variability. The text delves into the statistical techniques used, such as optimal detection , and emphasizes the crucial process of testing these findings for robustness against uncertainties in both the models and the external forcings they represent. After reviewing the detailed methodologies and lines of evidence in Hegerl et al., one is left with a strong impression of the scientific rigor involved in climate attribution. The paper effectively demonstrates how confidence in the conclusion that humans are changing the climate is not based on a single piece of evidence, but is built through a careful, multi-faceted process of modeling, statistical analysis, and continuous validation against observations.
+
 ## Reference
 - Hegerl, G., & Zwiers, F. (2011). Use of models in detection and attribution of climate change. Wiley Interdisciplinary Reviews: Climate Change, 2(4), 570-591. https://doi.org/10.1002/wcc.121
