@@ -32,7 +32,7 @@ Some scientific efforts have aimed to isolate the signals of human-caused and ot
 One study by Wallace et al. noted that a significant portion of winter climate behavior in the Northern Hemisphere is linked to a spatial pattern known as "Cold Ocean Warm Land" (COWL). By statistically removing the variability tied to this pattern, a residual large-scale temperature trend emerges, which is thought to be a clearer representation of the response to an external forcing. The main drawback, however, is that the COWL pattern itself shares key characteristics with the expected fingerprint of greenhouse warming—specifically, the contrast between faster warming over land than oceans.
 
 {% raw %}
-<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change./wires_2011_1_top.png" alt="Figure 1 top">
+<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change/wires_2011_1_top.png" alt="Figure 1 top">
 {% endraw %}
 **Figure 1 top**: Results of studies filtering externally driven signals based on observational data only. A time series of global mean monthly surface temperature (topmost) is shown compared to contributions by variability from El Nino, short-term dynamical variations in extratropics (Tdyn), and the residual that remains after removing both (each time series is offset for presentation purposes; Reprinted with permission from Ref 18.
 Copyright 2009 American Meteorological Society). The vertical lines indicate August 1945 and the timing of volcanic eruptions. 
@@ -41,7 +41,7 @@ Copyright 2009 American Meteorological Society). The vertical lines indicate Aug
 Another set of studies has tried to untangle the influence of long-term external drivers from short-term climate dynamics by concentrating on differences in their timescales. For instance, this can involve looking for a persistent trend in a climate index that is typically dominated by short-term fluctuations, like the Arctic Oscillation. The core assumption here is that external drivers produce patterns of change that are statistically unique from the patterns of natural variability. The problem is that natural climate variability occurs across all timescales, from years to centuries, which means any such separation will be imperfect. Furthermore, this method can't easily distinguish between different long-term drivers, like human GHG emissions and slow changes in solar output.
 
 {% raw %}
-<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change./wires_2011_1_bot.png" alt="Figure 1 bottom">
+<img src="/images/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change/wires_2011_1_bot.png" alt="Figure 1 bottom">
 {% endraw %}
 **Figure 1 bottom**: First discriminants of interdecadal variations in (a) January and (c) July, based on separating climate variability between long and short timescales. Changes are expressed relative to the 1916–1998 mean. Upper panels (a) and (c): discriminant pattern. Lower panels (b) and (d): canonical variates, which give the time evolution. (Reprinted with permission from Ref 20. Copyright 2001 American Meteorological Society)
 
@@ -62,7 +62,7 @@ Given the constraints of observation-only approaches, most research utilizes mod
 The most straightforward application of climate models is to place the recent history of temperature changes side-by-side with simulations. Such direct comparisons have been used to provisionally attribute the warming of the last century to a mix of human and natural causes. As Figure 2 illustrates, complex climate models can successfully replicate the observed history of global temperature changes only when they incorporate both anthropogenic and natural forcings. When the models are run with only natural forcings, they cannot account for the pronounced warming of recent decades.
 
 {% raw %}
-<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change./wires_2011_2.png" alt="Figure 2">
+<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change/wires_2011_2.png" alt="Figure 2">
 {% endraw %}
 **Figure 2**:Comparison between global mean temperature changes relative to the 1901–1950 average (◦C) from observations (black) and simulated by climate model simulations that include (a) both human and natural influences on climate (for example, the effect of strong volcanic eruptions, marked by vertical gray bars) and (b) natural influences only. Individual model simulations are shown by thin lines, their average by a fat line (red in panel (a), blue in panel (b)). (Reprinted with permission from Ref 2. Copyright 2007 Cambridge University Press)
 
@@ -82,7 +82,7 @@ $$ y = Xa + u $$
 A statistical technique provides a best linear unbiased estimator (BLUE) for these scaling factors. The scaling factors effectively correct for potential errors in either the magnitude of the external forcing or the model's sensitivity. If the calculated uncertainty for a scaling factor is positive and does not overlap with zero, the fingerprint is considered "detected."
 
 {% raw %}
-<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change./wires_2011_3.png" alt="Figure 3">
+<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change/wires_2011_3.png" alt="Figure 3">
 {% endraw %}
 **Figure 3**:Schematic for detection and attribution. The observed change (shown here: pattern of temperature change over the 20th century, left) is composed of a linear combination of fingerprints for all forcings combined (top, right) and for natural forcings only (center right, this combination allows rescaling of natural vs anthropogenic fingerprints in simulations of the 20th century) plus residual, unexplained variability. The resulting scaling factors and warming per fingerprint can be used to derive contributions to warming such as shown in the bottom panel, labeled
 panel (c), although in this instance the latter is derived from three fingerprints. It shows attributable warming estimated from a detection and attribution analysis for the 20th century, using a fingerprint of the spatial pattern and time evolution of climate change forced by greenhouse gases
@@ -95,7 +95,7 @@ panel (c), although in this instance the latter is derived from three fingerprin
 D&A studies have been performed using a range of models, from simpler energy balance models (EBMs) to highly complex ones. Studies focusing on palaeoclimatic reconstructions of Northern Hemisphere temperature have shown that while a combination of solar, volcanic, and anthropogenic forcings shaped the past climate, greenhouse gas increases are essential to account for the warming in nearly all records of the last millennium. While volcanic effects were also detectable, a robust signal from solar forcing alone could not be identified. The ability to detect anthropogenic influence on variables other than temperature, such as precipitation and sea level pressure, has only been possible with the use of full-scale climate models.
 
 {% raw %}
-<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change./wires_2011_4.png" alt="Figure 4">
+<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change/wires_2011_4.png" alt="Figure 4">
 {% endraw %}
 **Figure 4**:(a) Energy balance model simulations of the response to greenhouse gas increases, moderated by aerosols in the 20th century (red),
 solar forcing (green), and volcanic forcing (blue) (Reprinted with permission from Ref 58. Copyright 2003). (b) Results obtained using these simulations as fingerprints for the effect of all forcings combined in a palaeoclimatic reconstruction (black, fitted to best match the reconstruction with gray shading indicating the uncertainty in the scaling factor) compared to a fit of a coupled model (grey). The lower half of the panel shows the estimated contribution by each individual forcing time series scaled to match the reconstruction in a multiple regression, with shading again indicating the uncertainty in the scaling factor and hence in the estimated contribution by individual forcings. The uncertainty in the solar signal (green) is not shown as the effect of that forcing could not be distinguished from noise ; note that similar results are obtained using a number of other reconstructions, see paper). (Reprinted with permission from Ref 12. Copyright 2007 American Meteorological Society)
@@ -142,7 +142,7 @@ For impact-related variables, progress will be aided by the growing resolution o
 * **Impacts:** Information on how species distributions or human health have changed over time is often sparse and inconsistent. Furthermore, these impacts are affected by many non-climatic "confounding factors" that are unrelated to climate change. It is critical to distinguish the effects of ongoing greenhouse gas-driven changes from these other factors.
 
 {% raw %}
-<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change./wires_2011_6.png" alt="Figure 5">
+<img src="/images/Use_of_Models_in_Detection_and_Attribution_of_Climate_Change/wires_2011_6.png" alt="Figure 5">
 {% endraw %}
 **Figure 5**:(a) Comparison of precipitation in zonal latitude bands between a multi-model mean (blue time series, trend shown by red dashes) and observations (black, trend shown by black dashes), overlay colors indicate bands where both model and observations show increases (green), decreases (yellow), or neutral/disagreeing sign of change (gray), and (b) zonal pattern of variance ratio between climate models and observations. The figure shows box and whisker plots of the ratio of 5-year 10◦ zonal mean precipitation variances between all-forcing simulations and that estimated from station observations. The upper and lower ends of each box are drawn at the 75th and 25th quartiles, and the bar through each box is drawn at the median. The two bars indicate the range that would cover approximately 90% of variance ratios if the upper or lower halves of the variance ratio distribution were roughly Gaussian in shape. Individual points beyond the horizontal bars indicate outliers. (Copyright 2007 Nature Publishing Group)
 
