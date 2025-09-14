@@ -86,12 +86,52 @@ To be fit for attribution, climate models must realistically represent both the 
 
 Despite model imperfections, there is *very high confidence* that the biases in temperature trends and variability simulated by the CMIP5 and CMIP6 ensembles are small enough to support the detection and attribution of human-induced warming.
 
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_1.png" alt="Figure 3.2">
+{% endraw %}
+
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_2.png" alt="Figure 3.3">
+{% endraw %}
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_3.png" alt="Figure 3.4">
+{% endraw %}
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_4.png" alt="Figure 3.5">
+{% endraw %}
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_5.png" alt="Figure 3.6">
+{% endraw %}
+
 ##### 3.1.1.2 Detection and Attribution
 
 * **Long-Term Context:** The warming of the 20th century reversed a 5000-year cooling trend in the Northern Hemisphere mid- to high latitudes that was caused by orbital forcing; this reversal is attributed to anthropogenic forcing with *high confidence*. Over the last millennium, observed temperature changes were mostly driven by volcanic forcing, with smaller roles for greenhouse gases and solar forcing.
 * **Methodological Advances:** Since AR5, attribution studies have improved by better accounting for observational and model uncertainties, using counterfactual frameworks, and reducing dependence on uncertain climate sensitivity estimates. Alternative techniques, such as statistical and econometric approaches that do not rely on climate models, have also been applied and yield results that match physically-based methods.
 * **Disentangling Forcings:** While the net human influence is clear, separating the contributions of greenhouse gases and aerosols remains challenging. Model responses to individual forcings can be inconsistent, and detection of the aerosol signal often fails in single-model analyses. This highlights the need to use multi-model means to better constrain the attributable warming from different anthropogenic sources.
 * **Key Attribution Statement:** Using multiple lines of evidence, the assessed human contribution to global warming in 2010–2019 relative to 1850–1900 is **$1.07^{\circ}C$**, with a likely range of **$0.8^{\circ}C$ to $1.3^{\circ}C$**. Progress in attribution techniques allows this statement to be made for warming since 1850–1900, an important advance from AR5, which attributed warming since 1951. The contribution of internal variability to warming over this period is assessed as likely being between **$-0.2^{\circ}C$ and $+0.2^{\circ}C$**.
+
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_6.png" alt="Figure 3.7">
+{% endraw %}
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_7.png" alt="Figure 3.8">
+{% endraw %}
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_8.png" alt="Figure 3.9">
+{% endraw %}
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_table_1.png" alt="Table 3.1">
+{% endraw %}
+
 
 #### 3.1.2 Upper-air Temperature
 
@@ -102,6 +142,10 @@ Studies continue to show an inconsistency between simulated and observed tempera
 * **Sea Surface Temperature (SST) Biases:** Much of the difference in tropospheric temperature trends is due to corresponding differences in SST warming trends in regions of deep convection. The bias in tropospheric warming is partly linked to biases in surface temperature warming.
 
 Taking these factors into account, there is *medium confidence* that models overestimate observed warming in the upper tropical troposphere over the 1979–2014 period by at least $0.1^{\circ}C$ per decade.
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_9.png" alt="Figure 3.10">
+{% endraw %}
 
 ##### 3.1.2.2 Stratospheric temperature
 
@@ -118,6 +162,14 @@ Since AR5, updated observational datasets consistently find **stronger positive 
 
 The slowdown was a **temporary event** (*very high confidence*), induced by a combination of internal variability (particularly a negative phase of Pacific Decadal Variability) and natural forcing (moderate volcanic eruptions and a prolonged solar minimum) that partly offset the ongoing anthropogenic warming trend (*high confidence*). Throughout this period, the planet's total heat content continued to rise, as evidenced by uninterrupted warming of the global ocean (*very high confidence*). A major El Niño event in 2014–2016 marked the end of the slower warming period, leading to three consecutive years of record annual GMST.
 
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_CB_1.png" alt="CB 3.1 Figure 1">
+{% endraw %}
+
 ---
 
 TBC
+
+## Reference
+
+Eyring, V., N.P. Gillett, K.M. Achuta Rao, R. Barimalala, M. Barreiro Parrillo, N. Bellouin, C. Cassou, P.J. Durack, Y. Kosaka, S. McGregor, S. Min, O. Morgenstern, and Y. Sun, 2021: Human Influence on the Climate System. In Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Masson-Delmotte, V., P. Zhai, A. Pirani, S.L. Connors, C. Péan, S. Berger, N. Caud, Y. Chen, L. Goldfarb, M.I. Gomis, M. Huang, K. Leitzell, E. Lonnoy, J.B.R. Matthews, T.K. Maycock, T. Waterfield, O. Yelekçi, R. Yu, and B. Zhou (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA, pp. 423–552, doi: 10.1017/9781009157896.005.
