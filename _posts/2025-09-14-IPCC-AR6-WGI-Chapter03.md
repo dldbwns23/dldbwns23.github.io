@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IPCC AR6 WGI Chapter3"
+title: "IPCC AR6 WGI Chapter03"
 date: 2025-09-14 9:00:00 +0900
 tags: [Article, IPCC]
 ---
