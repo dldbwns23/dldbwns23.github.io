@@ -178,6 +178,16 @@ For example, tree-ring records show that recent prolonged dry spells in the Leva
 
 Paleoclimate records also serve as a benchmark for climate model evaluation. One analysis concluded that CMIP5 models do not perform better than earlier model versions in simulating rainfall during the Last Glacial Maximum (LGM) and mid-Holocene, despite their higher resolution and complexity. However, some studies found that prescribing changes in vegetation and dust improves the match with paleoclimate records, suggesting that vegetation feedbacks in the models may be too weak (*low confidence*). In the tropics, the variable response across models is partly related to how they handle the exposure of continental shelves during glacial times, which can either intensify or weaken convection in the Walker circulation depending on the model's parameterization.
 
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_10.png" alt="Figure 3.11">
+{% endraw %}
+
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_11.png" alt="Figure 3.12">
+{% endraw %}
+
 #### 3.2.2 Atmospheric Water Vapour
 
 Changes in atmospheric water vapour are a critical component of the climate system, particularly in the upper troposphere, where water vapour strongly regulates the strength of the water-vapour feedback. However, model simulations of water vapour are not perfect; biases are dominated by errors in relative humidity throughout the troposphere, which are closely linked to errors in simulating large-scale circulation. At the same time, it must be noted that many well-established observational water vapour records are affected by inhomogeneity issues and should be used with caution.
@@ -197,6 +207,19 @@ An intensification of the wet-dry zonal mean pattern—whereby wet tropical and 
 Global land precipitation has *likely* increased since the mid-20th century (*medium confidence*), but there is *low confidence* in trends before 1950 and over the ocean due to disagreements between datasets. Consistent with models and our physical understanding of the Earth's energy budget, no significant trend has been found in global *mean* precipitation during the satellite era. This is because the expected increase from ocean warming is partly offset by the fast atmospheric adjustment to greenhouse gases and the cooling effect of anthropogenic aerosols. Over the ocean, observed salinity patterns provide powerful evidence of a changing water cycle. Coherent, large-scale patterns show that fresh ocean regions are becoming fresher and salty regions are becoming saltier, which is consistent with the "wet-gets-wetter, dry-gets-drier" paradigm driven by changes in precipitation minus evaporation.
 
 New attribution studies have strengthened previous findings of a detectable increase in mid- to high-latitude land precipitation over the Northern Hemisphere (*high confidence*). There is *medium confidence* that human influence has contributed to the strengthening of the wet tropics-dry subtropics contrast. However, due to observational uncertainties and inconsistent results, there is *low confidence* in the attribution of changes in the seasonality of precipitation.
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_12.png" alt="Figure 3.13">
+{% endraw %}
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_13.png" alt="Figure 3.14">
+{% endraw %}
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch3/Ch3_14.png" alt="Figure 3.15">
+{% endraw %}
+
 
 #### 3.2.4 Streamflow
 
