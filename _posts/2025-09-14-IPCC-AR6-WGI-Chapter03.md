@@ -226,8 +226,6 @@ Streamflow is the best-observed variable within the terrestrial water cycle for 
 
 In summary, there is ***medium confidence*** **that anthropogenic climate change has altered local and regional streamflow** in various parts of the world. The associated global-scale trend pattern is inconsistent with internal variability. Furthermore, while direct human interventions like water withdrawals affect streamflow, they cannot explain the observed large-scale spatio-temporal trends (*medium confidence*).
 
----
-
 ### 3.3 Atmospheric Circulation
 
 #### 3.3.1 The Hadley and Walker Circulations
@@ -288,8 +286,6 @@ The Antarctic presents a more complex picture. Over the 1979–2017 period, Anta
 * **Overall Assessment:** A combination of large multi-decadal variability, a short observational record, and limited model performance has resulted in a weak signal-to-noise ratio, precluding a confident attribution of Antarctic sea ice trends.
 
 
----
-
 
 ### 4.2 Snow Cover
 
@@ -298,8 +294,6 @@ Seasonal snow cover is a defining feature of the northern continents and a key c
 * **Model Performance:** CMIP5 models noted a strong linear correlation between Northern Hemisphere snow cover extent (SCE) and surface air temperature. However, they tended to overestimate the albedo of snow-covered boreal forests, which may have led to an overestimation of the snow-albedo feedback. CMIP6 models have improved, simulating a slightly stronger decline in spring SCE since 1981 that is in better agreement with observations. A remaining concern is the failure of most CMIP6 models to correctly represent the relationship between snow cover *extent* and snow *mass*.
 * **Attribution:** It is ***very likely*** **that anthropogenic influence contributed to the observed reductions in Northern Hemisphere springtime snow cover since 1950**. Both CMIP5 and CMIP6 models simulate strong declines in spring SCE in recent decades, in general agreement with observations.
 
-
----
 
 
 ### 4.3 Glaciers and Ice Sheets
@@ -368,8 +362,6 @@ The ocean has acted as the Earth's primary energy store, absorbing an estimated 
 It is ***extremely likely*** **that human influence was the main driver of the ocean heat content increase observed since the 1970s**.
 
 
----
-
 ## 5.2 Ocean Salinity
 
 The AR5 assessed that it was *very likely* that anthropogenic forcings contributed to ocean salinity changes since the 1960s. The SROCC strengthened this, noting that high-latitude freshening and warming have *very likely* made the surface ocean less dense, increasing stratification. While salinity does not have a direct feedback to the atmosphere, some studies have identified indirect feedbacks through sea-salt aerosol interactions that can influence precipitation and tropical cyclones.
@@ -382,7 +374,6 @@ Models generally capture the large-scale patterns of ocean salinity, with featur
 
 It is ***extremely likely*** **that human influence has contributed to observed near-surface and subsurface salinity changes** across the globe since the mid-20th century. All available assessments confirm that the pattern of change corresponds to **fresh regions becoming fresher and salty regions becoming saltier** (*high confidence*), providing powerful evidence of an intensifying global water cycle.
 
----
 
 ## 5.3 Sea Level
 
@@ -400,7 +391,6 @@ The SROCC concluded with *high confidence* that the dominant cause of GMSL rise 
 * **Cryosphere Contribution:** One study found that about 69% of glacier mass loss from 1991-2010 was anthropogenic.
 * **Total Sea Level:** Synthesizing these points to explain the final assessment: **it is *very likely* that anthropogenic forcing is the main driver of GMSL rise since at least 1971.**
 
----
 
 ## 5.4 Ocean Circulation
 
