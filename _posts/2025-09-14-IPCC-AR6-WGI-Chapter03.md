@@ -228,7 +228,192 @@ In summary, there is ***medium confidence*** **that anthropogenic climate change
 
 ---
 
-TBC
+### 3.3 Atmospheric Circulation
+
+#### 3.3.1 The Hadley and Walker Circulations
+
+The tropical troposphere is dominated by two major overturning circulations: the meridional Hadley circulation and the zonal Walker circulation. AR5 found *medium confidence* that stratospheric ozone depletion had contributed to a widening of the Hadley cell in the Southern Hemisphere summer. It also noted a contradiction for the Walker circulation: while models simulated a weakening in response to greenhouse gases, observations since the early 1990s showed a strengthening, precluding any clear detection of human influence.
+
+The latest assessment builds on these findings:
+
+* **Hadley Cell Expansion:** It is now considered ***likely*** **that human influence has contributed to the poleward expansion of the Hadley cell in the Southern Hemisphere since the 1980s**. During the period of strong ozone depletion (1981–2000), this human influence is detectable in the summertime expansion with *medium confidence*. In contrast, the observed expansion of the Northern Hemisphere Hadley cell is assessed to be within the range of internal variability (*medium confidence*), with contributions from Pacific Decadal Variability (PDV) and other natural patterns.
+* **Walker Circulation Strengthening:** The causes of the observed strengthening of the Pacific Walker circulation from 1980–2014 are still not well understood. The observed strengthening trend lies **outside the range of variability simulated in coupled models** (*medium confidence*). Confidence in these assessments is limited by large observational uncertainty, a lack of complete understanding of the mechanisms driving Hadley cell expansion, and contradicting theories regarding the influence of greenhouse gases and aerosols on the Walker circulation's strength.
+
+#### 3.3.2 Global Monsoon
+
+The global monsoon system is a dominant mode of annual climate variation in the tropics. Its behavior is shaped by a combination of natural and anthropogenic factors.
+
+* **Paleoclimate Context:** In past climates, it is assessed with *high confidence* that **orbital forcing produced strong interhemispheric rainfall variability**, which is evident in multiple proxy records. For the warmer mid-Pliocene period, both orbital forcing and higher $CO_2$ concentrations played an important role in monsoon expansion and intensification. However, while models capture these qualitative changes, they tend to **underestimate the magnitude of monsoon expansion** found in proxy reconstructions. This may be linked to biases in the models' representation of the monsoon domain, which could be improved by imposing changes in vegetation and dust.
+* **Forcing in the Last Millennium:** Studies of the last millennium show that while simulated global monsoon precipitation increases with global mean temperature, the specific response of circulation and regional rainfall depends on the forcing. **Volcanic forcing is found to be more effective** than greenhouse gas or solar variations in driving changes in global monsoon precipitation over this period.
+* **Historical Simulation & Biases:** Reproducing the precise domain, amount, and timing of monsoons in the historical period remains difficult for models. CMIP5 models broadly capture the global monsoon domain but tend to underestimate its extent in some regions (East Asia, North America) while overestimating it in others (tropical western North Pacific). Even with increased resolution, improvements in monsoon simulation are not uniform across all regions and models.
+* **Attribution of Recent Trends:**
+    * Instrumental records show that global summer monsoon precipitation **decreased from the 1950s to the 1980s, followed by an increase**, driven mainly by the Northern Hemisphere land monsoons.
+    * Modeling studies indicate that while greenhouse gas increases act to *enhance* monsoon precipitation, this effect was **overwhelmed by the influence of anthropogenic aerosols** in both CMIP5 and CMIP6 models, which drove the mid-century weakening.
+    * The recent intensification since the 1980s appears to be dominated by **internal variability**, including the PDV and the Atlantic Multi-decadal Variability (AMV). The observed strengthening of the monsoon circulation is opposite to the simulated response to greenhouse gas forcing, further pointing to a dominant role for natural patterns. However, it is noted that CMIP5 models tend to under-represent the magnitude of the PDV, which may lead to overconfidence in detecting the forced aerosol signal.
+
+In summary, while greenhouse gas increases acted to enhance global land monsoon precipitation over the 20th century (*medium confidence*), this was **overwhelmed by anthropogenic aerosols from the 1950s to the 1980s** (*medium confidence*). The subsequent intensification since the 1980s is considered to be dominated by internal variability. Models, including those in CMIP6, still fail to fully capture the observed variations of the Northern Hemisphere summer monsoon circulation.
+
+#### 3.3.4 Sudden Stratospheric Warming Activity
+
+Sudden stratospheric warmings (SSWs) are major meteorological events in the winter polar stratosphere, characterized by a rapid rise in temperature that can disrupt the polar vortex and influence surface weather for weeks to months.
+
+* **Model Performance:** The ability of models to simulate SSWs is highly dependent on their representation of the stratosphere. Models with limited stratospheric resolution, which constituted more than half of the CMIP5 ensemble, **underestimate the frequency of SSWs**. Even in stratosphere-resolving models, the surface pressure response during an SSW can differ substantially from that seen in reanalysis products.
+* **Attribution:** The observational record is short and shows substantial decadal variability, leading to low confidence in any observed trends. To date, an **anthropogenic influence on the frequency or other aspects of SSWs has not been robustly detected**.
+
+
+---
+
+
+## 4. Human Influence on the Cryosphere
+
+### 4.1 Sea Ice
+
+#### 4.1.1 Arctic Sea Ice
+
+The AR5 concluded that anthropogenic forcings were *very likely* to have contributed to Arctic sea ice loss since 1979. The evidence for this has since strengthened.
+
+* **Role of Internal Variability:** While human forcing is the main driver, internal variability plays an important role, accounting for an estimated **40–50% of the observed decline in September sea ice**. This variability is linked to summer atmospheric circulation patterns, such as enhanced ridges over Greenland, and teleconnections from decadal variability in the tropics. However, extreme events, like the record low sea ice extent in 2012, are inconsistent with internal climate variability alone.
+* **Model Performance:** All CMIP5 and CMIP6 models capture the Arctic sea ice loss. However, there is a large spread in the rate of decline among models. This has been attributed to several factors, including the model's initial simulated sea ice state, the magnitude of simulated ocean heat transport, and the model's overall rate of global warming.
+* **Overall Assessment:** It is ***very likely*** **that anthropogenic forcing, mainly from greenhouse gas increases, was the main driver of Arctic sea ice loss since 1979**.
+
+#### 4.1.2 Antarctic Sea Ice
+
+The Antarctic presents a more complex picture. Over the 1979–2017 period, Antarctic sea ice cover showed a small, statistically insignificant increase, followed by an anomalous and rapid decrease starting in late 2016. This recent decrease has been linked to anomalous atmospheric conditions driven by teleconnections from the tropics.
+
+* **Model-Observation Discrepancy:** Unlike in the Arctic, most climate models simulate an overall *decrease* in Antarctic sea ice over the satellite era, in direct contrast to the observed slight increase through 2015. This discrepancy is a major challenge.
+* **Potential Drivers and Uncertainties:**
+    * The observed trends in some seasons and regions appear to be **outside the range of simulated internal variability**, suggesting that models may have an unrealistic forced response or are underestimating the true range of natural variability.
+    * Model discrepancies have been linked to biases in simulating Southern Ocean winds, upper ocean temperatures, and the sea ice response to the Southern Annular Mode.
+    * One proposed mechanism for the past sea ice expansion is an **increase in freshwater fluxes** from the melting Antarctic Ice Sheet, though there is no consensus on this.
+* **Overall Assessment:** A combination of large multi-decadal variability, a short observational record, and limited model performance has resulted in a weak signal-to-noise ratio, precluding a confident attribution of Antarctic sea ice trends.
+
+
+---
+
+
+### 4.2 Snow Cover
+
+Seasonal snow cover is a defining feature of the northern continents and a key component of the climate system.
+
+* **Model Performance:** CMIP5 models noted a strong linear correlation between Northern Hemisphere snow cover extent (SCE) and surface air temperature. However, they tended to overestimate the albedo of snow-covered boreal forests, which may have led to an overestimation of the snow-albedo feedback. CMIP6 models have improved, simulating a slightly stronger decline in spring SCE since 1981 that is in better agreement with observations. A remaining concern is the failure of most CMIP6 models to correctly represent the relationship between snow cover *extent* and snow *mass*.
+* **Attribution:** It is ***very likely*** **that anthropogenic influence contributed to the observed reductions in Northern Hemisphere springtime snow cover since 1950**. Both CMIP5 and CMIP6 models simulate strong declines in spring SCE in recent decades, in general agreement with observations.
+
+
+---
+
+
+### 4.3 Glaciers and Ice Sheets
+
+#### 4.3.1 Glaciers
+
+The AR5 assessed that human influence had *likely* contributed to the retreat of glaciers since the 1960s. The evidence is now stronger. Glacier models driven by historical simulations that include only natural forcings show a net glacier *growth*, in stark contrast to the observed widespread retreat. When driven by simulations including both natural and anthropogenic forcings, the models show mass loss. One study estimated that **at least 85% of cumulative glacier mass loss since 1850 is attributable to anthropogenic influence**.
+
+#### 4.3.2 Ice Sheets
+
+##### 4.3.2.1 Greenland Ice Sheet
+
+The AR5 assessed it was *likely* that anthropogenic forcing contributed to Greenland's surface melting since 1993. The evidence has since mounted. The rate of mass loss observed in the 21st century appears unprecedented over long timescales; proxy evidence and modeling suggest the last time the rate was similar was during the early Holocene.
+
+While internal variability, such as the summer North Atlantic Oscillation (NAO), plays an important role in year-to-year variations, the long-term trend of increased surface melting is strongly associated with warming. The observed trend in surface mass balance loss from 2007–2017 was at the top of the range projected by AR5 models, providing further evidence of a consistent, anthropogenically forced trend.
+
+##### 4.3.2.2 Antarctic Ice Sheet
+
+The primary driver of mass loss from the Antarctic Ice Sheet is the acceleration, retreat, and thinning of major outlet glaciers in West Antarctica, which is in turn driven by the melting of ice shelves by warm ocean waters.
+
+* **Attribution Challenges:** Attributing these changes is difficult. The basal melt that drives ice discharge is influenced by wind-driven ocean currents, which may be partly anthropogenic, but there is no consensus on whether the recent changes are a forced trend or a manifestation of internal variability.
+* **Model Confidence:** While models have *medium confidence* in representing many ice-sheet processes, there is *low confidence* in their ability to simulate the ocean forcing that controls basal melt rates.
+
+
+---
+
+
+## 5. Human Influence on the Ocean
+
+The global ocean plays a critical role in the climate system by storing and transporting vast amounts of heat, freshwater, and carbon. Accurate simulation of the ocean is therefore essential for realistic climate projections. This section assesses the performance of models in simulating key ocean properties and the attribution of observed changes to human influence.
+
+### 5.1 Ocean Temperature
+
+This section assesses the performance of climate models in representing the mean state ocean temperature and heat content.
+
+#### 5.1.1 Sea Surface and Zonal Mean Ocean Temperature Evaluation
+
+There has been growing evidence that increasing the horizontal resolution of both the ocean and atmosphere components in models can improve the simulation of mean ocean temperatures. Higher resolution allows for the explicit representation of processes like mesoscale eddies, which can improve vertical heat transport and reduce temperature drifts in the deep ocean. Despite this, there is **little overall improvement in the multi-model mean biases** for sea surface and zonal mean ocean temperatures between CMIP5 and CMIP6 (*medium confidence*).
+
+#### 5.1.2 Tropical Sea Surface Temperature Evaluation
+
+##### 5.1.2.1 Tropical Pacific Ocean
+
+Persistent biases in the tropical Pacific, such as the excessive equatorial cold tongue, have been linked to misrepresentations of the ocean-atmosphere Bjerknes feedback, vertical mixing, and surface winds.
+
+##### 5.1.2.2 Tropical Atlantic Ocean
+
+Major biases in the tropical Atlantic, such as the east-west temperature gradient, also persist in CMIP6. While higher resolution can help, some lower-resolution models also perform well, suggesting that **resolution is not the only factor** responsible for these biases.
+
+##### 5.1.2.3 Tropical Indian Ocean
+
+A common problem in both CMIP5 and CMIP6 is a **warm bias in the subsurface ocean**, particularly around the depth of the thermocline.
+
+##### 5.1.2.4 Summary
+
+The structure and magnitude of multi-model mean ocean temperature biases have not changed substantially between CMIP5 and CMIP6 (*medium confidence*). Nevertheless, CMIP5 and CMIP6 models are considered appropriate tools for investigating ocean temperature and heat content responses to forcing.
+
+### 5.1.3 Ocean Heat Content Change Attribution
+
+The ocean has acted as the Earth's primary energy store, absorbing an estimated **91% of the total energy change** in the climate system from 1971 to 2018.
+
+* **Warming Throughout the Water Column:** It is *virtually certain* that the global upper ocean (0–700 m) has warmed substantially since 1971, and *very likely* that the intermediate ocean (700–2000 m) has also warmed. The rate of ocean heat uptake has roughly **doubled in the past few decades** compared to the rate over the full 20th century.
+* **Model-Observation Consistency:** Both CMIP5 and CMIP6 simulations show robust increases in ocean heat content in the upper and intermediate layers (*high confidence*), consistent with observations. The simulated warming is also reflected in thermal expansion (thermosteric sea level rise).
+* **Attribution:** A response to **anthropogenic forcing is clearly detectable** in ocean heat content, and natural forcing alone cannot explain the observed changes. The influence of greenhouse gas forcing is detectable independently from other anthropogenic forcings.
+
+It is ***extremely likely*** **that human influence was the main driver of the ocean heat content increase observed since the 1970s**.
+
+
+---
+
+## 5.2 Ocean Salinity
+
+The AR5 assessed that it was *very likely* that anthropogenic forcings contributed to ocean salinity changes since the 1960s. The SROCC strengthened this, noting that high-latitude freshening and warming have *very likely* made the surface ocean less dense, increasing stratification. While salinity does not have a direct feedback to the atmosphere, some studies have identified indirect feedbacks through sea-salt aerosol interactions that can influence precipitation and tropical cyclones.
+
+### 5.2.1 Sea Surface and Depth-profile Salinity Evaluation
+
+Models generally capture the large-scale patterns of ocean salinity, with features like the salty Atlantic and fresher Pacific aligning with patterns of evaporation minus precipitation. However, persistent biases exist, particularly a fresh bias in the upper ocean. These biases are primarily linked to biases in the simulated precipitation field. Despite these issues, the biases are considered sufficiently small to allow for the use of these models in detection and attribution studies.
+
+### 5.2.2 Salinity Change Attribution
+
+It is ***extremely likely*** **that human influence has contributed to observed near-surface and subsurface salinity changes** across the globe since the mid-20th century. All available assessments confirm that the pattern of change corresponds to **fresh regions becoming fresher and salty regions becoming saltier** (*high confidence*), providing powerful evidence of an intensifying global water cycle.
+
+---
+
+## 5.3 Sea Level
+
+Global Mean Sea Level (GMSL) rise is a result of both the thermal expansion of ocean water (thermosteric change) and the addition of mass from melting glaciers, ice sheets, and changes in terrestrial water storage.
+
+### 5.3.1 Sea Level Evaluation
+
+The current generation of climate models does not fully resolve all components needed to close the sea level budget (e.g., dynamic ice sheets, glaciers). Therefore, analyses often focus on the thermosteric component, which is well-simulated, and use offline models driven by climate model output to estimate contributions from ice melt. A key advance in CMIP6 is the coordinated inclusion of dynamic ice sheet models through the Ice Sheet Model Intercomparison Project (ISMIP6), which will help to provide more comprehensive projections.
+
+### 5.3.2 Sea Level Attribution
+
+The SROCC concluded with *high confidence* that the dominant cause of GMSL rise since 1970 is anthropogenic forcing.
+
+* **Thermosteric Component:** Studies show that **anthropogenic forcings are essential for explaining the magnitude of observed thermosteric sea level rise**. One study found that human influence explains 87% of the thermosteric rise in the top 700 m from 1950–2005. It is ***very likely*** **that anthropogenic forcing was the main driver** of the observed global mean thermosteric sea level increase since 1970.
+* **Cryosphere Contribution:** One study found that about 69% of glacier mass loss from 1991-2010 was anthropogenic.
+* **Total Sea Level:** Synthesizing these points to explain the final assessment: **it is *very likely* that anthropogenic forcing is the main driver of GMSL rise since at least 1971.**
+
+---
+
+## 5.4 Ocean Circulation
+
+Ocean circulation is crucial for transporting heat and freshwater throughout the climate system. The AR5 reported that while models suggested an AMOC slowdown would occur due to anthropogenic forcing, the observational record was too short to confirm this.
+
+### 5.4.1 Atlantic Meridional Overturning Circulation (AMOC)
+
+The AMOC mean state is reasonably well simulated in models, but there is a large spread in its strength, and models tend to underestimate its depth and its interannual-to-decadal variability. While observations show a weakening from the mid-2000s to mid-2010s, this is largely attributed to internal variability, as the forced response in models is much weaker. Due to the short and sparse observational record and significant model biases, there is *low confidence* that anthropogenic forcing has had a significant influence on observed AMOC changes.
+
+### 5.4.2 Southern Ocean Circulation
+
+The representation of the Antarctic Circumpolar Current (ACC) has improved from CMIP5 to CMIP6, converging toward observed estimates. However, models still struggle with the strength of the upper and lower overturning cells. The lack of interactive ice-sheet coupling is another important limitation. Due to substantial observational uncertainty and remaining model challenges, attribution of observed Southern Ocean circulation changes is not yet possible.
+
 
 
 ---
