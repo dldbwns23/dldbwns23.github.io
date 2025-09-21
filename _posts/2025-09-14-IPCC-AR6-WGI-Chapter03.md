@@ -351,7 +351,7 @@ A common problem in both CMIP5 and CMIP6 is a **warm bias in the subsurface ocea
 
 The structure and magnitude of multi-model mean ocean temperature biases have not changed substantially between CMIP5 and CMIP6 (*medium confidence*). Nevertheless, CMIP5 and CMIP6 models are considered appropriate tools for investigating ocean temperature and heat content responses to forcing.
 
-### 5.1.3 Ocean Heat Content Change Attribution
+#### 5.1.3 Ocean Heat Content Change Attribution
 
 The ocean has acted as the Earth's primary energy store, absorbing an estimated **91% of the total energy change** in the climate system from 1971 to 2018.
 
@@ -362,28 +362,28 @@ The ocean has acted as the Earth's primary energy store, absorbing an estimated 
 It is ***extremely likely*** **that human influence was the main driver of the ocean heat content increase observed since the 1970s**.
 
 
-## 5.2 Ocean Salinity
+### 5.2 Ocean Salinity
 
 The AR5 assessed that it was *very likely* that anthropogenic forcings contributed to ocean salinity changes since the 1960s. The SROCC strengthened this, noting that high-latitude freshening and warming have *very likely* made the surface ocean less dense, increasing stratification. While salinity does not have a direct feedback to the atmosphere, some studies have identified indirect feedbacks through sea-salt aerosol interactions that can influence precipitation and tropical cyclones.
 
-### 5.2.1 Sea Surface and Depth-profile Salinity Evaluation
+#### 5.2.1 Sea Surface and Depth-profile Salinity Evaluation
 
 Models generally capture the large-scale patterns of ocean salinity, with features like the salty Atlantic and fresher Pacific aligning with patterns of evaporation minus precipitation. However, persistent biases exist, particularly a fresh bias in the upper ocean. These biases are primarily linked to biases in the simulated precipitation field. Despite these issues, the biases are considered sufficiently small to allow for the use of these models in detection and attribution studies.
 
-### 5.2.2 Salinity Change Attribution
+#### 5.2.2 Salinity Change Attribution
 
 It is ***extremely likely*** **that human influence has contributed to observed near-surface and subsurface salinity changes** across the globe since the mid-20th century. All available assessments confirm that the pattern of change corresponds to **fresh regions becoming fresher and salty regions becoming saltier** (*high confidence*), providing powerful evidence of an intensifying global water cycle.
 
 
-## 5.3 Sea Level
+### 5.3 Sea Level
 
 Global Mean Sea Level (GMSL) rise is a result of both the thermal expansion of ocean water (thermosteric change) and the addition of mass from melting glaciers, ice sheets, and changes in terrestrial water storage.
 
-### 5.3.1 Sea Level Evaluation
+#### 5.3.1 Sea Level Evaluation
 
 The current generation of climate models does not fully resolve all components needed to close the sea level budget (e.g., dynamic ice sheets, glaciers). Therefore, analyses often focus on the thermosteric component, which is well-simulated, and use offline models driven by climate model output to estimate contributions from ice melt. A key advance in CMIP6 is the coordinated inclusion of dynamic ice sheet models through the Ice Sheet Model Intercomparison Project (ISMIP6), which will help to provide more comprehensive projections.
 
-### 5.3.2 Sea Level Attribution
+#### 5.3.2 Sea Level Attribution
 
 The SROCC concluded with *high confidence* that the dominant cause of GMSL rise since 1970 is anthropogenic forcing.
 
@@ -392,15 +392,15 @@ The SROCC concluded with *high confidence* that the dominant cause of GMSL rise 
 * **Total Sea Level:** Synthesizing these points to explain the final assessment: **it is *very likely* that anthropogenic forcing is the main driver of GMSL rise since at least 1971.**
 
 
-## 5.4 Ocean Circulation
+### 5.4 Ocean Circulation
 
 Ocean circulation is crucial for transporting heat and freshwater throughout the climate system. The AR5 reported that while models suggested an AMOC slowdown would occur due to anthropogenic forcing, the observational record was too short to confirm this.
 
-### 5.4.1 Atlantic Meridional Overturning Circulation (AMOC)
+#### 5.4.1 Atlantic Meridional Overturning Circulation (AMOC)
 
 The AMOC mean state is reasonably well simulated in models, but there is a large spread in its strength, and models tend to underestimate its depth and its interannual-to-decadal variability. While observations show a weakening from the mid-2000s to mid-2010s, this is largely attributed to internal variability, as the forced response in models is much weaker. Due to the short and sparse observational record and significant model biases, there is *low confidence* that anthropogenic forcing has had a significant influence on observed AMOC changes.
 
-### 5.4.2 Southern Ocean Circulation
+#### 5.4.2 Southern Ocean Circulation
 
 The representation of the Antarctic Circumpolar Current (ACC) has improved from CMIP5 to CMIP6, converging toward observed estimates. However, models still struggle with the strength of the upper and lower overturning cells. The lack of interactive ice-sheet coupling is another important limitation. Due to substantial observational uncertainty and remaining model challenges, attribution of observed Southern Ocean circulation changes is not yet possible.
 
