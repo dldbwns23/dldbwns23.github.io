@@ -610,10 +610,6 @@ The purpose of multivariate analysis is to assess how well models simulate prese
 <img src="/images/IPCC_AR6_Ch3/Ch3_42.png" alt="Figure 3.43">
 {% endraw %}
 
-{% raw %}
-<img src="/images/IPCC_AR6_Ch3/Ch3_43.png" alt="Figure 3.44">
-{% endraw %}
-
 ### 8.2.2 Process Representation in Different Classes of Models
 
 This section explores the influence of two key aspects of model development: resolution and complexity. A key advance in CMIP6 is the systematic inclusion of high-resolution models.
