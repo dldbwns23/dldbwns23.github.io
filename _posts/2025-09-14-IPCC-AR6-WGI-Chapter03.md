@@ -5,6 +5,9 @@ date: 2025-09-14 9:00:00 +0900
 tags: [Article, IPCC]
 ---
 
+
+**2025.09.14 ~ 2025.10.03**
+
 # 0. Executive Summary
 
 This chapter provides an updated assessment of human influence on the climate system, focusing on large-scale indicators of climate change. It synthesizes information from paleoclimate records, modern observations, and climate models.
