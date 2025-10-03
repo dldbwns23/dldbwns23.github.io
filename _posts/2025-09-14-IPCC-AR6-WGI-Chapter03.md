@@ -5,15 +5,15 @@ date: 2025-09-14 9:00:00 +0900
 tags: [Article, IPCC]
 ---
 
-## 0. Executive Summary
+# 0. Executive Summary
 
 This chapter provides an updated assessment of human influence on the climate system, focusing on large-scale indicators of climate change. It synthesizes information from paleoclimate records, modern observations, and climate models.
 
-### Synthesis Across the Climate System
+## Synthesis Across the Climate System
 
 It is **unequivocal** that human influence has warmed the atmosphere, ocean, and land since pre-industrial times. Combining evidence from across the climate system increases confidence in the attribution of observed changes to human activities. The latest generation of climate models from the Coupled Model Intercomparison Project Phase 6 (CMIP6) shows improved simulation of the recent mean climate for most large-scale indicators compared to the previous generation (CMIP5) (*high confidence*). Overall, the multi-model mean captures most aspects of observed climate change well (*high confidence*).
 
-### Human Influence on the Atmosphere and Surface
+## Human Influence on the Atmosphere and Surface
 
 The likely range of human-induced warming in global-mean surface air temperature (GSAT) in 2010–2019 relative to 1850–1900 is $0.8^{\circ}C$–$1.3^{\circ}C$, which encompasses the observed warming of $0.9^{\circ}C$–$1.2^{\circ}C$. The change attributable to natural forcings is only $-0.1^{\circ}C$ to $+0.1^{\circ}C$. It is *very likely* that human-induced greenhouse gas increases were the main driver of tropospheric warming since satellite observations began in 1979, and *extremely likely* that human-induced stratospheric ozone depletion was the main driver of cooling in the lower stratosphere between 1979 and the mid-1990s.
 
@@ -23,11 +23,11 @@ It is *likely* that human influence has contributed to observed large-scale prec
 
 It is *likely* that human influence has contributed to the poleward expansion of the Hadley cell in the Southern Hemisphere since the 1980s. While CMIP6 models capture the general characteristics of the large-scale tropospheric circulation (*high confidence*), systematic biases persist in the mean frequency of atmospheric blocking events, especially in the Euro-Atlantic sector.
 
-### Human Influence on the Cryosphere
+## Human Influence on the Cryosphere
 
 It is *very likely* that anthropogenic forcing, primarily from greenhouse gas increases, was the **main driver of Arctic sea ice loss** since the late 1970s. It is also *very likely* that human influence contributed to the observed reductions in Northern Hemisphere spring snow cover since 1950.
 
-### Human Influence on the Ocean
+## Human Influence on the Ocean
 
 It is *extremely likely* that human influence was the **main driver of the increase in ocean heat content** observed since the 1970s, a warming that extends into the deeper ocean (*very high confidence*). Updated observations and model simulations confirm that this warming extends throughout the entire water column (*high confidence*).
 
@@ -35,27 +35,27 @@ It is *extremely likely* that human influence has contributed to observed near-s
 
 Combining contributions from glacier melt, ice-sheet surface mass balance, and thermal expansion, it is *very likely* that human influence was the **main driver of the observed global mean sea level rise** since at least 1971.
 
-### Human Influence on the Biosphere
+## Human Influence on the Biosphere
 
 The observed increase in the amplitude of the seasonal cycle of atmospheric $CO_2$ is primarily driven by **enhanced fertilization of plant growth** from the increasing concentration of atmospheric $CO_2$ (*medium confidence*).
 
-### Human Influence on Modes of Climate Variability
+## Human Influence on Modes of Climate Variability
 
 It is *very likely* that human influence has contributed to the observed trend toward the **positive phase of the Southern Annular Mode (SAM)** since the 1970s and the associated strengthening and southward shift of the Southern Hemispheric extratropical jet in austral summer.
 
 Human influence has **not affected the principal tropical modes** of interannual climate variability (like ENSO) or their regional teleconnections beyond the range of internal variability (*high confidence*). There is *medium confidence* that anthropogenic and volcanic aerosols contributed to observed changes in the Atlantic Multi-decadal Variability (AMV) index since the 1960s, but there is *low confidence* in the magnitude of this influence.
 
 ---
-## 1. Scope
+# 1. Scope
 
 This chapter assesses the degree to which human influence has affected the climate system and the ability of climate models to simulate observed mean climate, its changes, and its variability. This assessment provides a foundation for understanding the current impacts of anthropogenic climate change and informs confidence in future climate projections. To attribute observed climate change, an estimate of the expected response to human influence is required, along with estimates of the climate's evolution due to natural forcings and internal variability.
 
 Unlike previous IPCC reports, which separated model evaluation and attribution into different chapters, AR6 integrates these comparisons. This approach allows for a more holistic discussion of inconsistencies between simulations and observations, considering factors like missing forcings, errors in the simulated response, and observational errors. However, if a model's simulation of historical climate has been tuned to match observations, or if models in an attribution study were selected based on the realism of their climate response, these factors must be considered, and attribution results tempered accordingly. This chapter assesses the detection of anthropogenic influence on large spatial and long temporal scales, which is distinct from the emergence of climate change signals from internal variability on local scales and shorter timescales.
 
 ---
-## 2. Methods
+# 2. Methods
 
-### 2.1 Methods Based on Regression
+## 2.1 Methods Based on Regression
 
 Regression-based techniques, also known as **fingerprinting methods**, are widely used to detect climate change and attribute it to different external drivers. In this approach, an observed change is assumed to be a linear combination of externally forced signals (the "fingerprints") and internal variability. A regression coefficient that is significantly greater than zero implies a detectable change has been identified in observations. When the confidence interval for this coefficient includes one and is inconsistent with zero, the magnitude of the model-simulated response is considered consistent with observations, implying the change can be attributed in part to that forcing. To ensure robustness, the model-simulated internal variability is typically checked against the observed residual variance using a residual consistency test.
 
@@ -64,18 +64,18 @@ Recent methodological advances include:
 * **Improved Confidence Intervals:** Bootstrap methods have been suggested to better estimate the confidence intervals of scaling factors, particularly in weak-signal regimes.
 * **Pattern Similarity:** An alternative fingerprinting approach uses pattern similarity, where observations are projected onto a time-evolving fingerprint (often the leading empirical orthogonal function from a multi-model forced simulation) to measure the degree of similarity with the expected physical response. To handle high-dimensional daily data, statistical learning techniques like regularized linear regression have been proposed to optimize the signal by down-weighting regions with large internal variability.
 
-### 2.2 Other Probabilistic Approaches
+## 2.2 Other Probabilistic Approaches
 
 Other probabilistic methods have been introduced to better account for climate modeling uncertainties. These include statistical frameworks based on likelihood maximization, which test whether observations are consistent with the expected response from models, and the application of causal theory to calculate the probability of causation for a given forcing.
 
 ---
-## 3. Human Influence on the Atmosphere and Surface
+# 3. Human Influence on the Atmosphere and Surface
 
-### 3.1 Temperature
+## 3.1 Temperature
 
-#### 3.1.1 Surface Temperature
+### 3.1.1 Surface Temperature
 
-##### 3.1.1.1 Model Evaluation
+#### 3.1.1.1 Model Evaluation
 
 To be fit for attribution, climate models must realistically represent both the response of surface temperature to external forcings and its internal variability across various timescales, based on physical principles.
 
@@ -108,7 +108,7 @@ Despite model imperfections, there is *very high confidence* that the biases in 
 <img src="/images/IPCC_AR6_Ch3/Ch3_5.png" alt="Figure 3.6">
 {% endraw %}
 
-##### 3.1.1.2 Detection and Attribution
+#### 3.1.1.2 Detection and Attribution
 
 * **Long-Term Context:** The warming of the 20th century reversed a 5000-year cooling trend in the Northern Hemisphere mid- to high latitudes that was caused by orbital forcing; this reversal is attributed to anthropogenic forcing with *high confidence*. Over the last millennium, observed temperature changes were mostly driven by volcanic forcing, with smaller roles for greenhouse gases and solar forcing.
 * **Methodological Advances:** Since AR5, attribution studies have improved by better accounting for observational and model uncertainties, using counterfactual frameworks, and reducing dependence on uncertain climate sensitivity estimates. Alternative techniques, such as statistical and econometric approaches that do not rely on climate models, have also been applied and yield results that match physically-based methods.
@@ -133,9 +133,9 @@ Despite model imperfections, there is *very high confidence* that the biases in 
 {% endraw %}
 
 
-#### 3.1.2 Upper-air Temperature
+### 3.1.2 Upper-air Temperature
 
-##### 3.1.2.1 Tropospheric temperature
+#### 3.1.2.1 Tropospheric temperature
 
 Studies continue to show an inconsistency between simulated and observed temperature trends in the tropical troposphere, with models generally simulating more warming than has been observed. This warming bias persists in CMIP6 models despite the use of updated forcing estimates. The discrepancy is linked to several factors:
 * **Climate Sensitivity and Feedbacks:** Differences in climate sensitivity among models may be an important factor. One study suggested that the absence of a hypothesized negative tropical cloud feedback could explain half of the warming bias in one model.
@@ -147,14 +147,14 @@ Taking these factors into account, there is *medium confidence* that models over
 <img src="/images/IPCC_AR6_Ch3/Ch3_9.png" alt="Figure 3.10">
 {% endraw %}
 
-##### 3.1.2.2 Stratospheric temperature
+#### 3.1.2.2 Stratospheric temperature
 
 Increased greenhouse gases cause warming near the surface but cooling in the stratosphere. It was assessed in AR5 that anthropogenic forcing, dominated by ozone-depleting substances (ODS), *very likely* contributed to the cooling of the lower stratosphere since 1979.
 
 Since AR5, research has shown that in the middle and upper stratosphere, the cooling since 1979 is mainly due to changes in greenhouse gas concentrations. Volcanic eruptions and the solar cycle have short-term influences but do not affect long-term trends. Based on this stronger evidence, it is now assessed as *extremely likely* that stratospheric ozone depletion from ODS was the **main driver of the cooling of the lower stratosphere between 1979 and the mid-1990s**.
 
 ---
-## Cross-Chapter Box 3.1 | Global Surface Warming Over the Early 21st Century
+# Cross-Chapter Box 3.1 | Global Surface Warming Over the Early 21st Century
 
 The AR5 found that the rate of GMST increase from 1998–2012 was slower than the rate from 1951–2012 and slower than projected by CMIP5 models. This apparent slowdown was assessed with *medium confidence* to be caused in roughly equal measure by a cooling contribution from internal variability and a reduced trend in external forcing (from solar and volcanic activity).
 
@@ -168,9 +168,9 @@ The slowdown was a **temporary event** (*very high confidence*), induced by a co
 
 ---
 
-### 3.2 Precipitation, Humidity and Streamflow
+## 3.2 Precipitation, Humidity and Streamflow
 
-#### 3.2.1 Paleoclimate Context
+### 3.2.1 Paleoclimate Context
 
 Attributing changes in precipitation and other hydrological variables is uniquely challenging because their **large internal variability** often masks the anthropogenic signal. This low signal-to-noise ratio makes it difficult for a clear human-caused signal to emerge from the background of natural fluctuations. Furthermore, the sign of any change depends heavily on the specific location and time of year. While hydrological proxy data represent regional conditions, they can be synthesized to reveal large-scale patterns and provide crucial long-term context.
 
@@ -186,7 +186,7 @@ Attributing changes in precipitation and other hydrological variables is uniquel
 <img src="/images/IPCC_AR6_Ch3/Ch3_11.png" alt="Figure 3.12">
 {% endraw %}
 
-#### 3.2.2 Atmospheric Water Vapour
+### 3.2.2 Atmospheric Water Vapour
 
 Changes in atmospheric water vapour are a critical component of the climate system, particularly in the upper troposphere, where water vapour strongly regulates the strength of the **water-vapour feedback**.
 
@@ -195,7 +195,7 @@ Changes in atmospheric water vapour are a critical component of the climate syst
 
 In summary, the assessment is that it is ***likely*** **that human influence has contributed to moistening in the upper troposphere since 1979**. Additionally, there is *medium confidence* that human influence has contributed to a global increase in annual surface specific humidity and to a decrease in surface relative humidity over mid-latitude Northern Hemisphere continents in summer.
 
-#### 3.2.3 Precipitation
+### 3.2.3 Precipitation
 
 While climate models successfully capture the large-scale patterns of annual mean precipitation, significant challenges remain in simulating the magnitude and seasonality of recent changes.
 
@@ -217,7 +217,7 @@ New attribution studies have strengthened previous findings of a detectable incr
 <img src="/images/IPCC_AR6_Ch3/Ch3_14.png" alt="Figure 3.15">
 {% endraw %}
 
-#### 3.2.4 Streamflow
+### 3.2.4 Streamflow
 
 Streamflow is the best-observed variable within the terrestrial water cycle for conducting global-scale detection and attribution analyses.
 
@@ -226,9 +226,9 @@ Streamflow is the best-observed variable within the terrestrial water cycle for 
 
 In summary, there is ***medium confidence*** **that anthropogenic climate change has altered local and regional streamflow** in various parts of the world. The associated global-scale trend pattern is inconsistent with internal variability. Furthermore, while direct human interventions like water withdrawals affect streamflow, they cannot explain the observed large-scale spatio-temporal trends (*medium confidence*).
 
-### 3.3 Atmospheric Circulation
+## 3.3 Atmospheric Circulation
 
-#### 3.3.1 The Hadley and Walker Circulations
+### 3.3.1 The Hadley and Walker Circulations
 
 The tropical troposphere is dominated by two major overturning circulations: the meridional Hadley circulation and the zonal Walker circulation. AR5 found *medium confidence* that stratospheric ozone depletion had contributed to a widening of the Hadley cell in the Southern Hemisphere summer. It also noted a contradiction for the Walker circulation: while models simulated a weakening in response to greenhouse gases, observations since the early 1990s showed a strengthening, precluding any clear detection of human influence.
 
@@ -241,7 +241,7 @@ The latest assessment builds on these findings:
 <img src="/images/IPCC_AR6_Ch3/Ch3_15.png" alt="Figure 3.16">
 {% endraw %}
 
-#### 3.3.2 Global Monsoon
+### 3.3.2 Global Monsoon
 
 The global monsoon system is a dominant mode of annual climate variation in the tropics. Its behavior is shaped by a combination of natural and anthropogenic factors.
 
@@ -259,7 +259,7 @@ In summary, while greenhouse gas increases acted to enhance global land monsoon 
 <img src="/images/IPCC_AR6_Ch3/Ch3_16.png" alt="Figure 3.17">
 {% endraw %}
 
-#### 3.3.4 Sudden Stratospheric Warming Activity
+### 3.3.4 Sudden Stratospheric Warming Activity
 
 Sudden stratospheric warmings (SSWs) are major meteorological events in the winter polar stratosphere, characterized by a rapid rise in temperature that can disrupt the polar vortex and influence surface weather for weeks to months.
 
@@ -270,11 +270,11 @@ Sudden stratospheric warmings (SSWs) are major meteorological events in the wint
 ---
 
 
-## 4. Human Influence on the Cryosphere
+# 4. Human Influence on the Cryosphere
 
-### 4.1 Sea Ice
+## 4.1 Sea Ice
 
-#### 4.1.1 Arctic Sea Ice
+### 4.1.1 Arctic Sea Ice
 
 The AR5 concluded that anthropogenic forcings were *very likely* to have contributed to Arctic sea ice loss since 1979. The evidence for this has since strengthened.
 
@@ -287,7 +287,7 @@ The AR5 concluded that anthropogenic forcings were *very likely* to have contrib
 {% endraw %}
 
 
-#### 4.1.2 Antarctic Sea Ice
+### 4.1.2 Antarctic Sea Ice
 
 The Antarctic presents a more complex picture. Over the 1979–2017 period, Antarctic sea ice cover showed a small, statistically insignificant increase, followed by an anomalous and rapid decrease starting in late 2016. This recent decrease has been linked to anomalous atmospheric conditions driven by teleconnections from the tropics.
 
@@ -304,7 +304,7 @@ The Antarctic presents a more complex picture. Over the 1979–2017 period, Anta
 {% endraw %}
 
 
-### 4.2 Snow Cover
+## 4.2 Snow Cover
 
 Seasonal snow cover is a defining feature of the northern continents and a key component of the climate system.
 
@@ -316,21 +316,21 @@ Seasonal snow cover is a defining feature of the northern continents and a key c
 {% endraw %}
 
 
-### 4.3 Glaciers and Ice Sheets
+## 4.3 Glaciers and Ice Sheets
 
-#### 4.3.1 Glaciers
+### 4.3.1 Glaciers
 
 The AR5 assessed that human influence had *likely* contributed to the retreat of glaciers since the 1960s. The evidence is now stronger. Glacier models driven by historical simulations that include only natural forcings show a net glacier *growth*, in stark contrast to the observed widespread retreat. When driven by simulations including both natural and anthropogenic forcings, the models show mass loss. One study estimated that **at least 85% of cumulative glacier mass loss since 1850 is attributable to anthropogenic influence**.
 
-#### 4.3.2 Ice Sheets
+### 4.3.2 Ice Sheets
 
-##### 4.3.2.1 Greenland Ice Sheet
+#### 4.3.2.1 Greenland Ice Sheet
 
 The AR5 assessed it was *likely* that anthropogenic forcing contributed to Greenland's surface melting since 1993. The evidence has since mounted. The rate of mass loss observed in the 21st century appears unprecedented over long timescales; proxy evidence and modeling suggest the last time the rate was similar was during the early Holocene.
 
 While internal variability, such as the summer North Atlantic Oscillation (NAO), plays an important role in year-to-year variations, the long-term trend of increased surface melting is strongly associated with warming. The observed trend in surface mass balance loss from 2007–2017 was at the top of the range projected by AR5 models, providing further evidence of a consistent, anthropogenically forced trend.
 
-##### 4.3.2.2 Antarctic Ice Sheet
+#### 4.3.2.2 Antarctic Ice Sheet
 
 The primary driver of mass loss from the Antarctic Ice Sheet is the acceleration, retreat, and thinning of major outlet glaciers in West Antarctica, which is in turn driven by the melting of ice shelves by warm ocean waters.
 
@@ -341,15 +341,15 @@ The primary driver of mass loss from the Antarctic Ice Sheet is the acceleration
 ---
 
 
-## 5. Human Influence on the Ocean
+# 5. Human Influence on the Ocean
 
 The global ocean plays a critical role in the climate system by storing and transporting vast amounts of heat, freshwater, and carbon. Accurate simulation of the ocean is therefore essential for realistic climate projections. This section assesses the performance of models in simulating key ocean properties and the attribution of observed changes to human influence.
 
-### 5.1 Ocean Temperature
+## 5.1 Ocean Temperature
 
 This section assesses the performance of climate models in representing the mean state ocean temperature and heat content.
 
-#### 5.1.1 Sea Surface and Zonal Mean Ocean Temperature Evaluation
+### 5.1.1 Sea Surface and Zonal Mean Ocean Temperature Evaluation
 
 There has been growing evidence that increasing the horizontal resolution of both the ocean and atmosphere components in models can improve the simulation of mean ocean temperatures. Higher resolution allows for the explicit representation of processes like mesoscale eddies, which can improve vertical heat transport and reduce temperature drifts in the deep ocean. Despite this, there is **little overall improvement in the multi-model mean biases** for sea surface and zonal mean ocean temperatures between CMIP5 and CMIP6 (*medium confidence*).
 
@@ -365,25 +365,25 @@ There has been growing evidence that increasing the horizontal resolution of bot
 <img src="/images/IPCC_AR6_Ch3/Ch3_2.png" alt="Figure 3.25">
 {% endraw %}
 
-#### 5.1.2 Tropical Sea Surface Temperature Evaluation
+### 5.1.2 Tropical Sea Surface Temperature Evaluation
 
-##### 5.1.2.1 Tropical Pacific Ocean
+#### 5.1.2.1 Tropical Pacific Ocean
 
 Persistent biases in the tropical Pacific, such as the excessive equatorial cold tongue, have been linked to misrepresentations of the ocean-atmosphere Bjerknes feedback, vertical mixing, and surface winds.
 
-##### 5.1.2.2 Tropical Atlantic Ocean
+#### 5.1.2.2 Tropical Atlantic Ocean
 
 Major biases in the tropical Atlantic, such as the east-west temperature gradient, also persist in CMIP6. While higher resolution can help, some lower-resolution models also perform well, suggesting that **resolution is not the only factor** responsible for these biases.
 
-##### 5.1.2.3 Tropical Indian Ocean
+#### 5.1.2.3 Tropical Indian Ocean
 
 A common problem in both CMIP5 and CMIP6 is a **warm bias in the subsurface ocean**, particularly around the depth of the thermocline.
 
-##### 5.1.2.4 Summary
+#### 5.1.2.4 Summary
 
 The structure and magnitude of multi-model mean ocean temperature biases have not changed substantially between CMIP5 and CMIP6 (*medium confidence*). Nevertheless, CMIP5 and CMIP6 models are considered appropriate tools for investigating ocean temperature and heat content responses to forcing.
 
-#### 5.1.3 Ocean Heat Content Change Attribution
+### 5.1.3 Ocean Heat Content Change Attribution
 
 The ocean has acted as the Earth's primary energy store, absorbing an estimated **91% of the total energy change** in the climate system from 1971 to 2018.
 
@@ -398,15 +398,15 @@ It is ***extremely likely*** **that human influence was the main driver of the o
 {% endraw %}
 
 
-### 5.2 Ocean Salinity
+## 5.2 Ocean Salinity
 
 The AR5 assessed that it was *very likely* that anthropogenic forcings contributed to ocean salinity changes since the 1960s. The SROCC strengthened this, noting that high-latitude freshening and warming have *very likely* made the surface ocean less dense, increasing stratification. While salinity does not have a direct feedback to the atmosphere, some studies have identified indirect feedbacks through sea-salt aerosol interactions that can influence precipitation and tropical cyclones.
 
-#### 5.2.1 Sea Surface and Depth-profile Salinity Evaluation
+### 5.2.1 Sea Surface and Depth-profile Salinity Evaluation
 
 Models generally capture the large-scale patterns of ocean salinity, with features like the salty Atlantic and fresher Pacific aligning with patterns of evaporation minus precipitation. However, persistent biases exist, particularly a fresh bias in the upper ocean. These biases are primarily linked to biases in the simulated precipitation field. Despite these issues, the biases are considered sufficiently small to allow for the use of these models in detection and attribution studies.
 
-#### 5.2.2 Salinity Change Attribution
+### 5.2.2 Salinity Change Attribution
 
 It is ***extremely likely*** **that human influence has contributed to observed near-surface and subsurface salinity changes** across the globe since the mid-20th century. All available assessments confirm that the pattern of change corresponds to **fresh regions becoming fresher and salty regions becoming saltier** (*high confidence*), providing powerful evidence of an intensifying global water cycle.
 
@@ -419,15 +419,15 @@ It is ***extremely likely*** **that human influence has contributed to observed 
 <img src="/images/IPCC_AR6_Ch3/Ch3_27.png" alt="Figure 3.28">
 {% endraw %}
 
-### 5.3 Sea Level
+## 5.3 Sea Level
 
 Global Mean Sea Level (GMSL) rise is a result of both the thermal expansion of ocean water (thermosteric change) and the addition of mass from melting glaciers, ice sheets, and changes in terrestrial water storage.
 
-#### 5.3.1 Sea Level Evaluation
+### 5.3.1 Sea Level Evaluation
 
 The current generation of climate models does not fully resolve all components needed to close the sea level budget (e.g., dynamic ice sheets, glaciers). Therefore, analyses often focus on the thermosteric component, which is well-simulated, and use offline models driven by climate model output to estimate contributions from ice melt. A key advance in CMIP6 is the coordinated inclusion of dynamic ice sheet models through the Ice Sheet Model Intercomparison Project (ISMIP6), which will help to provide more comprehensive projections.
 
-#### 5.3.2 Sea Level Attribution
+### 5.3.2 Sea Level Attribution
 
 The SROCC concluded with *high confidence* that the dominant cause of GMSL rise since 1970 is anthropogenic forcing.
 
@@ -440,11 +440,11 @@ The SROCC concluded with *high confidence* that the dominant cause of GMSL rise 
 <img src="/images/IPCC_AR6_Ch3/Ch3_28.png" alt="Figure 3.29">
 {% endraw %}
 
-### 5.4 Ocean Circulation
+## 5.4 Ocean Circulation
 
 Ocean circulation is crucial for transporting heat and freshwater throughout the climate system. The AR5 reported that while models suggested an AMOC slowdown would occur due to anthropogenic forcing, the observational record was too short to confirm this.
 
-#### 5.4.1 Atlantic Meridional Overturning Circulation (AMOC)
+### 5.4.1 Atlantic Meridional Overturning Circulation (AMOC)
 
 The AMOC mean state is reasonably well simulated in models, but there is a large spread in its strength, and models tend to underestimate its depth and its interannual-to-decadal variability. While observations show a weakening from the mid-2000s to mid-2010s, this is largely attributed to internal variability, as the forced response in models is much weaker. Due to the short and sparse observational record and significant model biases, there is *low confidence* that anthropogenic forcing has had a significant influence on observed AMOC changes.
 
@@ -454,14 +454,14 @@ The AMOC mean state is reasonably well simulated in models, but there is a large
 {% endraw %}
 
 
-#### 5.4.2 Southern Ocean Circulation
+### 5.4.2 Southern Ocean Circulation
 
 The representation of the Antarctic Circumpolar Current (ACC) has improved from CMIP5 to CMIP6, converging toward observed estimates. However, models still struggle with the strength of the upper and lower overturning cells. The lack of interactive ice-sheet coupling is another important limitation. Due to substantial observational uncertainty and remaining model challenges, attribution of observed Southern Ocean circulation changes is not yet possible.
 
 
-## 6. Human Influence on the Biosphere
+# 6. Human Influence on the Biosphere
 
-### 6.1 Terrestrial Carbon Cycle
+## 6.1 Terrestrial Carbon Cycle
 
 The IPCC Special Report on Climate Change and Land (SRCCL) assessed with *high confidence* that global vegetation photosynthetic activity has increased over the last two to three decades. This "greening" of the Earth has been attributed to a combination of drivers, including direct land use and management changes, nitrogen deposition, increased diffuse radiation, climate change, and importantly, $CO_2$ fertilization (*high confidence*).
 
@@ -477,7 +477,7 @@ The IPCC Special Report on Climate Change and Land (SRCCL) assessed with *high c
 {% raw %}
 <img src="/images/IPCC_AR6_Ch3/Ch3_31.png" alt="Figure 3.32">
 {% endraw %}
-### 6.2 Ocean Biogeochemical Variables
+## 6.2 Ocean Biogeochemical Variables
 
 The ocean's biogeochemistry is undergoing significant changes as a direct consequence of anthropogenic emissions.
 
@@ -485,9 +485,9 @@ The ocean's biogeochemistry is undergoing significant changes as a direct conseq
 * **Ocean Carbon Uptake:** In the subtropical and equatorial North Atlantic, warming has been a significant contributor to the observed increase in the partial pressure of $CO_2$ ($pCO_2$) since the mid-2000s. This long-term warming is leading to a **reduction in the ocean's capacity to absorb carbon**. In other regions, like the Southern Ocean, the signal is harder to detect due to strong natural variability.
 * **Ocean Acidification:** The uptake of anthropogenic $CO_2$ is the most significant driver of chemical changes in the ocean. The AR5 concluded that this had *very likely* resulted in the acidification of surface waters. The evidence is now stronger. It is ***virtually certain*** **that the uptake of anthropogenic $CO_2$ was the main driver of the observed acidification of the global surface open ocean**. This acidification is not just a surface phenomenon but has been observed down to depths of 3000 m in some regions. The observed increase in acidification in parts of the North Atlantic since 2000 is *likely* associated in part with rising ocean temperatures, which corresponds to the expected weakening of the ocean carbon sink as the climate warms.
 
-## 7. Human Influence on Modes of Climate Variability
+# 7. Human Influence on Modes of Climate Variability
 
-### 7.1 Northern Annular Mode (NAM)
+## 7.1 Northern Annular Mode (NAM)
 * **The Northern Annular Mode (NAM)**, also known as the Arctic Oscillation, describes an oscillation of atmospheric mass between the Arctic and the northern mid-latitudes. It is the leading mode of wintertime variability in the northern extratropics. The **North Atlantic Oscillation (NAO)** is considered the regional expression of the NAM over the North Atlantic/European sector.
 
 There is limited evidence for a significant role for anthropogenic forcings in driving the observed multi-decadal variations of the NAM/NAO since the mid-20th century. **Confidence in attribution is low** for several key reasons:
@@ -503,7 +503,7 @@ There is limited evidence for a significant role for anthropogenic forcings in d
 <img src="/images/IPCC_AR6_Ch3/Ch3_33.png" alt="Figure 3.34">
 {% endraw %}
 
-### 7.2 Southern Annular Mode (SAM)
+## 7.2 Southern Annular Mode (SAM)
 * **The Southern Annular Mode (SAM)** consists of a north-south redistribution of atmospheric mass around Antarctica, associated with a corresponding shift in the jet stream and surface westerlies over the Southern Ocean.
 
 In contrast to its northern counterpart, the human fingerprint on the SAM is clear. It is ***very likely*** **that anthropogenic forcings have contributed to the observed trend of the summer SAM toward its positive phase since the 1970s**. This assessment is supported by improved models since AR5. The primary drivers have been identified:
@@ -515,7 +515,7 @@ In contrast to its northern counterpart, the human fingerprint on the SAM is cle
 <img src="/images/IPCC_AR6_Ch3/Ch3_34.png" alt="Figure 3.35">
 {% endraw %}
 
-### 7.3 El Niño-Southern Oscillation (ENSO)
+## 7.3 El Niño-Southern Oscillation (ENSO)
 * **The El Niño-Southern Oscillation (ENSO)**, generated by coupled ocean-atmosphere interactions in the tropical Pacific, is the world's most dominant mode of interannual climate variability, influencing weather patterns globally.
 
 While proxy records suggest ENSO amplitude since 1950 has been higher than in the period from 1400–1850 (*medium confidence*), large-ensemble model simulations suggest that such changes are consistent with internal variability. Key findings include:
@@ -535,19 +535,19 @@ While proxy records suggest ENSO amplitude since 1950 has been higher than in th
 <img src="/images/IPCC_AR6_Ch3/Ch3_37.png" alt="Figure 3.38">
 {% endraw %}
 
-### 7.4 Indian Ocean Basin and Dipole Modes (IOB, IOD)
+## 7.4 Indian Ocean Basin and Dipole Modes (IOB, IOD)
 
 * **The Indian Ocean Basin (IOB) and Dipole (IOD)** modes are the two leading patterns of interannual sea surface temperature (SST) variability in the tropical Indian Ocean. The IOB mode involves basin-wide warming/cooling, while the IOD features an east-west dipole of SST anomalies.
 
 There is *medium confidence* that the observed changes in interannual IOD variability in the late 20th century are **within the range of internal variability**. There is no evidence of an anthropogenic influence on the interannual IOB. On longer, multi-decadal timescales, there is *low confidence* that human influence has caused any change in the relationship between the IOB and other climate modes.
 
-### 7.5 Atlantic Meridional and Zonal Modes (AMM, AZM)
+## 7.5 Atlantic Meridional and Zonal Modes (AMM, AZM)
 
 * **The Atlantic Zonal Mode (AZM)**, or Atlantic Niño, and the **Atlantic Meridional Mode (AMM)** are the two leading modes of climate variability in the tropical Atlantic.
 
 Based on both CMIP5 and CMIP6 results, there is **no robust evidence that observed changes in either the AMM or AZM are beyond the range of internal variability** or have been influenced by external forcing. Attribution is severely limited by major, persistent biases in how climate models simulate the tropical Atlantic mean state and its variability.
 
-### 7.6 Pacific Decadal Variability
+## 7.6 Pacific Decadal Variability
 
 * **Pacific Decadal Variability (PDV)** is a generic term for decadal-to-interdecadal modes of variability in the Pacific Ocean, which includes the well-known Pacific Decadal Oscillation (PDO) and the Inter-decadal Pacific Oscillation (IPO). PDV was implicated in the temporary slowdown of global surface warming in the early 2000s.
 
@@ -561,7 +561,7 @@ Therefore, there is ***high confidence*** **that internal variability has been t
 {% endraw %}
 
 
-### 7.7 Atlantic Multi-decadal Variability
+## 7.7 Atlantic Multi-decadal Variability
 
 * **Atlantic Multi-decadal Variability (AMV)** refers to basin-wide, multi-decadal fluctuations in North Atlantic surface temperatures. It is associated with a wide range of physical processes, including changes in the Atlantic Meridional Overturning Circulation (AMOC). Along with the PDV, the AMV has modulated global surface temperature on multi-decadal timescales.
 
@@ -576,9 +576,9 @@ However, confidence in the *magnitude* of this human influence remains low due t
 <img src="/images/IPCC_AR6_Ch3/Ch3_39.png" alt="Figure 3.40">
 {% endraw %}
 
-## 8. Synthesis Across Earth System Components
+# 8. Synthesis Across Earth System Components
 
-### 8.1 Multivariate Attribution of Climate Change
+## 8.1 Multivariate Attribution of Climate Change
 
 When the evidence from individual components of the climate system is considered together, the scientific case for human influence becomes overwhelmingly strong. Combining the evidence increases the level of confidence in attribution and reduces the uncertainties associated with looking at any single variable. From this combined evidence, **it is unequivocal that human influence has warmed the atmosphere, ocean and land**.
 
@@ -586,12 +586,12 @@ When the evidence from individual components of the climate system is considered
 <img src="/images/IPCC_AR6_Ch3/Ch3_40.png" alt="Figure 3.41">
 {% endraw %}
 
-### 8.2 Multivariate Model Evaluation
+## 8.2 Multivariate Model Evaluation
 
 This section provides a system-wide assessment of model performance using integrative measures that combine multiple diagnostic fields.
 
 
-#### 8.2.1 Integrative Measures of Model Performance
+### 8.2.1 Integrative Measures of Model Performance
 
 The purpose of multivariate analysis is to assess how well models simulate present-day and historical climate across a wide range of variables, using metrics like pattern correlation or root-mean-square difference against observations.
 
@@ -611,7 +611,7 @@ The purpose of multivariate analysis is to assess how well models simulate prese
 <img src="/images/IPCC_AR6_Ch3/Ch3_43.png" alt="Figure 3.44">
 {% endraw %}
 
-#### 8.2.2 Process Representation in Different Classes of Models
+### 8.2.2 Process Representation in Different Classes of Models
 
 This section explores the influence of two key aspects of model development: resolution and complexity. A key advance in CMIP6 is the systematic inclusion of high-resolution models.
 
@@ -624,6 +624,6 @@ In summary, both high-resolution and high-complexity models have been evaluated 
 ---
 
 
-## Reference
+# Reference
 
 Eyring, V., N.P. Gillett, K.M. Achuta Rao, R. Barimalala, M. Barreiro Parrillo, N. Bellouin, C. Cassou, P.J. Durack, Y. Kosaka, S. McGregor, S. Min, O. Morgenstern, and Y. Sun, 2021: Human Influence on the Climate System. In Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Masson-Delmotte, V., P. Zhai, A. Pirani, S.L. Connors, C. Péan, S. Berger, N. Caud, Y. Chen, L. Goldfarb, M.I. Gomis, M. Huang, K. Leitzell, E. Lonnoy, J.B.R. Matthews, T.K. Maycock, T. Waterfield, O. Yelekçi, R. Yu, and B. Zhou (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA, pp. 423–552, doi: 10.1017/9781009157896.005.
