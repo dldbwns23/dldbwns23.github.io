@@ -73,6 +73,100 @@ More **conditional approaches** involve prescribing certain aspects of the clima
 
 The **storyline approach** provides an alternative option that does not depend on the model’s ability to represent the circulation reliably. For the unconditional **probability-based approach**, multi-model and multi-approach (e.g., combining observational analyses and model experiments) methods have been used to improve the robustness of event attribution.
 
+
+## 2.4 Projecting Changes in Extremes as a Function of Global Warming Levels
+
+[Figure 11.8]
+
+The most important quantity for characterizing past and future climate change is **global warming** relative to its pre-industrial level. These changes in global warming are linked quasi-linearly to cumulative **carbon dioxide emissions**.
+
+The assessment of projections of future changes in extremes as a function of **global warming levels (GWLs)** has an advantage in **separating uncertainty** associated with the global warming response (e.g., how sensitive the climate is) from the uncertainty resulting from the **regional climate response** as a function of GWLs. If the interest is in the projection of regional changes at certain GWLs, such as those defined by the Paris Agreement, projections based on **time periods and emissions scenarios** have unnecessarily larger uncertainty. This is due to differences in model global **transient climate responses** (i.e., how fast different models warm). To take advantage of this feature, assessments of projected changes in this chapter are largely provided in relation to future GWLs, with a focus on changes at **$+1.5^{\circ}C$, $+2.0^{\circ}C$, and $+4.0^{\circ}C$** of global warming above pre-industrial levels.
+
+While regional changes in many types of extremes do scale robustly with global surface temperature, generally irrespective of emissions scenarios, effects of **local forcing** can distort this relation. For example, emissions scenarios with the same radiative forcing can have different regional extreme precipitation responses resulting from different **aerosol forcing**. Climate models often either overestimate or underestimate observed changes in annual maximum daily maximum temperature, depending on the region. Part of these discrepancies may be due to the lack of representation of some **land forcings**, in particular **crop intensification and irrigation**. Since these local forcings are not represented, and their future changes are difficult to project, these can be important caveats when using GWL scaling to project future changes for these regions. However, these caveats also apply to the use of scenario-based projections.
+
+The **temporal dimension**—that is, *when* the given GWL occurs—also matters for projections, in particular beyond the 21st century, and for some climate variables related to components of the climate system associated with **large inertia** (e.g., sea level rise).
+
+An important question is the identification of the GWL at which a given change in a climate extreme can begin to **emerge from climate noise**. As Figure 11.8 shows, signals for hot extremes (TXx) **emerge very early**, often **below $0.2^{\circ}C$ in many regions** and at **around $0.5^{\circ}C$ in most regions**. This confirms conclusions from the SR1.5 report, which showed that a *difference* as small as **$0.5^{\circ}C$ of global warming**—for example, the increment *between* a $+1.5^{\circ}C$ and a $+2.0^{\circ}C$ GWL—leads to **detectable differences** in temperature extremes in most WGI AR6 regions.
+
+In essence, this approach "replaces" the time dimension with the GWL. The **physical response** of many extremes is more directly and reliably tied to the *level* of warming (the GWL) than the *year* it occurs. The regional pattern of change at a $+2.0^{\circ}C$ GWL is expected to be very similar, regardless of which emissions scenario gets us there. This allows researchers to **separate the problem** into two almost-independent questions:
+1.  **The Impacts Question (GWL-based):** What will the regional climate look like *at* $+2.0^{\circ}C$?
+2.  **The Timing Question (Scenario-based):** *When* will we *reach* $+2.0^{\circ}C$?
+
+---
+
+
+# 3. Temperature Extremes
+
+This section assesses changes in temperature extremes, focusing on the **magnitude and frequency** of events ranging from **moderate** (occurring several times a year) to **very extreme** (occurring once in 10 or more years). The assessment covers timescales from a single day to a full season.
+
+## 3.1 Mechanisms and Drivers
+
+**Greenhouse gas forcing** is the **dominant factor** driving the increases in the intensity, frequency, and duration of **warm extremes** and the decrease in **cold extremes**. This general global-scale warming is modulated by large-scale **atmospheric circulation patterns**, regional **feedbacks** (like soil moisture–temperature and snow/ice–albedo), and **local forcings** (like land-use change or aerosols) at regional and local scales.
+
+**Mid-latitude planetary wave modulations** affect short-duration extremes like heatwaves. These **large-scale modes of variability** (e.g., ENSO, PNA) impact the strength and persistence of meteorological patterns that cause extremes. Even after accounting for these modes, a large portion of the multi-decadal change in extreme temperature remains and **can be attributed to human influence**.
+
+**Land-atmosphere feedbacks** strongly modulate regional and local-scale changes in temperature extremes (*high confidence*). This effect is particularly notable in mid-latitude regions where the **drying of soil moisture amplifies high temperatures**, especially through increases in sensible heat flux. Soil moisture-temperature feedbacks affect past and present-day heatwaves in observations and model simulations, both locally and beyond the regions of feedback occurrence through changes in regional circulation patterns. The decrease of plant transpiration or the increase of stomata resistance under enhanced **$CO_2$ concentrations** is a direct $CO_2$ forcing of land temperatures (warming due to reduced evaporative cooling), which contributes to higher warming on land. The **snow/ice-albedo feedback** plays an important role in amplifying temperature variability in the high latitudes and can be the **largest contributor** to the rapid warming of cold extremes in the mid-and high latitudes of the Northern Hemisphere.
+
+**Regional external forcings**, including **land-use changes** and emissions of **anthropogenic aerosols**, also play an important role in the changes of temperature extremes in some regions (*high confidence*). **Deforestation** may have contributed to about one-third of the warming of hot extremes in some mid-latitude regions since the pre-industrial time.
+
+These combined factors lead to significant **heterogeneity** in regional changes and their associated uncertainties (*high confidence*).
+
+## 3.2 Observed Trends
+
+The additional observational records, along with a stronger warming signal, show very clearly that changes observed at the time of AR5 continued, providing strengthened evidence of an **increase in the intensity and frequency of hot extremes** and a **decrease in the intensity and frequency of cold extremes**. While the magnitude of the observed trends in temperature-related extremes varies depending on the region, spatial and temporal scales, and metric assessed, evidence of a **warming effect is overwhelming, robust, and consistent**. In particular, an increase in the intensity and frequency of hot extremes is almost always associated with an increase in the hottest temperatures and in the number of heatwave days.
+
+Warming of land mean **TXx** (annual hottest day) is similar to the mean temperature warming on land, which is about 45% higher than global warming. Warming of land mean **TNn** (annual coldest night) is even higher, with about $3^{\circ}C$ of warming since 1960. Warming trends in temperature extremes globally, and in most land areas, over the past century are also found to be consistent in a range of observation-based datasets, with the extremes related to **daily minimum temperatures changing faster** than those related to daily maximum temperatures. A warming in **warm-season** temperature extremes is detected, even during the 'slower surface global warming' period (late 1990s to early 2010s).
+
+It is *virtually certain* that there has been an **increase in the number of warm days and nights** and a **decrease in the number of cold days and nights** on the global scale since 1950. Both the coldest extremes and hottest extremes display increasing temperatures. It is *very likely* that these changes have also occurred at the regional scale. It is *virtually certain* that there have been **increases in the intensity and duration of heatwaves** and in the number of heatwave days at the global scale. **Annual minimum temperatures** on land have increased about **three times more than global surface temperature** since the 1960s, with particularly strong warming in the **Arctic** (*high confidence*).
+
+[Figure 11.9]
+
+## 3.3 Model Evaluation
+
+The models generally captured trends in the second half of the 20th century for indices of extreme temperature, although AR5 noted they tended to **overestimate trends in hot extremes** and **underestimate trends in cold extremes**.
+
+Compared to GCMs, **RCM (Regional Climate Model) simulations** show an **added value** in simulating temperature-related extremes, though this depends on topographical complexity and the parameters employed.
+
+Some **land forcings** are **not well represented** in climate models. There is *high agreement* that temperate **deforestation** leads to summer warming and winter cooling, which has substantially contributed to the warming of hot extremes in the northern mid-latitudes over the course of the 20th century and in recent years. However, observed **forest effects** on the seasonal and diurnal cycle of temperature are **not well-captured** in several ESMs. Also, **irrigation effects**, which can lead to regional cooling of temperature extremes, are **generally not integrated** in current generations of ESMs.
+
+Climate models can reproduce the mean state and overall warming of temperature extremes observed globally and in most regions (*high confidence*). The ability of models to capture trends depends on the metric evaluated, the way indices are calculated, and the time periods and spatial scales considered.
+
+[Figure 11.10]
+
+## 3.4 Detection and Attribution, Event Attribution
+
+It is *likely* **anthropogenic influences** have led to the warming of extreme daily minimum and maximum temperatures at the global scales. The AR5 concluded that human influence has *very likely* contributed to the observed changes in the **intensity and frequency of daily temperature extremes** on the global scale in the second half of the 20th century.
+
+Studies of monthly, seasonal, and annual records in various regions and globally show an increase in the **breaking of hot records** and a decrease in the **breaking of cold records**. Changes in **anthropogenically attributable record-breaking rates** are noted to be largest over the Northern Hemisphere land areas.
+
+Human influence is found to have increased the probability of the **historically hottest summers** in many regions of the world, both in terms of mean temperature and **wet bulb globe temperature** (WBGT). Extreme event studies have found an attributable increase in the probability of hot annual and seasonal temperatures in many locations.
+
+For short-duration temperature extremes, several studies for recent events from 2016 onwards have determined an **infinite risk ratio** (a fraction of attributable risk, or FAR, of 1). This indicates that the occurrence probability for such events is close to zero in model simulations *without* anthropogenic influences. Though it is difficult to accurately estimate the lower bound of the uncertainty range of the FAR in these cases, the fact that those events are so far outside the envelope of the models with only natural forcing indicates that it is *extremely unlikely* for those events to occur without human influence.
+
+Different event attribution studies can produce a wide range of changes in the probability of event occurrence because of **different framing**. The temperature **event definition** itself (e.g., its spatial and temporal scale) plays a crucial role in the attributable signal. **Large-scale, longer-duration events** tend to have notably **larger attributable risk ratios** as natural variability is smaller. While uncertainty in the best estimates of the risk ratios may be large, their lower bounds can be quite insensitive to uncertainties in observations or model descriptions, thus increasing confidence in conservative attribution statements.
+
+The relative strength of anthropogenic influences on temperature extremes is **regionally variable**, in part due to differences in changes in atmospheric circulation, land-surface feedbacks, and other external drivers such as aerosols. Despite all of these differences, and larger uncertainties at the regional scale, **nearly all studies** demonstrated that human influence has contributed to an increase in the frequency or intensity of hot extremes and to a decrease in the frequency or intensity of cold extremes.
+
+## 3.5 Projections
+
+[Figure 11.11]
+
+[Figure 11.12]
+
+It is *virtually certain* there will be **more frequent hot extremes** and **fewer cold extremes** at the global scale and over most land areas in a future warmer climate, and it is *very likely* that **heatwaves** will occur with a **higher frequency and longer duration**. New studies since AR5 and SR1.5 confirm these assessments.
+
+Projected changes in the **magnitude** of extreme temperatures over land are **larger than changes in global mean temperature**, over mid-latitude land regions in particular. CMIP6 simulations show that a **$0.5^{\circ}C$ increment** in global warming will **significantly increase** the intensity and frequency of hot extremes and decrease the intensity and frequency of cold extremes on the global scale. It takes **less than half a degree** ($0.5^{\circ}C$) for the changes in TXx (annual hottest day) to **emerge above the level of natural variability**. The 66% uncertainty ranges of the land medians for 10-year or 50-year TXx events **do not overlap between $1.0^{\circ}C$ and $1.5^{\circ}C$** in the CMIP6 multi-model ensemble simulations, highlighting a detectable change. Projected changes in temperature extremes can deviate from projected changes in annual mean warming in the same regions due to the **additional processes** that control regional extremes, including **soil moisture-evapotranspiration-temperature feedbacks** and **snow/ice-albedo-temperature feedbacks**.
+
+The probability of exceeding a certain hot extreme threshold will increase. The changes tend to scale **nonlinearly** with the level of global warming, with **larger changes for more rare events**.
+
+At the middle of the 21st century, 66% of the land surface area would experience the present-day 20-year return values of TXx every other year, on average, under the **RCP8.5** scenario, as opposed to only 34% under **RCP4.5**. This **nonlinear increase in frequency** (when using fixed-threshold indices) as a function of global warming is **consistent with a linear warming** of the absolute temperature of the temperature extremes themselves.
+
+Five RCMs in the **CORDEX-East Asia** region project increases in the 20-year return values of temperature extremes (summer maxima), with models that exhibit warm biases projecting stronger warming. **Empirical statistical downscaling** has also been used to produce more robust estimates for future heatwaves compared to RCMs based on large multi-model ensembles.
+
+In summary, it is *virtually certain* that further increases in the intensity and frequency of **hot extremes**, and decreases in the intensity and frequency of **cold extremes**, will occur throughout the 21st century and around the world. It is *virtually certain* that the **number of hot days and hot nights** and the length, frequency, and/or intensity of **warm spells or heatwaves** (compared to 1995–2014) will **increase** over most land areas. In most regions, changes in the magnitude of temperature extremes are proportional to global warming levels (*high confidence*). The highest increase of temperature of **hottest days** is projected in some **mid-latitude and semi-arid regions**, at about 1.5 to 2 times the rate of global warming (*high confidence*). The highest increase of temperature of **coldest days** is projected in **Arctic regions**, at about **three times the rate** of global warming (*high confidence*). The probability of temperature extremes generally increases **nonlinearly** with increasing global warming levels (*high confidence*). Confidence in assessments depends on the spatial and temporal scales, but there is *high confidence* that, on land, the **magnitude of temperature extremes increases more strongly** than global mean temperature.
+
+
+
 ---
 # n. Box
 ## n.1 Box | Thermodynamic and Dynamic Changes in Extreme Across Scales
@@ -103,3 +197,39 @@ Climate science must also contend with the challenge of unanticipated events tha
 >One factor making such events hard to anticipate is the fact that we now live in a **non-stationary climate**, and that the framework of reference for adaptation is continuously moving. Furthermore, when other aspects of the risk, vulnerability, and exposure are historically high or have recently increased, relatively moderate extremes can have very high impacts. Another factor making events high-impact and difficult to anticipate is that several locations under moderate warming levels could be affected simultaneously, or very repeatedly by different types of extremes. Therefore, in order to estimate whether, and at what level of global warming, very high impacts arising from extremes would occur, the spatial extent of extremes and the potential of **compounding extremes** need to be assessed.
 >
 >**Compound events**, including concurrent extremes, are a factor increasing the probability of LLHI events (*high confidence*). With increasing global warming, some compound events with low likelihood in past and current climate will become more frequent, and there is a higher chance of historically unprecedented events and **surprises** (*high confidence*). However, even extreme events that do not have a particularly low probability in the present climate (at more than $1^{\circ}C$ of global warming) can be perceived as surprises because of the pace of global warming (*high confidence*).
+
+
+---
+# n. Cross Chapter Box
+## n.1 Translating Between Regional Information at GWL versus Scenarios for End Users
+
+[Cross-Chapter Box 11.1, Figure 1]
+
+> ### Background
+> **GWLs** are expressed as changes in global surface temperature relative to the **1850–1900 period**. Cross-Chapter Box 11.1, Figure 1 illustrates how the assessment of the climate response at GWLs relates to the **uncertainty in scenarios** regarding the *timing* of those GWLs, as well as to the uncertainty in the associated regional climate responses (including extremes and other climatic impact-drivers (CIDs)). For many (but not all) climate variables and CIDs, the **response pattern** for a given GWL is **consistent across different scenarios**.
+>
+> The regional response patterns at a given GWL have been found to be consistent across different scenarios for many climate variables. This consistency tends to be **higher for temperature-related variables** than for variables in the hydrological cycle or those characterizing atmospheric dynamics, and for intermediate- to high-emissions scenarios than for low-emissions scenarios. The response pattern is also found to be **broadly consistent** between models that reach a GWL relatively early (a high warming rate) and those that reach it later (a low warming rate) under a given SSP.
+>
+> The use of GWLs as a dimension of integration **does not require linearity** in the response of a climate variable. It is therefore useful even for metrics that do not show a linear response, such as the **frequency of heat extremes** over land and oceans, as long as the relationship of the variable of interest to the GWL is **scenario independent**. This means the response is independent of the *pathway* and the relative contribution of various radiative forcings.
+>
+> The limited scenario dependence of the GWL-based response for many variables implies that the regional response to emissions scenarios can be split into two almost **independent contributions**: (i) the **transient global warming response** to scenarios (i.e., the global sensitivity) and (ii) the **regional response as a function of a given GWL**, which is also referred to as ‘regional climate sensitivity’. Analyses of the CMIP6 and CMIP5 multi-model ensembles show that the GWL-based responses are very similar for temperature and precipitation extremes across the ensembles, despite their differences in global warming response. This confirms a **substantial decoupling** between the two responses (global warming vs GWL-based regional response) for these variables. Thus, the GWL approach **isolates the uncertainty** in the regional climate response from the global warming uncertainty induced by the scenario, the global mean model response, and internal variability.
+>
+> [CCB 11.1, Figure 2]
+>
+> ### Mapping between GWL- and scenario-based responses in model analyses
+>
+> [CCB 11.1, Figure 3]
+>
+> To map scenario-based climate projections, first, all individual Earth system model (ESM) simulations that reach a certain GWL are identified. Second, the climate response patterns at that GWL are calculated using an approach termed **'GWL-sampling'** (or time sampling), which averages across all models and scenarios that reach the corresponding GWL. Mapping between scenarios/time frames and GWLs is used to assess the respective regional responses happening at these time frames.
+>
+> In the model-based assessments in this report, the estimation of changes at GWLs is generally defined as the **20-year time period** in which the mean global surface air temperature (GSAT) first exceeds a certain anomaly relative to 1850–1900.
+>
+> ### Mapping between GWL- and scenario-based responses for literature
+>
+> A large fraction of the literature uses scenario-based analyses for given time slices. As a rough approximation for mapping these studies, CMIP6 multi-model mean projections for the **near-term (2021–2040)** correspond to changes at about **$+1.5^{\circ}C$**, and projections for the **high-end scenario (SSP5-8.5)** for the **long-term (2081–2010)** correspond to about **$+4^{\circ}C$ to $+5^{\circ}C$** of global warming.
+>
+> ### GWLs versus scenarios
+>
+> The use of scenarios remains essential for informing mitigation decisions and for assessing variables that are strongly forcing-dependent (like aerosols) or time-dependent. For example, elements that are **quick to respond** to warming, like **sea ice area, permafrost, and snow**, show **little scenario dependence**. In contrast, **slow-responding variables** such as **ice volumes of glaciers and ice sheets** respond with a substantial delay; due to their inertia, their response **depends on the pathway** and when a certain GWL is reached.
+>
+> There is also a difference in the response even for temperature-related variables if a GWL is reached in a rapidly warming **transient state** versus a long-term **equilibrium state**, as the land-sea warming contrast is less pronounced in the latter. However, in this Report, GWLs are used in the context of 21st-century projections where the climate response is mostly transient and less dependent on the pathway than for projections beyond 2100.
