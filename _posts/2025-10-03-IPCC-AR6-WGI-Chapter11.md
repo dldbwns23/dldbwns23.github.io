@@ -165,9 +165,109 @@ Five RCMs in the **CORDEX-East Asia** region project increases in the 20-year re
 
 In summary, it is *virtually certain* that further increases in the intensity and frequency of **hot extremes**, and decreases in the intensity and frequency of **cold extremes**, will occur throughout the 21st century and around the world. It is *virtually certain* that the **number of hot days and hot nights** and the length, frequency, and/or intensity of **warm spells or heatwaves** (compared to 1995–2014) will **increase** over most land areas. In most regions, changes in the magnitude of temperature extremes are proportional to global warming levels (*high confidence*). The highest increase of temperature of **hottest days** is projected in some **mid-latitude and semi-arid regions**, at about 1.5 to 2 times the rate of global warming (*high confidence*). The highest increase of temperature of **coldest days** is projected in **Arctic regions**, at about **three times the rate** of global warming (*high confidence*). The probability of temperature extremes generally increases **nonlinearly** with increasing global warming levels (*high confidence*). Confidence in assessments depends on the spatial and temporal scales, but there is *high confidence* that, on land, the **magnitude of temperature extremes increases more strongly** than global mean temperature.
 
+---
 
+# 4. Heavy Precipitation
+
+## 4.1 Mechanisms and Drivers
+
+The primary driver of increases in heavy precipitation is **thermodynamic**: a warmer atmosphere increases its **water-holding capacity** at a rate governed by the **Clausius-Clapeyron (C-C) relation**. This effect directly results in an increase in extreme precipitation at a similar rate on a global scale. However, at the regional scale, this thermodynamic increase is further modulated by **dynamic changes** (i.e., changes in atmospheric circulation).
+
+These dynamic changes are complex. **Large-scale modes of variability**, such as ENSO or the NAO, modulate precipitation extremes by altering environmental conditions or storm tracks. Furthermore, the very **efficiency** of converting atmospheric moisture into precipitation can change due to cloud microphysical adjustments to warming, which in turn alters the characteristics of extreme precipitation.
+
+A key challenge is that it remains difficult to separate the effect of global warming from internal variability in the *observed* changes of these modes. Consequently, future **projections** of these modes are highly uncertain, which in turn introduces uncertainty into regional projections of extreme precipitation. In addition to circulation patterns, changes in **SSTs** also alter the **land-sea contrast** and subsequently affect precipitation extremes near coastal regions.
+
+Non-GHG forcings also play a role. **Atmospheric aerosols** have a complex effect: decreases in aerosols can lead to warming (a thermodynamic effect that increases extreme precipitation), but changes in aerosols also induce **dynamic changes**, such as in tropical cyclones.
+
+At the local scale, **urbanization** is found to intensify extreme precipitation, especially in the afternoon and early evening, over the urban area and its downwind region (*medium confidence*). Four primary mechanisms are proposed:
+* (i) Increases in atmospheric moisture due to convergence from the **urban heat island effect**;
+* (ii) Increases in condensation nuclei from **urban aerosol emissions**;
+* (iii) Aerosol pollution impacting **cloud microphysics**; and
+* (iv) Urban structures physically **impeding atmospheric motion**.
+Other local forcings, such as reservoirs, irrigation, and large-scale land-cover change, can also affect local extreme precipitation.
+
+In summary, precipitation extremes are controlled by both **thermodynamic and dynamic processes**. The warming-induced thermodynamic change results in an increase in extreme precipitation at a rate that closely follows the C-C relationship at the global scale (*high confidence*). However, the effects of warming-induced **dynamic changes** are more complicated, difficult to quantify, and remain an uncertain aspect of projections. Precipitation extremes are also affected by non-GHG forcings, including changes in aerosols and land use (*medium confidence*).
+
+## 4.2 Observed Trends
+
+Observational evidence has strengthened since AR5. It is *likely* that the number of heavy precipitation events over land has increased in more regions than it has decreased, though regional variations are wide and trends in many locations are not statistically significant. Several key metrics show significant increases:
+* The average **annual maximum 1-day precipitation (Rx1day)** has significantly increased since the mid-20th century over land, in both humid and dry regions.
+* Light, moderate, and heavy daily precipitation have all intensified in a gridded daily precipitation dataset.
+* The globally averaged annual fraction of precipitation from days in the top 5% (**R95pTOT**) has also significantly increased.
+The rate of increase in the magnitude of 20th-century Rx1day is estimated to be consistent with C-C scaling relative to global mean temperature.
+
+A considerable body of literature examines the scaling of **sub-daily precipitation extremes** conditional on day-to-day air or dew-point temperatures. This "apparent scaling" is robustly observed in many regions, often ranging between the C-C and **two-times the C-C rate**. However, this finding must be interpreted with caution. "Apparent scaling" samples *multiple synoptic weather states*, mixing thermodynamic and dynamic factors that are **not directly relevant** to the long-term climate change response. It therefore remains difficult to use knowledge about apparent scaling to infer past and future changes in extreme sub-daily precipitation from observed and projected changes in local temperature.
+
+The frequency and intensity of heavy precipitation have *likely* increased at the **global scale** over a majority of land regions with good observational coverage. This increase is also *likely* on the **continental scale** over North America, Europe, and Asia, where observational data are most abundant.
+
+[Figure 11.13]
+
+## 4.3 Model Evaluation
+
+Evaluating climate model competence in simulating heavy precipitation extremes is challenging. A primary difficulty is the **spatial scale mismatch** between simulated and observed data. Simulated precipitation represents an areal mean, whereas station-based observations are point locations and often sparse. Furthermore, the **order of operations** for constructing gridded station-based extreme values (i.e., whether extremes are extracted at the station *before* gridding, or *after* gridding daily values) represents different spatial scales and must be accounted for in model evaluation.
+
+[Figure 11.14]
+
+Despite these challenges, CMIP5 models successfully reproduced an important observed relationship: an **increase in extreme precipitation** occurs at the **cost of a decrease in non-extreme precipitation**. While grid-scale challenges remain, there is *high confidence* in the ability of models to capture the **large-scale spatial distribution** of precipitation extremes over land.
+
+## 4.4 Detection and Attribution, Event Attribution
+
+Detection and attribution analyses have provided consistent and *robust* evidence of **human influence** on extreme precipitation of one- and five-day durations (Rx1day, Rx5day) at global to continental scales. The observed increases in these metrics over the Northern Hemisphere land area (1951–2005) can be attributed to the effect of **combined anthropogenic forcing** (greenhouse gases and aerosols), as simulated by CMIP5 models, with the rate of intensification being consistent with C-C scaling.
+
+Most of the observed intensification of heavy precipitation over land regions is *likely* due to **anthropogenic influence**, with greenhouse gas emissions as the main contributor. New and *robust* evidence has strengthened this conclusion since AR5. This includes attribution of observed increases in Rx1day and Rx5day, attribution of the increase in the fraction of annual precipitation falling in heavy events, and the observation that a larger fraction of land shows enhanced extreme precipitation and a higher probability of record-breaking one-day precipitation than expected by chance—all of which can **only be explained** when anthropogenic greenhouse gas forcing is considered.
+
+## 4.5 Projections
+
+The AR5 concluded that it is *very likely* that extreme precipitation events will be more frequent and more intense over most of the mid-latitude land masses and wet tropics in a warmer world.
+
+Newer CMIP5 and CMIP6 models project that the rate of increase in Rx1day with warming is **independent of the forcing scenario** or forcing mechanism. For extreme precipitation that occurs once a year or less frequently, the magnitudes of the rates of change per $1^{\circ}C$ of global mean temperature are similar, regardless of whether the warming is caused by $CO_2$, $CH_4$, solar forcing, or $SO_4$ aerosols.
+
+This scenario-independence means that even a **small increment** of global warming, such as **$0.5^{\circ}C$**, can result in a **significant increase** in extreme precipitation. Projections also show that changes in long-period return values (e.g., 50-year events) are larger than changes in the mean (e.g., 1-year events), with **larger relative changes for more rare events**.
+
+[Figure 11.15]
+
+The **spatial patterns** of the projected changes are quite similar across different warming levels, as shown in Figure 11.16, confirming a near-linear scaling between extreme precipitation and GWLs at regional scales. Extreme precipitation **nearly always increases across land areas**, with larger increases at higher GWLs. The *very likely* ranges of the multi-model ensemble changes for 50-year return values (Rx1day and Rx5day) between $1.0^{\circ}C$ and $1.5^{\circ}C$ warming levels are **above zero for all continents except Europe** (which is *likely* above zero). Projected decreases in extreme precipitation are confined mostly to **subtropical ocean areas** and are highly correlated with decreases in mean precipitation due to storm track shifts.
+
+Projected increases in the **probability (frequency)** of extreme precipitation (of a fixed magnitude) are **nonlinear**, showing **larger increases for more rare events**.
+* **CMIP5** simulations show the frequency of a present-day 20-year event is projected to increase by 10% at $1.5^{\circ}C$ GWL and 22% at $2.0^{\circ}C$ GWL. A present-day 100-year event is projected to increase by 20% at $1.5^{\circ}C$ and over 45% at $2.0^{\circ}C$.
+* **CMIP6** simulations (SSP scenarios) project that the frequency of 10-year and 50-year events will be approximately **doubled and tripled**, respectively, at a very high warming level of $4^{\circ}C$.
+
+For very short-duration events, a majority of the available **convection-permitting simulations** project increases in the intensities of extreme **sub-daily precipitation events**, with the amount of increase similar to or **higher than the C-C scaling rate**.
+
+[Figure 11.16]
+
+In summary, heavy precipitation will generally become **more frequent and more intense** with additional global warming. At a global warming level of $4^{\circ}C$ relative to the pre-industrial, very rare (e.g., one in 10 or more years) heavy precipitation events would become more frequent and more intense than in the recent past, on the global scale (*virtually certain*), and in all continents and AR6 regions. The increase in frequency and intensity is *extremely likely* for most continents and *very likely* for most AR6 regions. At the global scale, the **intensification** (change in magnitude) of heavy precipitation will follow the rate of increase in atmospheric moisture (*high confidence*), about **7% per $1^{\circ}C$** of global warming. The increase in the **frequency** of heavy precipitation events will be **non-linear** with more warming and will be **higher for rarer events** (*high confidence*), with 10- and 50-year events projected to be approximately **double and triple**, respectively, at the $4^{\circ}C$ warming level. Increases in the intensity of extreme precipitation events at regional scales will depend on the amount of regional warming as well as changes in atmospheric circulation and storm dynamics, leading to regional differences in the rate of heavy precipitation changes (*high confidence*).
+
+# 5. Compound Events
+
+The SREX (2012) first defined **compound events** as: (i) two or more extreme events occurring simultaneously or successively; (ii) combinations of extreme events with underlying conditions that amplify the impact; or (iii) combinations of events that are not themselves extremes but lead to an extreme event or impact when combined. This assessment uses a broad definition: 'the **combination of multiple drivers and/or hazards** that contributes to societal or environmental risk'. This definition focuses on the risk framework and highlights that compound events may not necessarily result from dependent drivers.
+
+Compound events have been classified into four main types:
+* **Preconditioned events:** A weather- or climate-driven precondition aggravates the impacts of a climatic impact-driver (e.g., drought preconditioning a heatwave).
+* **Multivariate events:** Multiple drivers and/or climatic impact-drivers lead to an impact (e.g., concurrent hot and dry conditions).
+* **Temporally compounding events:** A succession of hazards leads to an impact (e.g., multiple storms in a row).
+* **Spatially compounding events:** Hazards in multiple connected locations cause an aggregated impact (e.g., simultaneous crop failures in different breadbaskets).
+
+In this context, **Drivers** are the climate processes and variables (spanning multiple scales), while **Hazards** (also termed 'climatic impact-drivers') are the immediate physical precursors to negative impacts (e.g., floods, heatwaves, wildfires).
+
+## 5.1 Overview
+
+Compound events can lead to **extreme impacts** that are much larger than the sum of the impacts from individual extremes alone. This is because multiple stressors can exceed the **coping capacity** of a system more quickly. The contributing events can be of similar types (e.g., clustered storms) or of different types. Concomitant extreme conditions at different locations become more probable as changes in climate extremes are emerging over an increasing fraction of the land area.
+
+Impacts may occur because of large **multivariate anomalies**, even if the individual variables are not extreme in a univariate assessment. For instance, ecosystems are typically adapted to the local **covariability** of temperature and precipitation, so a bivariate anomaly (e.g., warmer *and* drier than normal) may have a large impact, even if the temperature or precipitation alone is not a record. It should be noted, however, that multi-hazard dependencies can also **decrease risk**, for instance when hazards are negatively correlated (e.g., conditions for extreme snow and extreme wildfire).
+
+## 5.2 Concurrent Extremes in Coastal and Estuarine Regions
+
+**Sea level extremes** and their physical impacts in the coastal zone arise from a complex set of atmospheric, oceanic, and terrestrial processes (e.g., storm surge, high tides, river runoff) that interact on a range of scales. These interactions, which can lead to **compound flooding**, will be modified by a changing climate, most notably through **sea level rise**. At the global scale and under a high-emissions scenario, the concurrence probability of meteorological conditions driving compound flooding is projected to **increase by more than 25%**, on average, along coastlines worldwide by 2100, compared to the present.
+
+## 5.3 Concurrent Droughts and Heatwaves
+
+Over most land regions, temperature and precipitation are strongly **negatively correlated** during summer. This is partly due to **land-atmosphere feedbacks** (drier soils lead to higher sensible heat flux and thus higher temperatures) and also because the **synoptic-scale weather systems** (e.g., blocking high-pressure systems) that are favourable for extreme heat are also unfavourable for rain. This physical link leads to a strong correlation between **droughts and heatwaves**.
+
+There is *high confidence* that concurrent **heatwaves and droughts** have **increased in frequency** over the last century at the global scale, and that this increase is due to **human influence**.
 
 ---
+
 # n. Box
 ## n.1 Box | Thermodynamic and Dynamic Changes in Extreme Across Scales
 A key concept for understanding how extremes are changing is the distinction between thermodynamic and dynamic processes.
@@ -233,3 +333,32 @@ Climate science must also contend with the challenge of unanticipated events tha
 > The use of scenarios remains essential for informing mitigation decisions and for assessing variables that are strongly forcing-dependent (like aerosols) or time-dependent. For example, elements that are **quick to respond** to warming, like **sea ice area, permafrost, and snow**, show **little scenario dependence**. In contrast, **slow-responding variables** such as **ice volumes of glaciers and ice sheets** respond with a substantial delay; due to their inertia, their response **depends on the pathway** and when a certain GWL is reached.
 >
 > There is also a difference in the response even for temperature-related variables if a GWL is reached in a rapidly warming **transient state** versus a long-term **equilibrium state**, as the land-sea warming contrast is less pronounced in the latter. However, in this Report, GWLs are used in the context of 21st-century projections where the climate response is mostly transient and less dependent on the pathway than for projections beyond 2100.
+
+
+# FAQ
+
+## How Do Changes In Climate Extremes Compare With Changes In Climate Averages?
+
+The relationship between changes in extremes and changes in averages strongly depends on the variable. Changes in local surface **temperature extremes** closely follow the corresponding changes in local **average surface temperatures**. In contrast, changes in **precipitation extremes** (heavy precipitation) generally **do not follow** those in average precipitation, and can even move in the opposite direction.
+
+These differences arise because the underlying **physical processes** differ drastically across regions and seasons. Climate change can also manifest differently for different **weather regimes**, leading to contrasting changes in average and extreme conditions.
+
+Recent observations and model projections consistently show that changes in **precipitation extremes** differ drastically from those in **average precipitation**. The intensification of extreme precipitation is driven by the increase in **atmospheric water vapour** (following the C-C relation of about 7% per $1^{\circ}C$ of warming). In contrast, changes in *average* precipitation are constrained by slower processes (like the global energy budget) to only **2–3% per $1^{\circ}C$** of warming near the surface.
+
+In summary, the specific relationship strongly depends on the phenomenon. At the local scale, average and extreme **temperature changes are strongly related**, while average and extreme **precipitation changes are weakly related**. For both variables, the changes vary strongly across different places due to local and regional processes.
+
+[FAQ Figure 1]
+
+## Did Climate Change Cause That Recent Extreme Event In My Country?
+
+The science of **event attribution** enables scientists to attribute aspects of specific extreme weather and climate events to certain causes. A common question is whether a particular event was *caused* by climate change. Scientists cannot answer this directly, as extremes do occur naturally and any single event is a complex mix of human and natural factors. Instead, scientists **quantify the relative importance** of human and natural influences on the **magnitude and/or probability** of specific extreme weather events.
+
+On a case-by-case basis, scientists can now quantify the contribution of human influence to many extreme events. This is done by estimating and comparing the probability or magnitude of the same type of event in two different worlds:
+* The **current climate**, which includes increases in greenhouse gas concentrations and other human influences.
+* A **counterfactual climate**, such as one where atmospheric greenhouse gases remained at pre-industrial levels.
+
+The change in the magnitude and/or probability of the event between these two scenarios is then attributed to **human influence**.
+
+As the climate continues to warm, larger changes in probability and magnitude are expected. As a result, it will be possible to attribute future temperature and precipitation extremes in many locations to human influences with even greater confidence.
+
+[FAQ Figure 3]
