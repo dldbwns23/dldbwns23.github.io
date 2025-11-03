@@ -26,6 +26,18 @@ Extreme temperatures on land tend to increase more than the global mean temperat
 
 Since AR5, event attribution studies have provided clear evidence that **greenhouse gases** and other **external forcings** have affected individual extreme weather events. However, many highly impactful extreme weather events have not been studied in the **event attribution framework**, particularly in the developing world, due to a lack of observational data and reliable climate models.
 
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_2.png" alt="Figure 11.2">
+{% endraw %}
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_3.png" alt="Figure 11.3">
+{% endraw %}
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_4.png" alt="Figure 11.4">
+{% endraw %}
+
 ## 1.3 Effects of Large-scale Circulation on Changes in Extremes
 The response of **large-scale circulation patterns** to external forcing can cascade to uncertainty in the response of extremes to those forcings. For example, the El Niño-Southern Oscillation (ENSO) influences precipitation, favoring droughts in some regions and heavy rains in others. There has been a **very likely widening of the Hadley circulation** since the 1980s, and the **extratropical jets and cyclone tracks** have **likely been shifting poleward** over the same period. This poleward expansion affects drought occurrence and shifts the tracks of tropical cyclones and storms. Although it is very likely that the amplitude of **ENSO variability** will not robustly change over the 21st century, the frequency of extreme ENSO events, defined by precipitation threshold, is projected to increase with global warming.
 
@@ -43,6 +55,18 @@ Additionally, effects of **land surface conditions** on circulation patterns hav
 Finally, extreme events may also regionally **amplify one another**. For example, this is the case for **heatwaves and droughts**, with high temperatures and stronger radiative forcing leading to drying tendencies on land due to increased evapotranspiration, and drier soils then inducing decreased evapotranspiration and higher sensible heat flux and hot temperatures.
 
 In summary, regional forcings and feedbacks – in particular those associated with land use and aerosol forcings – and soil-moisture–temperature, soil moisture–precipitation, and snow/ice–albedo–temperature feedbacks, play an important role in modulating regional changes in extremes. These can also lead to a higher warming of extreme temperatures compared to mean temperature (*high confidence*), and possibly cooling in some regions (*medium confidence*). However, there is only *medium confidence* in the representation of the associated processes in state-of-the-art Earth System Models (ESMs).
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_5.png" alt="Figure 11.5">
+{% endraw %}
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_6.png" alt="Figure 11.6">
+{% endraw %}
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_7.png" alt="Figure 11.7">
+{% endraw %}
 
 ---
 # 2. Data and Methods
@@ -92,6 +116,11 @@ In essence, this approach "replaces" the time dimension with the GWL. The **phys
 1.  **The Impacts Question (GWL-based):** What will the regional climate look like *at* $+2.0^{\circ}C$?
 2.  **The Timing Question (Scenario-based):** *When* will we *reach* $+2.0^{\circ}C$?
 
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_8.png" alt="Figure 11.8">
+{% endraw %}
+
 ---
 
 
@@ -119,7 +148,9 @@ Warming of land mean **TXx** (annual hottest day) is similar to the mean tempera
 
 It is *virtually certain* that there has been an **increase in the number of warm days and nights** and a **decrease in the number of cold days and nights** on the global scale since 1950. Both the coldest extremes and hottest extremes display increasing temperatures. It is *very likely* that these changes have also occurred at the regional scale. It is *virtually certain* that there have been **increases in the intensity and duration of heatwaves** and in the number of heatwave days at the global scale. **Annual minimum temperatures** on land have increased about **three times more than global surface temperature** since the 1960s, with particularly strong warming in the **Arctic** (*high confidence*).
 
-[Figure 11.9]
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_9.png" alt="Figure 11.9">
+{% endraw %}
 
 ## 3.3 Model Evaluation
 
@@ -131,7 +162,9 @@ Some **land forcings** are **not well represented** in climate models. There is 
 
 Climate models can reproduce the mean state and overall warming of temperature extremes observed globally and in most regions (*high confidence*). The ability of models to capture trends depends on the metric evaluated, the way indices are calculated, and the time periods and spatial scales considered.
 
-[Figure 11.10]
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_10.png" alt="Figure 11.10">
+{% endraw %}
 
 ## 3.4 Detection and Attribution, Event Attribution
 
@@ -149,9 +182,13 @@ The relative strength of anthropogenic influences on temperature extremes is **r
 
 ## 3.5 Projections
 
-[Figure 11.11]
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_11.png" alt="Figure 11.11">
+{% endraw %}
 
-[Figure 11.12]
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_12.png" alt="Figure 11.12">
+{% endraw %}
 
 It is *virtually certain* there will be **more frequent hot extremes** and **fewer cold extremes** at the global scale and over most land areas in a future warmer climate, and it is *very likely* that **heatwaves** will occur with a **higher frequency and longer duration**. New studies since AR5 and SR1.5 confirm these assessments.
 
@@ -200,13 +237,17 @@ A considerable body of literature examines the scaling of **sub-daily precipitat
 
 The frequency and intensity of heavy precipitation have *likely* increased at the **global scale** over a majority of land regions with good observational coverage. This increase is also *likely* on the **continental scale** over North America, Europe, and Asia, where observational data are most abundant.
 
-[Figure 11.13]
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_13.png" alt="Figure 11.13">
+{% endraw %}
 
 ## 4.3 Model Evaluation
 
 Evaluating climate model competence in simulating heavy precipitation extremes is challenging. A primary difficulty is the **spatial scale mismatch** between simulated and observed data. Simulated precipitation represents an areal mean, whereas station-based observations are point locations and often sparse. Furthermore, the **order of operations** for constructing gridded station-based extreme values (i.e., whether extremes are extracted at the station *before* gridding, or *after* gridding daily values) represents different spatial scales and must be accounted for in model evaluation.
 
-[Figure 11.14]
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_14.png" alt="Figure 11.14">
+{% endraw %}
 
 Despite these challenges, CMIP5 models successfully reproduced an important observed relationship: an **increase in extreme precipitation** occurs at the **cost of a decrease in non-extreme precipitation**. While grid-scale challenges remain, there is *high confidence* in the ability of models to capture the **large-scale spatial distribution** of precipitation extremes over land.
 
@@ -224,7 +265,9 @@ Newer CMIP5 and CMIP6 models project that the rate of increase in Rx1day with wa
 
 This scenario-independence means that even a **small increment** of global warming, such as **$0.5^{\circ}C$**, can result in a **significant increase** in extreme precipitation. Projections also show that changes in long-period return values (e.g., 50-year events) are larger than changes in the mean (e.g., 1-year events), with **larger relative changes for more rare events**.
 
-[Figure 11.15]
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_15.png" alt="Figure 11.15">
+{% endraw %}
 
 The **spatial patterns** of the projected changes are quite similar across different warming levels, as shown in Figure 11.16, confirming a near-linear scaling between extreme precipitation and GWLs at regional scales. Extreme precipitation **nearly always increases across land areas**, with larger increases at higher GWLs. The *very likely* ranges of the multi-model ensemble changes for 50-year return values (Rx1day and Rx5day) between $1.0^{\circ}C$ and $1.5^{\circ}C$ warming levels are **above zero for all continents except Europe** (which is *likely* above zero). Projected decreases in extreme precipitation are confined mostly to **subtropical ocean areas** and are highly correlated with decreases in mean precipitation due to storm track shifts.
 
@@ -234,7 +277,13 @@ Projected increases in the **probability (frequency)** of extreme precipitation 
 
 For very short-duration events, a majority of the available **convection-permitting simulations** project increases in the intensities of extreme **sub-daily precipitation events**, with the amount of increase similar to or **higher than the C-C scaling rate**.
 
-[Figure 11.16]
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_15.png" alt="Figure 11.15">
+{% endraw %}
+
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Figure_11_16.png" alt="Figure 11.16">
+{% endraw %}
 
 In summary, heavy precipitation will generally become **more frequent and more intense** with additional global warming. At a global warming level of $4^{\circ}C$ relative to the pre-industrial, very rare (e.g., one in 10 or more years) heavy precipitation events would become more frequent and more intense than in the recent past, on the global scale (*virtually certain*), and in all continents and AR6 regions. The increase in frequency and intensity is *extremely likely* for most continents and *very likely* for most AR6 regions. At the global scale, the **intensification** (change in magnitude) of heavy precipitation will follow the rate of increase in atmospheric moisture (*high confidence*), about **7% per $1^{\circ}C$** of global warming. The increase in the **frequency** of heavy precipitation events will be **non-linear** with more warming and will be **higher for rarer events** (*high confidence*), with 10- and 50-year events projected to be approximately **double and triple**, respectively, at the $4^{\circ}C$ warming level. Increases in the intensity of extreme precipitation events at regional scales will depend on the amount of regional warming as well as changes in atmospheric circulation and storm dynamics, leading to regional differences in the rate of heavy precipitation changes (*high confidence*).
 
@@ -284,6 +333,10 @@ A key concept for understanding how extremes are changing is the distinction bet
 >    Thermodynamic processes affect droughts by increasing **atmospheric evaporative demand** through changes in air temperature, radiation, wind speed, and relative humidity. Dynamic processes affect droughts through changes in the occurrence, duration and intensity of weather anomalies, which are related to precipitation and the amount of sunlight.
 >
 >In summary, both thermodynamic and dynamic processes are involved in the changes of extremes in response to warming. Anthropogenic forcing (e.g., increases in greenhouse gas concentrations) directly affects thermodynamic variables, including overall increases in high temperatures and atmospheric evaporative demand, and regional changes in atmospheric moisture, which intensify heatwaves, droughts and heavy precipitation events when they occur (*high confidence*). Dynamic processes are often indirect responses to thermodynamic changes, are strongly affected by internal climate variability, and are also less well understood. As such, there is *low confidence* in how dynamic changes affect the location and magnitude of extreme events in a warming climate.
+>
+>{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_Box_11_1_Figure_1.png" alt="">
+{% endraw %}
 
 ## 6.2 Box | Changes in Low-likelihood, High-impact Extremes
 Climate science must also contend with the challenge of unanticipated events that, while improbable, could have exceptionally severe impacts.
@@ -303,8 +356,9 @@ Climate science must also contend with the challenge of unanticipated events tha
 # 7. Cross Chapter Box
 ## 7.1 Translating Between Regional Information at GWL versus Scenarios for End Users
 
-[Cross-Chapter Box 11.1, Figure 1]
-
+>{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_CCBox_11_1_Figure_1.png" alt="">
+{% endraw %}
 > ### Background
 > **GWLs** are expressed as changes in global surface temperature relative to the **1850–1900 period**. Cross-Chapter Box 11.1, Figure 1 illustrates how the assessment of the climate response at GWLs relates to the **uncertainty in scenarios** regarding the *timing* of those GWLs, as well as to the uncertainty in the associated regional climate responses (including extremes and other climatic impact-drivers (CIDs)). For many (but not all) climate variables and CIDs, the **response pattern** for a given GWL is **consistent across different scenarios**.
 >
@@ -314,11 +368,15 @@ Climate science must also contend with the challenge of unanticipated events tha
 >
 > The limited scenario dependence of the GWL-based response for many variables implies that the regional response to emissions scenarios can be split into two almost **independent contributions**: (i) the **transient global warming response** to scenarios (i.e., the global sensitivity) and (ii) the **regional response as a function of a given GWL**, which is also referred to as ‘regional climate sensitivity’. Analyses of the CMIP6 and CMIP5 multi-model ensembles show that the GWL-based responses are very similar for temperature and precipitation extremes across the ensembles, despite their differences in global warming response. This confirms a **substantial decoupling** between the two responses (global warming vs GWL-based regional response) for these variables. Thus, the GWL approach **isolates the uncertainty** in the regional climate response from the global warming uncertainty induced by the scenario, the global mean model response, and internal variability.
 >
-> [CCB 11.1, Figure 2]
+> {% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_CCBox_11_1_Figure_2.png" alt="">
+{% endraw %}
 >
 > ### Mapping between GWL- and scenario-based responses in model analyses
 >
-> [CCB 11.1, Figure 3]
+> {% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_CCBox_11_1_Figure_3.png" alt="">
+{% endraw %}
 >
 > To map scenario-based climate projections, first, all individual Earth system model (ESM) simulations that reach a certain GWL are identified. Second, the climate response patterns at that GWL are calculated using an approach termed **'GWL-sampling'** (or time sampling), which averages across all models and scenarios that reach the corresponding GWL. Mapping between scenarios/time frames and GWLs is used to assess the respective regional responses happening at these time frames.
 >
@@ -347,7 +405,9 @@ Recent observations and model projections consistently show that changes in **pr
 
 In summary, the specific relationship strongly depends on the phenomenon. At the local scale, average and extreme **temperature changes are strongly related**, while average and extreme **precipitation changes are weakly related**. For both variables, the changes vary strongly across different places due to local and regional processes.
 
-[FAQ Figure 1]
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_FAQ_11_1_Figure_1.png" alt="">
+{% endraw %}
 
 ## 8.2 Did Climate Change Cause That Recent Extreme Event In My Country?
 
@@ -361,4 +421,6 @@ The change in the magnitude and/or probability of the event between these two sc
 
 As the climate continues to warm, larger changes in probability and magnitude are expected. As a result, it will be possible to attribute future temperature and precipitation extremes in many locations to human influences with even greater confidence.
 
-[FAQ Figure 3]
+{% raw %}
+<img src="/images/IPCC_AR6_Ch11/IPCC_AR6_WGI_FAQ_11_3_Figure_1.png" alt="">
+{% endraw %}
