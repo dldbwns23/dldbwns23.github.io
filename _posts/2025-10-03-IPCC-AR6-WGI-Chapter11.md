@@ -268,8 +268,8 @@ There is *high confidence* that concurrent **heatwaves and droughts** have **inc
 
 ---
 
-# n. Box
-## n.1 Box | Thermodynamic and Dynamic Changes in Extreme Across Scales
+# 6. Box
+## 6.1 Box | Thermodynamic and Dynamic Changes in Extreme Across Scales
 A key concept for understanding how extremes are changing is the distinction between thermodynamic and dynamic processes.
 
 >Changes in weather and climate extremes are determined by local exchanges in heat, moisture, and other related quantities (**thermodynamic changes**) and those associated with atmospheric and oceanic motions (**dynamic changes**). While thermodynamic and dynamic processes are interconnected, considering them separately helps to disentangle the roles of different processes contributing to changes in climate extremes.
@@ -285,7 +285,7 @@ A key concept for understanding how extremes are changing is the distinction bet
 >
 >In summary, both thermodynamic and dynamic processes are involved in the changes of extremes in response to warming. Anthropogenic forcing (e.g., increases in greenhouse gas concentrations) directly affects thermodynamic variables, including overall increases in high temperatures and atmospheric evaporative demand, and regional changes in atmospheric moisture, which intensify heatwaves, droughts and heavy precipitation events when they occur (*high confidence*). Dynamic processes are often indirect responses to thermodynamic changes, are strongly affected by internal climate variability, and are also less well understood. As such, there is *low confidence* in how dynamic changes affect the location and magnitude of extreme events in a warming climate.
 
-## n.2 Box | Changes in Low-likelihood, High-impact Extremes
+## 6.2 Box | Changes in Low-likelihood, High-impact Extremes
 Climate science must also contend with the challenge of unanticipated events that, while improbable, could have exceptionally severe impacts.
 
 >Unanticipated **Low-likelihood, high-impact (LLHI) events** can either result from **tipping points** in the climate system, such as the shutdown of the Atlantic thermohaline circulation or the drydown of the Amazonian rainforest, or from uncertainties in climate processes, including climate feedbacks, that may enhance or damp extremes. The low confidence does not by itself exclude the possibility of such events occuring; rather, it indicates a poor state of knowledge.
@@ -300,8 +300,8 @@ Climate science must also contend with the challenge of unanticipated events tha
 
 
 ---
-# n. Cross Chapter Box
-## n.1 Translating Between Regional Information at GWL versus Scenarios for End Users
+# 7. Cross Chapter Box
+## 7.1 Translating Between Regional Information at GWL versus Scenarios for End Users
 
 [Cross-Chapter Box 11.1, Figure 1]
 
@@ -335,9 +335,9 @@ Climate science must also contend with the challenge of unanticipated events tha
 > There is also a difference in the response even for temperature-related variables if a GWL is reached in a rapidly warming **transient state** versus a long-term **equilibrium state**, as the land-sea warming contrast is less pronounced in the latter. However, in this Report, GWLs are used in the context of 21st-century projections where the climate response is mostly transient and less dependent on the pathway than for projections beyond 2100.
 
 
-# FAQ
+# 8. FAQ
 
-## How Do Changes In Climate Extremes Compare With Changes In Climate Averages?
+## 8.1 How Do Changes In Climate Extremes Compare With Changes In Climate Averages?
 
 The relationship between changes in extremes and changes in averages strongly depends on the variable. Changes in local surface **temperature extremes** closely follow the corresponding changes in local **average surface temperatures**. In contrast, changes in **precipitation extremes** (heavy precipitation) generally **do not follow** those in average precipitation, and can even move in the opposite direction.
 
@@ -349,7 +349,7 @@ In summary, the specific relationship strongly depends on the phenomenon. At the
 
 [FAQ Figure 1]
 
-## Did Climate Change Cause That Recent Extreme Event In My Country?
+## 8.2 Did Climate Change Cause That Recent Extreme Event In My Country?
 
 The science of **event attribution** enables scientists to attribute aspects of specific extreme weather and climate events to certain causes. A common question is whether a particular event was *caused* by climate change. Scientists cannot answer this directly, as extremes do occur naturally and any single event is a complex mix of human and natural factors. Instead, scientists **quantify the relative importance** of human and natural influences on the **magnitude and/or probability** of specific extreme weather events.
 
