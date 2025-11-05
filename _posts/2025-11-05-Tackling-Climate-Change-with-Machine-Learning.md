@@ -65,3 +65,6 @@ Many components of large climate models can be replaced with ML models at lower 
 ## 6. Overview
 
 This article highlights the application of machine learning to critical climate change problems. Although specific methodologies or algorithms are not detailed, the text inspires the components where ML can be applied. ML plays a crucial role in collecting and improving data quality, and in creating computationally effective and high-accuracy results from such data. Keeping these capabilities in mind, the next step should involve seeking out other components where ML can be applied to climate change, especially concerning **detection and attribution** and **extreme event forecasting**.
+
+## 7. Reference
+Tackling Climate Change with Machine Learning, Adaptation, 7 Climate Prediction, Kelly Kochanski, 5 Nov 2019, https://doi.org/10.48550/arXiv.1906.05433
