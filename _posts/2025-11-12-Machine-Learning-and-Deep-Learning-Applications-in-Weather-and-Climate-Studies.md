@@ -2,7 +2,7 @@
 layout: post
 title: "Machine Learning and Deep Learning Applications in Weather and Climate Studies"
 date: 2025-11-12 14:48:00 +0900
-tags: [Article]
+tags: [Article, ML/DL]
 ---
 
 ## 1. Introduction
