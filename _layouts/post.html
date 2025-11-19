@@ -27,7 +27,7 @@ layout: default
     {%- if page.tags -%}
       <div class="post-tags">
         {% for tag in page.tags %}
-          {% comment %} 경고 발생 코드 대신, 안전한 변수 할당 및 relative_url을 사용합니다. {% endcomment %}
+          {# ★★★ 경고 발생 코드 수정: append 필터를 한 번만 사용하고 relative_url로 처리 ★★★ #}
           {% assign tag_slug = tag | slugify: 'raw' %}
           <a href="{{ '/tags/' | append: tag_slug | relative_url }}">#{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
         {% endfor %}
