@@ -1,4 +1,4 @@
----
+<img width="550" height="157" alt="image" src="https://github.com/user-attachments/assets/ba91c4e1-1522-487a-a2c8-861e01f4a88d" />---
 layout: post
 title: "Interpretable ML for Extreme Events Detection"
 date: 2025-11-19 13:33:00 +0900
@@ -70,3 +70,7 @@ The primary contribution of this work extends beyond accurate prediction to the 
 Although the study characterizes a coefficient of determination ($R^2$) of approximately 0.3 as satisfactory, traditionally, this is often viewed as a weak result in predictive modeling. As such, there may be some reservation in fully accepting the efficacy of the model based solely on this metric. However, considering the inherent difficulty in predicting biological targets like VHI weeks in advance using only temperature and precipitation, the result is arguably fair. There is likely a significant opportunity for improvement by incorporating additional meteorological variables or higher-resolution data.
 
 A particularly interesting aspect of this research is the methodology of segmenting sub-basins using dimensionality reduction and feature selection. This novel application of NonLinCFA to define spatial aggregations offers a fresh perspective on handling geospatial data. This method holds promise for application in other environmental projects where spatial heterogeneity is a challenge. Furthermore, the use of CMI filtering to ensure features remain interpretable and physically meaningful is a valuable takeaway for the broader field of interpretable machine learning.
+
+
+# 7. Reference
+Interpretable Machine Learning for Extreme Events detection: An application to droughts in the Po River Basin (Papers Track), Paolo Bonetti (Politecnico di Milano); Matteo Giuliani (Politecnico di Milano); Veronica Cardigliano (Politecnico di Milano); Alberto Maria Metelli (Politecnico di Milano); Marcello Restelli (Politecnico di Milano); Andrea Castelletti (Politecnico di Milano)
