@@ -13,15 +13,15 @@ permalink: /categories/
 {% endcomment %}
 <div class="tag-cloud" style="margin-bottom: 2em; font-size: 0.9em; line-height: 1.8;">
   
-  {# site.tags는 해시입니다. .keys를 사용하여 태그 이름(문자열)만 가져와 정렬합니다. #}
-  {% assign tag_names = site.tags | map: "first" | sort %}
+  {# site.tags에서 태그 이름(키)만 가져와 정렬합니다. #}
+  {% assign tag_names = site.tags | keys | sort %}
   
   {% for tag_name in tag_names %}
     {% assign current_tag_slug = tag_name | slugify: 'raw' %}
     
-    {# 모든 태그에 대한 링크를 생성합니다. #}
+    {# ID를 이용하여 링크를 연결합니다. #}
     <a href="#{{ current_tag_slug }}" style="margin-right: 10px; color: #007bff; text-decoration: none;">
-      #{{ tag_name }} ({{ site.tags[tag_name] | size }}) {# 태그 옆에 포스트 개수도 표시 #}
+      #{{ tag_name }} ({{ site.tags[tag_name] | size }})
     </a>
   {% endfor %}
   <hr style="margin-top: 10px;">
@@ -30,13 +30,13 @@ permalink: /categories/
 
 {% comment %}
 ==============================================
-2. 각 태그별 포스트 그룹 표시 (아래로 스크롤)
+2. 각 태그별 포스트 그룹 표시
 ==============================================
 {% endcomment %}
 {% for tag_name in tag_names %}
   {% assign current_tag_slug = tag_name | slugify: 'raw' %}
   
-  {# ID를 설정하여 상단 태그 클라우드에서 바로 이동할 수 있게 합니다. #}
+  {# 그룹 헤더 출력 #}
   <h2 id="{{ current_tag_slug }}" style="margin-top: 1.5em; border-bottom: 1px solid #eee; padding-bottom: 5px;">
     {{ tag_name }}
   </h2>
@@ -54,5 +54,5 @@ permalink: /categories/
       </li>
     {% endfor %}
   </ul>
-
+  <hr>
 {% endfor %}
