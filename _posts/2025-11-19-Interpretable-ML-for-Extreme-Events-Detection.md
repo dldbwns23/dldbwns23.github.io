@@ -56,6 +56,15 @@ Results indicate improvements with the proposed workflow, particularly in the mu
 
 The primary contribution of this work extends beyond accurate prediction to the preservation of interpretability. The resulting indices are linear combinations of drivers selected from features extracted as averages of meteorological variables at neighboring locations. Consequently, these data-driven indices are physically interpretable and suitable for analysis by domain experts. Future work aims to test this pipeline on a European scale.
 
+{% raw %}
+<img src="/images/Interpretable_ML_for_Extreme_Events_Detection/Figure_1.png" alt="Figure 1">
+{% endraw %}
+
+
+{% raw %}
+<img src="/images/Interpretable_ML_for_Extreme_Events_Detection/Table_1.png" alt="Table 1">
+{% endraw %}
+
 # 6. Overview
 
 Although the study characterizes a coefficient of determination ($R^2$) of approximately 0.3 as satisfactory, traditionally, this is often viewed as a weak result in predictive modeling. As such, there may be some reservation in fully accepting the efficacy of the model based solely on this metric. However, considering the inherent difficulty in predicting biological targets like VHI weeks in advance using only temperature and precipitation, the result is arguably fair. There is likely a significant opportunity for improvement by incorporating additional meteorological variables or higher-resolution data.
