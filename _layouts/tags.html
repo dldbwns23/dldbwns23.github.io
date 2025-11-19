@@ -6,49 +6,53 @@ permalink: /categories/
 
 <h1 class="page-title">{{ page.title }}</h1>
 
-{# === 1. 페이지 상단에 모든 태그 목록을 작은 글씨로 나열 === #}
+{% comment %}
+==============================================
+1. 페이지 상단에 모든 태그 목록 (태그 클라우드) 표시
+==============================================
+{% endcomment %}
 <div class="tag-cloud" style="margin-bottom: 2em; font-size: 0.9em; line-height: 1.8;">
-  {% assign sorted_tags = site.tags | map: "first" | sort %}
   
-  {% for tag_name in sorted_tags %}
-    {% assign current_tag_slug = tag_name | to_s | slugify: 'raw' %}
+  {# site.tags는 해시입니다. .keys를 사용하여 태그 이름(문자열)만 가져와 정렬합니다. #}
+  {% assign tag_names = site.tags | map: "first" | sort %}
+  
+  {% for tag_name in tag_names %}
+    {% assign current_tag_slug = tag_name | slugify: 'raw' %}
     
-    {# H2 태그에 설정된 ID를 이용하여 링크를 연결합니다. #}
+    {# 모든 태그에 대한 링크를 생성합니다. #}
     <a href="#{{ current_tag_slug }}" style="margin-right: 10px; color: #007bff; text-decoration: none;">
-      #{{ tag_name }}
+      #{{ tag_name }} ({{ site.tags[tag_name] | size }}) {# 태그 옆에 포스트 개수도 표시 #}
     </a>
   {% endfor %}
   <hr style="margin-top: 10px;">
 </div>
 
-{# === 2. 그 밑에부터 각 태그별 포스트 그룹 표시 === #}
-{% assign sorted_tags_for_grouping = site.tags | map: "first" | sort %}
 
-{% for tag_name in sorted_tags_for_grouping %}
-  {% assign current_tag_slug = tag_name | to_s | slugify: 'raw' %}
-
-  {% comment %} 유효성 검사 주석 {% endcomment %}
-  {% if tag_name != null and tag_name != empty and current_tag_slug != empty %}
-    {# ID를 설정하여 상단 태그 목록에서 바로 이동할 수 있게 합니다. #}
-    <h2 id="{{ current_tag_slug }}">{{ tag_name }}</h2>
-  {% else %}
-    {% continue %}
-  {% endif %}
+{% comment %}
+==============================================
+2. 각 태그별 포스트 그룹 표시 (아래로 스크롤)
+==============================================
+{% endcomment %}
+{% for tag_name in tag_names %}
+  {% assign current_tag_slug = tag_name | slugify: 'raw' %}
+  
+  {# ID를 설정하여 상단 태그 클라우드에서 바로 이동할 수 있게 합니다. #}
+  <h2 id="{{ current_tag_slug }}" style="margin-top: 1.5em; border-bottom: 1px solid #eee; padding-bottom: 5px;">
+    {{ tag_name }}
+  </h2>
   
   {% assign posts_in_tag = site.tags[tag_name] %}
 
-  <ul class="post-list">
+  <ul class="post-list" style="list-style: none; padding-left: 0;">
     {% for post in posts_in_tag reversed %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
+        <span class="post-meta" style="margin-right: 10px;">{{ post.date | date: date_format }}</span>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
       </li>
     {% endfor %}
   </ul>
-  <hr>
+
 {% endfor %}
