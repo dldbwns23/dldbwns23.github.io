@@ -27,7 +27,9 @@ layout: default
     {%- if page.tags -%}
       <div class="post-tags">
         {% for tag in page.tags %}
-          <a href="{{ site.baseurl | append: '/tags/' | append: (tag | slugify: 'raw') }}/">#{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+          {% comment %} 경고 발생 코드 대신, 안전한 변수 할당 및 relative_url을 사용합니다. {% endcomment %}
+          {% assign tag_slug = tag | slugify: 'raw' %}
+          <a href="{{ '/tags/' | append: tag_slug | relative_url }}">#{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
         {% endfor %}
       </div>
     {%- endif -%}
