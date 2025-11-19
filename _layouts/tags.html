@@ -13,12 +13,11 @@ permalink: /categories/
 {% endcomment %}
 <div class="tag-cloud" style="margin-bottom: 2em; font-size: 0.9em; line-height: 1.8;">
   
-  {# ★★★ 태그 이름 배열을 얻는 가장 안정적인 방식: keys 필터 사용 ★★★ #}
   {% assign tag_names = site.tags | keys | sort %}
   
   {% for tag_name in tag_names %}
-    {# current_tag_slug 변수에 할당하기 전에 slugify를 직접 적용합니다. 이중 할당 방지. #}
-    {% assign current_tag_slug = tag_name | slugify: 'raw' %} 
+    {# ★★★ 핵심 오류 방지: to_s 필터를 사용하여 문자열 변환을 보장 ★★★ #}
+    {% assign current_tag_slug = tag_name | to_s | slugify: 'raw' %} 
     
     <a href="#{{ current_tag_slug }}" style="margin-right: 10px; color: #007bff; text-decoration: none;">
       #{{ tag_name }} ({{ site.tags[tag_name] | size }})
@@ -34,8 +33,8 @@ permalink: /categories/
 ==============================================
 {% endcomment %}
 {% for tag_name in tag_names %}
-  {# ★★★ 오류 방지 코드: slugify는 이제 오류가 발생하지 않는다고 가정하고 적용 ★★★ #}
-  {% assign current_tag_slug = tag_name | slugify: 'raw' %}
+  {# ★★★ 핵심 오류 방지: to_s 필터를 사용하여 문자열 변환을 보장 ★★★ #}
+  {% assign current_tag_slug = tag_name | to_s | slugify: 'raw' %}
   
   <h2 id="{{ current_tag_slug }}" style="margin-top: 1.5em; border-bottom: 1px solid #eee; padding-bottom: 5px;">
     {{ tag_name }}
