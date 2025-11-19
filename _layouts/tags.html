@@ -6,19 +6,35 @@ permalink: /categories/
 
 <h1 class="page-title">{{ page.title }}</h1>
 
-{% assign sorted_tags = site.tags | map: "first" | sort %}
+{# === 1. 페이지 상단에 모든 태그 목록을 작은 글씨로 나열 === #}
+<div class="tag-cloud" style="margin-bottom: 2em; font-size: 0.9em; line-height: 1.8;">
+  {% assign sorted_tags = site.tags | map: "first" | sort %}
+  
+  {% for tag_name in sorted_tags %}
+    {% assign current_tag_slug = tag_name | to_s | slugify: 'raw' %}
+    
+    {# H2 태그에 설정된 ID를 이용하여 링크를 연결합니다. #}
+    <a href="#{{ current_tag_slug }}" style="margin-right: 10px; color: #007bff; text-decoration: none;">
+      #{{ tag_name }}
+    </a>
+  {% endfor %}
+  <hr style="margin-top: 10px;">
+</div>
 
-{% for tag_name in sorted_tags %}
+{# === 2. 그 밑에부터 각 태그별 포스트 그룹 표시 === #}
+{% assign sorted_tags_for_grouping = site.tags | map: "first" | sort %}
+
+{% for tag_name in sorted_tags_for_grouping %}
   {% assign current_tag_slug = tag_name | to_s | slugify: 'raw' %}
 
-  {% comment %} 유효성 검사 주석 (이 부분은 빌드 시 보이지 않습니다) {% endcomment %}
+  {% comment %} 유효성 검사 주석 {% endcomment %}
   {% if tag_name != null and tag_name != empty and current_tag_slug != empty %}
+    {# ID를 설정하여 상단 태그 목록에서 바로 이동할 수 있게 합니다. #}
     <h2 id="{{ current_tag_slug }}">{{ tag_name }}</h2>
   {% else %}
-    {% comment %} 태그 이름이 유효하지 않으면 이번 반복은 건너뜁니다. {% endcomment %}
     {% continue %}
   {% endif %}
-
+  
   {% assign posts_in_tag = site.tags[tag_name] %}
 
   <ul class="post-list">
