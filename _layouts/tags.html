@@ -6,21 +6,12 @@ permalink: /categories/
 
 <h1 class="page-title">{{ page.title }}</h1>
 
-{% comment %}
-==============================================
-1. 페이지 상단에 모든 태그 목록 (태그 클라우드) 표시
-==============================================
-{% endcomment %}
 <div class="tag-cloud" style="margin-bottom: 2em; font-size: 0.9em; line-height: 1.8;">
   
-  {# ★★★ 수정됨: site.tags를 직접 정렬하여 순회합니다. ★★★ #}
   {% assign sorted_tags = site.tags | sort %}
   
   {% for tag_item in sorted_tags %}
-    {# tag_item은 [태그이름, 포스트목록] 배열입니다. #}
-    {# 여기서 0번째 인덱스(태그이름)를 명시적으로 가져옵니다. 이것은 무조건 문자열입니다. #}
     {% assign tag_name = tag_item[0] %}
-    
     {% assign current_tag_slug = tag_name | slugify: 'raw' %} 
     
     <a href="#{{ current_tag_slug }}" style="margin-right: 10px; color: #007bff; text-decoration: none;">
@@ -30,14 +21,7 @@ permalink: /categories/
   <hr style="margin-top: 10px;">
 </div>
 
-
-{% comment %}
-==============================================
-2. 각 태그별 포스트 그룹 표시 (아래로 스크롤)
-==============================================
-{% endcomment %}
 {% for tag_item in sorted_tags %}
-  {# 여기서도 동일하게 0번째 인덱스를 가져옵니다. #}
   {% assign tag_name = tag_item[0] %}
   {% assign current_tag_slug = tag_name | slugify: 'raw' %}
   
@@ -45,7 +29,6 @@ permalink: /categories/
     {{ tag_name }}
   </h2>
   
-  {# tag_item의 1번째 인덱스가 포스트 목록입니다. #}
   {% assign posts_in_tag = tag_item[1] %}
 
   <ul class="post-list" style="list-style: none; padding-left: 0;">
