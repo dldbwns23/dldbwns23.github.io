@@ -25,4 +25,4 @@ defaults:
     values:
       tags: [Other] 
 
-
+encoding: "utf-8"
