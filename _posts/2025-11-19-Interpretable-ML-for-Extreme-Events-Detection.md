@@ -1,4 +1,4 @@
-<img width="550" height="157" alt="image" src="https://github.com/user-attachments/assets/ba91c4e1-1522-487a-a2c8-861e01f4a88d" />---
+---
 layout: post
 title: "Interpretable ML for Extreme Events Detection"
 date: 2025-11-19 13:33:00 +0900
