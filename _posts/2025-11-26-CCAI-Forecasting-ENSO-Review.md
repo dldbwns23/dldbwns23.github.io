@@ -12,9 +12,13 @@ This post reviews and shares key insights from the tutorial **"Forecasting the E
 
 For the full source code and implementation details, please refer to the [GitHub repository](https://github.com/climatechange-ai-tutorials/seasonal-forecasting?tab=readme-ov-file) or run the accompanying Colab Notebook.
 
+---
+
 ## 1. Reference
 Mahesh, A., & Hanna, M. (2024). *Forecasting the El Nino/ Southern Oscillation with Machine Learning*. Climate Change AI Tutorials.  
 Available at: [https://climatechange.ai/tutorials](https://climatechange.ai/tutorials?search=id:forecasting-the-el-nino-southern-oscillation-with-machine-learning)
+
+---
 
 ## 2. Dataset Description
 The model utilizes historical climate data to predict ENSO events, specifically looking for lead times (predicting the future state based on current conditions).
@@ -30,6 +34,8 @@ The model utilizes historical climate data to predict ENSO events, specifically 
 * **Training Set (Baseline):** 1980–1995 SST and corresponding Niño3.4 Index at lead times of 1 to 5 months.
 * **Validation Set:** 1997–2006 SST and corresponding Niño3.4 Index.
 * **Test Set:** 2007–2017 SST and corresponding Niño3.4 Index.
+
+---
 
 ## 3. Machine Learning for Basic ENSO Forecasting
 
@@ -90,11 +96,12 @@ plt.show()
 **Note on Physics-Informed Neural Networks (PINNs):**
 The tutorial briefly touches upon PINNs, which incorporate physical laws (e.g., conservation of mass and momentum) directly into the loss function. This approach aims to ensure physical consistency and improve cost-efficiency in training, bridging the gap between pure data-driven models and physical simulations.
 
+---
+
 ## 4. CNN for ENSO Forecasting
 
 Convolutional Neural Networks (CNNs) are advantageous here as they can leverage the spatial structure of the 2D input data. Consequently, the data preprocessing steps differ slightly from those used in linear regression; the data is not flattened immediately, but kept in `(Lat, Lon)` format.
 
-![CNN Architecture Diagram](placeholder_for_cnn_image_url)
 
 **Model Architecture**
 The implemented CNN follows a standard architecture. Given the input dimensions (Lat: 180, Lon: 360), the dimensionality of the subsequent linear layers is derived using standard calculations for kernel size, stride, padding, and pooling.
@@ -141,7 +148,9 @@ class CNN(nn.Module):
 **Performance Observations**
 Even with a reduced parameter count, the model exhibited decay in training loss alongside fluctuations in test loss, indicating potential overfitting. However, despite these signs, the correlation between predictions and ground truth remained relatively high.
 
-## 5. Physical Interpretability and Future Directions
+---
+
+## 5. Physical Interpretability and Future Goals
 
 The tutorial explores interpretability by visualizing the learned weights. The following code maps the flattened weights back to their spatial dimensions to observe their geographical distribution.
 
