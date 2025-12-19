@@ -75,5 +75,22 @@ plot_multiple_temperature_maps(samples, x_batch_samples, year_samples, y_batch_s
 
 [image1]
 
+For each decades from 1900 to 2100, each temperature map is labelled with the one of 20 decade classes.
 
+After all predictions, import Quantus
+
+``` python
+import quantus
+
+# We load the available XAI methods with tensorflow.
+quantus.AVAILABLE_XAI_METHODS_TF
+
+# View the XAI methods available for PyTorch users.
+quantus.AVAILABLE_XAI_METHODS_CAPTUM
+```
+
+In this tutorial VanillaGradients, IntegratedGradients, SmoothGrad, GradientsInput, OcclusionSensitivity, and GradCAM are assessed. Short descriptions for each methods are followed.
+
+* VanillaGradeints
+* Inte
 
