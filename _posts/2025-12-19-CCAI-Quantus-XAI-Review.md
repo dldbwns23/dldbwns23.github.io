@@ -163,9 +163,7 @@ plot_multiple_temperature_maps(samples, x_batch_samples, year_samples, y_batch_s
 
 
 ### Case Study: North Atlantic Warming Hole
-To better assess the methods, the authors zoom in on the North Atlantic (NA) region.
-* **Physical Context:** This region exhibits a known signal—the "warming hole" or cooling patch—which evolves from a warming trend in the 20th century to a cooling trend in the 21st century under climate change (Labe and Barnes, 2021).
-* **Validation Goal:** The aim is to verify if the network assigns high importance to this physically relevant feature.
+To better assess the methods, the authors zoom in on the North Atlantic (NA) region. This region exhibits a known signal—the "warming hole" or cooling patch—which evolves from a warming trend in the 20th century to a cooling trend in the 21st century under climate change (Labe and Barnes, 2021). The aim is to verify if the network assigns high importance to this physically relevant feature.
 
 Visual inspection reveals strong discrepancies. For instance, GradCAM and Integrated Gradients show different centers of mass for importance. While SmoothGrad and Vanilla Gradients overlap, the variation in relevance assignment makes it difficult to deduce a conclusive assessment purely through visualization.
 
