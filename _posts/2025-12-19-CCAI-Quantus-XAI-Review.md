@@ -5,35 +5,45 @@ date: 2025-12-19 14:13:00 +0900
 tags: [CCAI, Visualization, Python, ML/DL]
 ---
 
-# Review: Quantus x Climate: Applying Explainable AI Evaluation in Climate Science
+# Review: Quantus x Climate – Applying Explainable AI Evaluation in Climate Science
 
 ## 0. Overview
-This post reviews and shares key insights from the tutorial **"Quantus x Climate: Applying Explainable AI Evaluation in Climate Science"** provided by Climate Change AI. This tutorial serves as an introduction to applying Quantus to measure scores of XAI methods for climate related classification problem.
+This post reviews key insights from the Climate Change AI tutorial **"Quantus x Climate: Applying Explainable AI Evaluation in Climate Science."**
 
-For the full source code and implementation details, please refer to the [GitHub repository](https://github.com/philine-bommer/Climate_X_Quantus) or run the accompanying Colab Notebook.
+While neural networks are increasingly used in climate science for tasks like prediction and downscaling, their "black box" nature remains a barrier to trust. This tutorial demonstrates how to apply **Quantus**, an evaluation toolkit, to quantitatively measure the quality of Explainable AI (XAI) methods in the context of climate classification problems.
+
+For full implementation details, refer to the [GitHub repository](https://github.com/philine-bommer/Climate_X_Quantus) or the accompanying Colab Notebook.
 
 ---
 
 ## 1. Reference
-Bommer, Philine and Hedstroem, Anna and Kretschmer, Marlene and Hoehne, Marina. *Quantus x Climate: Applying Explainable AI Evaluation in Climate Science*
+**Bommer, Philine et al.** *Quantus x Climate: Applying Explainable AI Evaluation in Climate Science*
 Available at: [https://climatechange.ai/tutorials](https://climatechange.ai/tutorials?search=id:quantus-x-climate)
+
+---
 
 ## 2. Dataset and Network Description
 
-Using data simulated by a fully-coupled general climate model, Community Earth System Model version 1 (Hurrell et al., 2013). In particular, we focus on the  40  member larger ensemble climate data simulation, with equal external forcings across all ensemble members but differing atmospheric initial conditions (Kay et al., 2015). For the data from  1920  to  2080 , historical forcings are imposed for  1920−2005  and Representative Concentration Pathways 8.5 for the following years. We employ 2-m air temperature (T2m) temperature maps and take the annual average of monthly data
+### Dataset: CESM1 Large Ensemble
+The tutorial utilizes data simulated by the **Community Earth System Model version 1 (CESM1)**.
+* **Source:** A 40-member large ensemble simulation (Hurrell et al., 2013; Kay et al., 2015).
+* **Configuration:** Equal external forcings across members but differing atmospheric initial conditions.
+* **Timeframe:** 1920–2080. Historical forcings are used for 1920–2005, followed by RCP 8.5 for subsequent years.
+* **Variable:** Annual averages of monthly 2-meter air temperature (T2m) maps.
 
-### Dataset
-You can load the already pre-processed and prepared batch of the data containing  N=155  images (1 sample per correctly predicted year) from an .npz-file into the notebook, as uploaded on Kaggle (https://www.kaggle.com/datasets/philinelou/climatexquantusiclr2023?select=Batch_data.npz#network). Moreover, we provide a trained CNN (.tf-files) and according input temperature maps as images on a  h=144  by  v=95  longitude-latitude-grid with  1.9∘  sampling in latitude and  2.5∘  sampling in longitude. For the dataset, we include the associated class vectors (probability entry for each class) and the years of each temperature map in the input data.
+**Preprocessing:**
+The data is pre-processed into batches of $N=155$ images. The input temperature maps are on a longitude-latitude grid ($144 \times 95$) with $1.9^\circ$ latitude and $2.5^\circ$ longitude sampling.
 
-### Network
-This network consists of a 2D-convolutional layer (2dConv) with 6 x 6 window size and a stride of 2. The second layer includes a max-pooling layer with a 2 x 2 window size, followed by a dense layer with $L^2$-regularization and a softmax output layer.
-The CNN maintains the longitude-latitude grid and assigns the annual temperature maps to classes based on their decade. Similar to Labe and Barnes, 2021 we define classes for the
-full two centuries ($1900-2100$), resulting in a class vector of $20$ classes. Each class vector entry includes the probability of the input sample belonging to the decade of the class [^1].
+### Network Architecture
+The model presented is a Convolutional Neural Network (CNN) designed to predict the decade of a given temperature map.
+* **Layer 1:** 2D-convolution (6x6 window, stride 2).
+* **Layer 2:** Max-pooling (2x2 window).
+* **Layer 3:** Dense layer with $L^2$-regularization.
+* **Output:** Softmax layer producing a probability vector for 20 classes (decades from 1900–2100).
 
+The following code loads the data, including segmentation maps for the North Atlantic (NA) region ($10-80^\circ$ W, $20-60^\circ$ N), which are used later for regional evaluation.
 
-In the following cells you can load and inspect the data. Alongside input images, labels and years of each image we also included a segmentation map of the NA region ( 10−80∘ W,  20−60∘ N), which we use for explanation evaluation in Section 5.).
 ```python
-
 # Load the full data object.
 data = np.load('dataset.npz', allow_pickle=True)
 
@@ -54,7 +64,8 @@ latitude = data['wh'][0]
 longitude = data['wh'][1]
 ```
 
-Sample 1940, 1990, 2040, and 2074
+Samples from the years 1940, 1990, 2040, and 2074 are visualized to inspect the temperature anomaly patterns.
+
 ```python
 # Prepare random year samples.
 year_s = np.array([1940, 1990, 2040, 2074])
@@ -73,15 +84,24 @@ plt_kwrgs = {'indx_order': [len(samples)],
 plot_multiple_temperature_maps(samples, x_batch_samples, year_samples, y_batch_samples, [], latitude, longitude,**plt_kwrgs)
 ```
 
-[image1]
+
+
+---
 
 ## 3. Generate Explanations
 
-For each decades from 1900 to 2100, each temperature map is labelled with the one of 20 decade classes.
+To interpret the model's predictions, the tutorial employs **Quantus** to generate heatmaps using several prominent XAI methods. In the context of climate science, these explanations serve to validate whether the network is learning physical drivers (e.g., ENSO, North Atlantic Oscillation) or relying on spurious correlations.
 
-After all predictions, import Quantus
+The tutorial assesses the following methods:
 
-``` python
+* **Vanilla Gradients:** Calculates the gradient of the output class score with respect to the input image. It highlights pixels that, if changed, would most affect the classification.
+* **Integrated Gradients:** Addresses the problem of gradient saturation by accumulating gradients along a path from a baseline (usually a black image) to the input image.
+* **SmoothGrad:** Reduces noise in saliency maps by adding Gaussian noise to the input image multiple times, calculating gradients for each, and averaging the results.
+* **GradientsInput (Input $\times$ Gradient):** Computes the element-wise product of the input image and its gradient. This accounts for the magnitude of the input feature itself.
+* **Occlusion Sensitivity:** A perturbation-based method that systematically masks (occludes) different parts of the image and measures the drop in the model's confidence.
+* **GradCAM:** Uses the gradients of the target class flowing into the final convolutional layer to produce a coarse localization map highlighting important regions.
+
+```python
 import quantus
 
 # We load the available XAI methods with tensorflow.
@@ -90,12 +110,6 @@ quantus.AVAILABLE_XAI_METHODS_TF
 # View the XAI methods available for PyTorch users.
 quantus.AVAILABLE_XAI_METHODS_CAPTUM
 ```
-
-In this tutorial VanillaGradients, IntegratedGradients, SmoothGrad, GradientsInput, OcclusionSensitivity, and GradCAM are assessed. Short descriptions for each methods are followed.
-
-* VanillaGradeints
-* Inte
-* 
 
 ```python
 # Generate several explanation methods with Quantus.
@@ -112,7 +126,7 @@ for method, kwargs in xai_methods.items():
     a_batch = quantus.explain(model=model,
                             inputs=x_batch[samples,:,:,:],
                             targets=y_batch[samples],
-                            **{**{"method": method}, **kwargs})
+                            **{"method": method, **kwargs})
 
     # Normalise for GradCAM.
     if a_batch.min() == 0:
@@ -123,6 +137,13 @@ for method, kwargs in xai_methods.items():
 
     print(f"{method} - {a_batch.shape}")
 ```
+
+### Visual Comparison of Explanations
+The tutorial visualizes normalized explanation maps (scaled 0 to 1). This demonstrates the "Rashomon Effect" in XAI, where different methods provide vastly different interpretations of feature importance for the same prediction.
+
+* **Pixel-wise methods** (e.g., GradientsInput) show fine-grained details.
+* **Patch-wise methods** (e.g., Occlusion, GradCAM) show broader regional importance.
+* **Disagreement:** Significant incongruences exist regarding which regions are "most important" (dark red patches), complicating visual selection of the "best" method.
 
 ```python
 # Visualise explanations, demonstrating the unintelligibility of visual comparision.
@@ -139,17 +160,16 @@ plt_kwrgs = {'nrows': len(explanations)+1,
 
 plot_multiple_temperature_maps(samples, x_batch_samples, year_samples, y_batch_samples, y_pred_samples, latitude, longitude, **plt_kwrgs)
 ```
-[Image2]
 
-Visualization description The plotted maps of the first row are the inputs which we explain in the following rows. We use 6 methods and all explanations are normalized between  0  and  1  (white to dark red), whereas the input T2m temperature maps are standardized and plotted in the same range as the previous visulization (see colorbar of first plot visulizing the inputs with the prediction). Here, we see especially strong visual differences between the first  4  explanation methods and the last  2  which can be related to the difference between the patch-wise and the pixel-wise calculation used for GradCAM/OcclusionSensitivity and gradient-based methods respectively (see description above). But also, the first  4  rows display incongruences regarding the areas assigned highest importance(dark red patches). This figure already highlights how complicated a visual comparison and visual-based choice is and how different explanations might lead to different interpretation of the model decision.
 
-Since in climate science, primary aims of XAI are to either validate that the network learned features which relate to previously established climate drivers and physical relationships, or to uncover new insights about the research question at hand, we want to provide you with an example.
+### Case Study: North Atlantic Warming Hole
+To better assess the methods, the authors zoom in on the North Atlantic (NA) region.
+* **Physical Context:** This region exhibits a known signal—the "warming hole" or cooling patch—which evolves from a warming trend in the 20th century to a cooling trend in the 21st century under climate change (Labe and Barnes, 2021).
+* **Validation Goal:** The aim is to verify if the network assigns high importance to this physically relevant feature.
 
-The NA region includes contributing regional temperature signal, refered to as warming hole or cooling patch. The signal evolves from a warming region in the 20th century to a cooling patch throughout in 21st century in the course of climate change. The feature was established to contribute to the network prediction (see Labe and Barnes, 2021). To assess wether the network has learned physically relevant features, by which we could validate the network skill, we want to find out if the patterns of NA cooling patch will recieve high importance (increased values in the explanation).
+Visual inspection reveals strong discrepancies. For instance, GradCAM and Integrated Gradients show different centers of mass for importance. While SmoothGrad and Vanilla Gradients overlap, the variation in relevance assignment makes it difficult to deduce a conclusive assessment purely through visualization.
 
-``` python
-# When zooming in at the North Atlantic region, we can establish that there is a disagreement in the explainable evidence/ feature importance between the different explanation methods. This may be confusing from a Climate AI practitioner's perspective.
-
+```python
 # Transform temperature maps similar to cartopy PlateCarre:
 long_tf = (longitude + 180) % 360 - 180
 
@@ -176,23 +196,19 @@ plt_kwrgs['globe'] = False
 # Plot.
 plot_multiple_temperature_maps(samples, x_n_a_samples, year_samples, y_batch_samples, y_pred_samples, lat_n_a, lon_n_a , **plt_kwrgs)
 ```
-[Image3]
 
-Visual Comparison. The first row in the plot again shows the NA region and visuaizes the temperature pattern. In the previous cell we discussed that the patter changes from a warming region to a cooling region, here we can see that as the pattern evolves from the warmer colored central pattern indicating higher relative temperature to the cooler colored central pattern indicating lower relative temperatures. The different area plots in the rows below already show discreptencies between the assigned evidence in the NA region. We can identify especially strong differences, when comparing GradCAM and Integrated Gradients. Although, theoretically similar XAI methods like SmoothGrad and Vanilla Gradients overlap, some methods assign overall higher relvances in this region, making it hard to deduce a conclusive assessment of the importance of the region for the network prediction.
 
-## 4. XAI Evaluation
+---
 
-In the following section, we showcase how to use Quantus to evaluate the different explanation methods under various explanation qualities — and their underlying metrics. In the following, we describe each of the categories briefly. A more in-depth description of each category, including an account of the underlying metrics, is documented in the repository. The direction of the arrow indicates whether higher or lower values are considered better (exceptions within each category exist, so please carefully read the docstrings of each individual metric prior to usage and/or interpretation).
+## 4. XAI Evaluation with Quantus
 
-Faithfulness (↑) quantifies to what extent explanations follow the predictive behaviour of the model, asserting that more important features affect model decisions more strongly e.g., (Bach et al., 2015), (Rong, Leemann, et al., 2022) and (Dasgupta et al., 2022).
+Since visual inspection is subjective, the tutorial uses Quantus to quantify explanation quality across five categories. Note that the arrows indicate the desired direction (↑ higher is better, ↓ lower is better).
 
-Robustness (↓) measures to what extent explanations are stable when subject to slight perturbations in the input, assuming that the model output approximately stayed the same e.g., (Alvarez-Melis et al., 2018), (Yeh et al., 2019) and (Agarwal, et. al., 2022).
-
-Randomisation (↑, ↓) tests to what extent explanations deteriorate as the data labels or the model, e.g., its parameters are increasingly randomised (Adebayo et. al., 2018) and (Sixt et al., 2020).
-
-Localisation (↑) tests if the explainable evidence is centred around a region of interest, which may be defined around an object by a bounding box, a segmentation mask or a cell within a grid e.g., (Zhang et al., 2018), (Arras et al., 2021) and (Arias et al., 2022).
-
-Complexity (↓) captures to what extent explanations are concise, i.e., that few features are used to explain a model prediction e.g., (Chalasani et al., 2020) and (Bhatt et al., 2020).
+* **Faithfulness (↑):** Measures how truly the explanation reflects the model's predictive behavior. If features marked as "important" are perturbed, the model's prediction should drop significantly.
+* **Robustness (↓):** Assesses stability. If slight noise is applied to the input (without changing the prediction), the explanation should not change drastically.
+* **Randomisation (↑ / ↓):** Tests the dependence on model parameters. If the model weights are randomized, the explanation should degrade (high correlation with the original explanation implies the method does not rely on learned weights).
+* **Localisation (↑):** Checks if the evidence is centered around a known region of interest (e.g., using a bounding box or segmentation mask).
+* **Complexity (↓):** Captures conciseness. Good explanations should ideally use a sparse set of features to explain the prediction (Occam's razor).
 
 ```python
 # Initialise the Quantus evaluation metrics.
@@ -278,7 +294,10 @@ for method, kwargs in xai_methods.items():
         results[method][metric] = scores
 ```
 
-``` python
+### Results Analysis
+The scores are aggregated to rank the methods.
+
+```python
 # Postprocessing of scores: to get how the different explanation methods rank across criteria.
 results_agg = {}
 for method in xai_methods:
@@ -290,19 +309,24 @@ df = pd.DataFrame.from_dict(results_agg)
 df = df.T.abs()
 df
 ```
-[Image4]
 
 
-If we plot the result, we get
-[Image5]
-
-Given our intuition above, for our tutorial network task, we aim for an explanation that is robust towards internal variability in our data, displays significant features (complexity) without sacrificing faithful evidence, and captures the network parameter behavior (randomization).
-
-Although the spyder plot, for completeness, still shows all 5 criteria, we consider only the area cover in faithfulness, robustness, complexity and randomization. That means we neglect the spread on the localisation axis.
-
-As we can derive from the spyder plot as well as the Table of the ranks across all explanation methods oftentimes in practice explanation methods only rank highly in some criteria. Although the ideal case would be highest ranks across all our important criteria (full coverage in the spyder plot except for localisation), in this case both SmoothGrad and GradientsInput achieve higher ranks in most criteria we want to be fulfilled for our network task. However, GradientsInput presents more faithful and more robust explanations, which is important to analyze if a region of high importance is stable and faithfully displayed in our explanation. Thus, we choose this explanation for our task.
+Plotting these results on a spider plot allows for visualization of the trade-offs:
 
 
+**Conclusion:**
+For this specific network and task, the authors prioritize an explanation that is **robust** to internal variability (given the chaotic nature of climate data), **complex** (capturing significant features), and **faithful**.
+* While SmoothGrad and GradientsInput both perform well across criteria, **GradientsInput** demonstrates superior faithfulness and robustness.
+* Consequently, GradientsInput is selected as the most reliable method for analyzing regional importance in this study.
 
-## 4. Limitations
-XAI evaluation faces certain limitations due to the absence of a reliable ground-truth, which means the evaluation metrics provided can only assess crucial properties that a valid explanation must possess, and cannot provide a complete validation. While the evaluation of XAI methods is a rapidly evolving field, the metrics offered by the Quantus library have certain limitations, such as relying on perturbing the input which may lead to the creation of out-of-distribution inputs. It should be noted that evaluating explanation methods using quantification analysis does not guarantee the theoretical soundness or statistical validity of the methods. Therefore, when using the Quantus library for XAI method selection, it is essential to supplement the results with theoretical considerations.
+---
+
+## 5. Limitations
+
+While Quantus provides a rigorous framework, XAI evaluation in climate science faces inherent challenges:
+
+* **Lack of Ground Truth:** Unlike object detection (where a cat is objectively a cat), climate drivers are complex. Metrics assess *properties* of explanations (like stability), not necessarily their physical correctness.
+* **Out-of-Distribution (OOD) Issues:** Many metrics (e.g., faithfulness) rely on perturbing inputs (masking pixels). This can create unrealistic data samples that the model never saw during training, potentially skewing results.
+* **Statistical Validity:** High scores in Quantus do not automatically guarantee theoretical soundness.
+
+**Takeaway:** Quantitative evaluation should always be complemented by domain knowledge and theoretical verification of the chosen XAI method.
