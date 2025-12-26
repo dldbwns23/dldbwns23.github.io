@@ -84,7 +84,9 @@ plt_kwrgs = {'indx_order': [len(samples)],
 plot_multiple_temperature_maps(samples, x_batch_samples, year_samples, y_batch_samples, [], latitude, longitude,**plt_kwrgs)
 ```
 
-
+{% raw %}
+<img src="/images/Quantus_XAI/sample_maps.png" alt="Uwind Zonal Mean at 2010-01-01">
+{% endraw %}
 
 ---
 
@@ -161,6 +163,9 @@ plt_kwrgs = {'nrows': len(explanations)+1,
 plot_multiple_temperature_maps(samples, x_batch_samples, year_samples, y_batch_samples, y_pred_samples, latitude, longitude, **plt_kwrgs)
 ```
 
+{% raw %}
+<img src="/images/Quantus_XAI/explaination_methods.png" alt="Uwind Zonal Mean at 2010-01-01">
+{% endraw %}
 
 ### Case Study: North Atlantic Warming Hole
 To better assess the methods, the authors zoom in on the North Atlantic (NA) region. This region exhibits a known signal—the "warming hole" or cooling patch—which evolves from a warming trend in the 20th century to a cooling trend in the 21st century under climate change (Labe and Barnes, 2021). The aim is to verify if the network assigns high importance to this physically relevant feature.
@@ -194,7 +199,9 @@ plt_kwrgs['globe'] = False
 # Plot.
 plot_multiple_temperature_maps(samples, x_n_a_samples, year_samples, y_batch_samples, y_pred_samples, lat_n_a, lon_n_a , **plt_kwrgs)
 ```
-
+{% raw %}
+<img src="/images/Quantus_XAI/north_atl.png" alt="Uwind Zonal Mean at 2010-01-01">
+{% endraw %}
 
 ---
 
@@ -311,6 +318,9 @@ df
 
 Plotting these results on a spider plot allows for visualization of the trade-offs:
 
+{% raw %}
+<img src="/images/Quantus_XAI/spider_plot.png" alt="Uwind Zonal Mean at 2010-01-01">
+{% endraw %}
 
 **Conclusion:**
 For this specific network and task, the authors prioritize an explanation that is **robust** to internal variability (given the chaotic nature of climate data), **complex** (capturing significant features), and **faithful**.
