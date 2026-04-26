@@ -33,11 +33,11 @@ DINO(Self-**di**stillation with **no** labels) 프레임워크의 핵심 작동 
 #### 2.1. Teacher-Student 최적화 및 Momentum Encoder의 동역학
 DINO의 구조적 특징은 Teacher 네트워크가 사전에 훈련되어 고정된 모델이 아니라, Student 네트워크의 과거 상태를 기반으로 동적으로 갱신된다는 점이다. 두 네트워크는 주어진 이미지 뷰에 대해 K-차원의 확률 분포 $P_{s}$와 $P_{t}$를 출력하며, Student는 Teacher의 분포 $P_{t}$와 일치하도록 아래의 Cross-entropy loss 식을 통해 학습된다.
 
-$\min_{\theta_{s}}H(P_{t}(x), P_{s}(x))$
+$$\min_{\theta_{s}}H(P_{t}(x), P_{s}(x))$$
 
 여기서 Teacher 네트워크 파라미터 $\theta_{t}$는 경사하강법으로 직접 갱신되지 않고, Student 파라미터 $\theta_{s}$의 지수 이동 평균(Exponential Moving Average, EMA)을 적용한 Momentum Encoder 방식으로 업데이트된다. 업데이트 규칙은 다음과 같다.
 
-$\theta_{t} \leftarrow \lambda\theta_{t} + (1-\lambda)\theta_{s}$
+$$\theta_{t} \leftarrow \lambda\theta_{t} + (1-\lambda)\theta_{s}$$
 
 {% raw %}
 <img src="/images/Emerging_Properties_in_Self_Supervised_Vision_Transformers/fig_6.png" alt="Figure 6: Top-1 accuracy on ImageNet validation with k-NN classifier">
